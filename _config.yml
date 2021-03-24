@@ -1,0 +1,79 @@
+title: Authenticator App
+description: Secure and fast Two-Factor Authentication manager for iPhone, iPad, iPod, Apple Watch and macOS.
+google_analytics:
+theme: jekyll-theme-cayman
+
+ios_app_id: 1538761576
+app_rating: "4,4"
+app_rating_count: 152+
+
+privacy_url: /privacy-policy.html
+terms_of_service_url: /terms-of-service.html
+privacy: /aso-privacy.html
+support_mail: mailto:support@2stable.com
+twitter_username: authwidget
+
+# patch  for privacy and terms
+APP_NAME: Authenticator
+
+collections:
+  guides:
+    output: true
+
+appstore: 
+  - src: https://one-badge.com/b/apple/appstore.svg
+    alt: iOS Apple App Badge
+    url: https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=2stable.com.iPhone&mt=8#?platform=iphone
+
+  - src: https://one-badge.com/b/apple/mac.svg
+    alt: macOS Apple App Badge
+    url: https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=2stable.com.mac&mt=8#?platform=mac
+
+
+features: 
+  - title: No Account Required
+    details: Easy to set up. You have to remember just one password.
+    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/2728.svg
+
+  - title: Biometric Authentication
+    details: Unlock Authenticator without typing your passphrase using Touch or Face ID.
+    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f440.svg
+
+  - title: Sync & Backup
+    details: All data is automatically backed up and synced across all devices via iCloud.
+    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f9f2.svg
+
+  - title: Secure & Private
+    details: All data is encrypted even if is stored in iCloud, so you never have to worry about nasty hackers.
+    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f510.svg
+
+  - title: User Friendly
+    details: Native experience on all Apple devices. Data Sync, Gestures, Widgets, Dark Mode and more!
+    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f98b.svg
+
+  - title: Friendly Support
+    details: Got a question? <a href="mailto:support@2stable.com">Get in touch</a> with us at any time. We're a friendly team of four :)
+    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f432.svg
+
+
+testflight-banner: 
+  - title: Help us make Authenticator app even better
+    details: If you want to try out the new features before it becomes available to everyone, you can join to beta test the Authenticator app right now.
+    url: https://testflight.apple.com/join/a20tIGsB
+
+
+features-banner: 
+  - title: Protect your accounts with an extra layer of security
+    details: Authenticator is a simple, <a href="https://en.wikipedia.org/wiki/Two-factor_authentication" target="_blank">two-factor authentication</a> app. It helps keep your online accounts secure by generating unique one-time passwords.
+    url: https://testflight.apple.com/join/a20tIGsB 
+
+features-privacy: 
+  - title: 2Stable Protects Your Privacy 
+    details: We put our users' security and privacy first, we don't have access to the accounts you store or the password you choose to encrypt your data.
+    url: https://testflight.apple.com/join/a20tIGsB 
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-minifier
