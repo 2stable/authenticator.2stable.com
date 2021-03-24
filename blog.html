@@ -1,0 +1,36 @@
+---
+layout: clean
+title: Blog
+description: News and announcements for all things, including new releases.
+permalink: /blog/
+--- 
+<!-- <h1>The Authenticator Blog</h1> -->
+<div class="container text-center">
+    <div class="row justify-content-center">
+        <div class="col-lg-9 m-3 py-3 py-md-5">
+          <h1 id="content">The Authenticator Blog</h1>
+          <p class="lead">{{ page.description | default: site.description }}</p>
+        </div>
+      </div>
+</div>
+
+<div class="container">
+    {% for post in site.posts %}
+    <div class="py-2 py-md-4">
+    <a href="{{ post.url }}" style="text-decoration: none !important">
+        <div class="row ">
+            <div class="col-md-5">
+                <img class="rounded" src="{{ post.image }}" width="100%" height="auto" alt="...">
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <h4 class="card-title">{{ post.title }}</h4>
+                    <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
+                    <span class="card-text text-dark">{{ post.excerpt }}</span>
+                </div>
+            </div>
+        </div>
+    </a>
+    </div>
+    {% endfor %}
+  </div>

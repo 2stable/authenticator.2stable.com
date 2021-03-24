@@ -1,0 +1,22 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script>
+  (function() {
+    var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&callback=?";
+    
+    $.getJSON( apiURL, function(json) {
+
+      if (json.results && json.results.length) {
+        var appInfo = json.results[0];
+
+        // console.log(appInfo.version);
+        document.getElementById("version").innerHTML = "Version " + appInfo.version;
+
+      } 
+      else {
+        console.log("something goes wrong")
+      }
+
+    })
+  })();
+  </script>
