@@ -28,7 +28,6 @@ appstore:
     alt: macOS Apple App Badge
     url: https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=2stable.com.mac&mt=8#?platform=mac
 
-
 features: 
   - title: No Account Required
     details: Easy to set up. You have to remember just one password.
@@ -54,12 +53,10 @@ features:
     details: Got a question? <a href="mailto:support@2stable.com">Get in touch</a> with us at any time. We're a friendly team of four :)
     image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f432.svg
 
-
 testflight-banner: 
   - title: Help us make Authenticator app even better
     details: If you want to try out the new features before it becomes available to everyone, you can join to beta test the Authenticator app right now.
     url: https://testflight.apple.com/join/a20tIGsB
-
 
 features-banner: 
   - title: Protect your accounts with an extra layer of security
@@ -70,7 +67,6 @@ features-privacy:
   - title: 2Stable Protects Your Privacy 
     details: We put our users' security and privacy first, we don't have access to the accounts you store or the password you choose to encrypt your data.
     url: https://testflight.apple.com/join/a20tIGsB 
-
 
 plugins:
   - jekyll-sitemap
