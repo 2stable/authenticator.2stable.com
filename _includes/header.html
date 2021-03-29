@@ -5,16 +5,14 @@
       <p class="lead font-weight-normal">Secure and fast two-factor authentication app for iPhone, iPad, iPod, Apple Watch and macOS.</p>
       <div class="py-4">
         <ul class="p-0" style="list-style: none">
-
           {% for app in site.appstore %}
-          
           <li class="pb-3">
             <a href="{{ app.url }}" target="_blank">
               <img src="{{ app.src }}" alt="{{ app.alt }}" height="54">
             </a>
           </li>
-
           {% endfor %}
+          </ul>
           <span class="text-muted" id="version"></span>
           <div class="pt-4">
             <div class="d-flex justify-content-start">
@@ -31,7 +29,6 @@
               <p class="text-muted">Based on {{ site.app_rating_count }} reviews around the globe</p>
             </div>
           </div>
-        </ul>
       </div>
     </div>
     <!-- <div class="col-md-6 d-flex align-content-center flex-wrap"> -->
