@@ -20,6 +20,8 @@ At 2Stable, we believe that the less information we know about you, the better. 
 We don't collect and don't have access to your personal data that you save in Authenticator. Everything you do is saved into your iCloud account in encrypted form and is synced across your devices using the same iCloud account.
 When you use our software we may record some usage analytics, subscription validation and crash logs. The sole purpose of this data is to help us make better decisions on where to focus our efforts and improve our software. You provide some data directly, such as when you contact us for support. Such data is limited to your email address only.
 
+<br>
+
 ### Subscription validation
 The receipt validation is used to manage and update subscription status. To manage your subscription status we use:
 
