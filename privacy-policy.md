@@ -53,6 +53,7 @@ Crash logs are, by default, automatically sent on the next app start. These logs
 * If an exception was thrown, the plain-text class name and message value of the exception.
 * Low level crash data like instruction pointer, method or function names, signal data, pointer registers, and information about the loaded binary images.
 * The application log file.
+
 We use Crashlytics to collect and manage this data.
 
 <br>
