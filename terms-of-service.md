@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: default
 title: Terms of Service
 description: View the Service Agreement for Authenticator users and customers.
 date: "Effective date: March 24, 2021"
