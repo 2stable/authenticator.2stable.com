@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: markdown
 title: Terms of Service
 description: View the Service Agreement for Authenticator users and customers.
+date: "Effective date: March 24, 2021"
+permalink: /terms-of-service/
 ---
 Effective date: December 19, 2020
 
