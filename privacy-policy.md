@@ -27,6 +27,7 @@ The receipt validation is used to manage and update subscription status. To mana
 * In-App purchases.
 * Fetching subscription products.
 * Subscription status.
+
 We use RevenueCat to collect and manage this data.
 
 <br>
@@ -37,6 +38,7 @@ The app usage analytics collected is minimal but essential to help us run our bu
 * Application starts/ends.
 * Device locale.
 * Device type, CPU architecture, and version of the operating system.
+
 We use Amplitude to collect and manage this data.
 
 <br>
