@@ -7,8 +7,8 @@ ios_app_id: 1538761576
 app_rating: "4,4"
 app_rating_count: 164+
 
-privacy_url: /privacy-policy.html
-terms_of_service_url: /terms-of-service.html
+privacy_url: /privacy-policy/
+terms_of_service_url: /terms-of-service/
 support_mail: mailto:support@2stable.com
 twitter_username: authwidget
 
