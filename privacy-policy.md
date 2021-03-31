@@ -5,7 +5,6 @@ description: The privacy policy is a boring document but we strongly recommend y
 date: "Effective date: March 24, 2021"
 permalink: /privacy-policy/
 ---
-
 Effective date: December 19, 2020
 
 ## Privacy Policy
