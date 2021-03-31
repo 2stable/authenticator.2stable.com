@@ -10,15 +10,21 @@ Effective date: December 19, 2020
 By using or visiting the {{ site.APP_NAME }} website or any {{ site.APP_NAME }} products, softwares, data feeds, and services provided to you on, from, or through the {{ site.APP_NAME }} website, you signify your agreement to these terms and conditions. If you do not agree to any of these terms please do not use the Service.
 This Service is provided by {{ site.APP_NAME }} on an “AS IS” and “AS AVAILABLE” basis and {{ site.APP_NAME }} reserves the right to modify, suspend or discontinue the Service, in its sole discretion, at any time and without notice. You agree to be bound by such modifications. {{ site.APP_NAME }} is and will not be liable to you for any modification, suspension or discontinuance of the Service.
 
+<br>
+
 ### Service
 
 These Terms of Service apply to all users of the Service, including users who are also contributors of Content on the Service. “Content” may include the text, software, graphics, photos, sounds, music, videos, audiovisual combinations, interactive features and other materials you may view on, access through, or contribute to the Service. The Service includes all aspects of {{ site.APP_NAME }}, including but not limited to all products, software and services offered via the {{ site.APP_NAME }} website and mobile devices applications.
 The Service may contain links to third party websites that are not owned or controlled by {{ site.APP_NAME }}. {{ site.APP_NAME }} has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party websites. In addition, {{ site.APP_NAME }} will not and cannot censor or edit the content of any third-party site. By using the Service, you expressly relieve {{ site.APP_NAME }} from any and all liability arising from your use of any third-party website.
 Accordingly, we encourage you to be aware when you leave the Service and to read the terms and conditions and privacy policy of each other website that you visit.
 
+<br>
+
 ### {{ site.APP_NAME }} Premium Subscription
 
 With an {{ site.APP_NAME }} Premium subscription, you have access to all features, {{ site.APP_NAME }} Premium subscription is billed annually at the rate corresponding to the selected plan. Payment will be charged to iTunes Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase. To cancel your subscription, you can go to your device Settings> iTunes & App Store, tap your Apple ID, tap View Apple ID, tap Subscriptions, click on 'Cancel Subsciption' for the app. Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable. All fees and charges are non-refundable. If you would like to cancel your subscription, switch to another premium service package, please contact us. You are responsible for the content you publish and distribute on {{ site.APP_NAME }}. You warrant that you own or have necessary licenses, rights, consents and permissions to publish the contents. You agree not to publish and create any premium listings for contents that violate our Terms of Service. {{ site.APP_NAME }} has the right to remove the listings without any prior notice and fees or charges will not be refunded. You understand that your subscription or access to contents of the Site will be suspended if you violate the Terms of Service. Suspended accounts will not be restored and fees or charges will not be refunded.
+
+<br>
 
 ### General Use of the Service
 
@@ -49,6 +55,8 @@ Is unlawful or illegal, criminal or tortuous in nature (such as child pornograph
 In your use of the Service, you will comply with all applicable laws.
 {{ site.APP_NAME }} reserves the right to discontinue any aspect of the Service at any time.
 
+<br>
+
 ### Use of Content
 
 In addition to the general restrictions above, the following restrictions and conditions apply specifically to your use of Content.
@@ -56,6 +64,8 @@ All brand, product and service names used in this Service which identify {{ site
 Content is provided to you AS IS. You may access Content for your information and personal use solely as intended through the provided functionality of the Service and as permitted under these Terms of Service. You shall not download any Content unless you see a “download” or similar link displayed by {{ site.APP_NAME }} on the Service for that Content. You shall not copy, reproduce, distribute, transmit, broadcast, display, sell, license, or otherwise exploit any Content for any other purposes without the prior written consent of {{ site.APP_NAME }} or the respective licensors of the Content. {{ site.APP_NAME }} and its licensors reserve all rights not expressly granted in and to the Service and the Content.
 You agree not to circumvent, disable or otherwise interfere with security-related features of the Service or features that prevent or restrict use or copying of any Content or enforce limitations on use of the Service or the Content therein.
 You understand that when using the Service, you will be exposed to Content from a variety of sources, and that {{ site.APP_NAME }} is not responsible for the accuracy, usefulness, safety, or intellectual property rights of or relating to such Content. You further understand and acknowledge that you may be exposed to Content that is inaccurate, offensive, indecent, or objectionable, and you agree to waive, and hereby do waive, any legal or equitable rights or remedies you have or may have against {{ site.APP_NAME }} with respect thereto, and, to the extent permitted by applicable law, agree to indemnify and hold harmless {{ site.APP_NAME }}, its owners, operators, affiliates, licensors, and licensees to the fullest extent allowed by law regarding all matters related to your use of the Service.
+
+<br>
 
 ### Content and Conduct
 
@@ -66,21 +76,28 @@ You further agree that Content you submit to the Service will not contain third 
 {{ site.APP_NAME }} does not endorse any Content submitted to the Service by any user or other licensor, or any opinion, recommendation, or advice expressed therein, and {{ site.APP_NAME }} expressly disclaims any and all liability in connection with Content. {{ site.APP_NAME }} does not permit copyright infringing activities and infringement of intellectual property rights on the Service, and {{ site.APP_NAME }} will remove all Content if properly notified that such Content infringes on another’s intellectual property rights. {{ site.APP_NAME }} reserves the right to remove Content without prior notice.
 {{ site.APP_NAME }} has no ability to control the Content you may upload, post or otherwise transmit using the Service and does not have any obligation to monitor such Content for any purpose. You acknowledge that you are solely responsible for all Content and material you upload, post or otherwise transmit using the Service.
 
+<br>
+
 ### Account Termination
 
 {{ site.APP_NAME }} will terminate a user’s access to the Service if, under appropriate circumstances, the user is determined to be a repeat infringer.
 {{ site.APP_NAME }} reserves the right to decide whether Content violates these Terms of Service for reasons other than copyright infringement, such as, but not limited to, pornography, obscenity. {{ site.APP_NAME }} may at any time, without prior notice and in its sole discretion, remove such Content and/or terminate a user’s account for submitting such material in violation of these Terms of Service.
 
-### Google Analytics
+<br>
 
-{{ site.APP_NAME }} can use different Analytics tracking code to support Display Advertising. The service we have implemented is the Google Analytics.
-{{ site.APP_NAME }} will not facilitate the merging of personally-identifiable information with non-personally identifiable information previously collected from Display Advertising features that is based on the DoubleClick cookie unless {{ site.APP_NAME }} have robust notice of, and the your prior affirmative (i.e., opt-in) consent to, that merger. We encourage you to read more on Google Analytics opt-out browser add-on.
-{{ site.APP_NAME }} may use data from Google’s Interest-based advertising or 3rd-party audience data (such as age, gender and interests) with Google Analytics. This helps {{ site.APP_NAME }} better understand how our Service is being used and to help tailor content and advertising on the Service.
+### RevenueCat
+
+{{ site.APP_NAME }} can use different services to validate the receipt for subscription status. The service we have implemented is RevenueCat.
+{{ site.APP_NAME }} uses RevenueCat to fetch products, make purchases, and check subscription status.
+
+<br>
 
 
 ### Ability to Accept Terms of Service
 
 You affirm that you are either more than 18 years of age, or an emancipated minor, or possess legal parental or guardian consent, and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations, and warranties set forth in these Terms of Service, and to abide by and comply with these Terms of Service.
+
+<br>
 
 ### Assignment
 
