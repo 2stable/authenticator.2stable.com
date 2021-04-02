@@ -1,4 +1,4 @@
-reviews:
+reviews-left:
   - title: Awesome App!
     message: So happy there's finally an autenticator app that syncs and you don't lose your info when you upgrade your phone! There were some initial bugs that I noted when I first downloaded, but the developer fixed them with the next update!
     user: Andy4390
@@ -23,3 +23,9 @@ reviews:
     message: The sole reason I downloaded this compared to others was for the widgets. Authenticators are a perfect way to use widgets. I just double tap my phone screen, swipe to my widgets page, and there’s my code. Please invest more time into this feature! It’s what sets you apart from the rest and it’s the reason I subscribed! The only downside is that the icons are a little pixelated, and there’s no option for importing your own. Other than that great job!
     user: TheSnakinKraken
     date: 01/30/2021
+
+reviews-right:
+  - title: Awesome App!
+    message: So happy there's finally an autenticator app that syncs and you don't lose your info when you upgrade your phone! There were some initial bugs that I noted when I first downloaded, but the developer fixed them with the next update!
+    user: Andy4390
+    date: 01/15/2021
