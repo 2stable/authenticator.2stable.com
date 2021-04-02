@@ -4,11 +4,6 @@ reviews-left:
     user: Andy4390
     date: 01/15/2021
 
-  - title: Amazing
-    message: I really enjoy this app, the best one in my opinion.
-    user: rayyaanIphone
-    date: 11/24/2020
-
   - title: Best 2FA App
     message: It really is the best. My only suggestion would be to add some more icons to choose from. Maybe add some generic ones, or maybe even an option to input a URL to pull an image from.
     user: stevenmcbeaven
@@ -19,13 +14,19 @@ reviews-left:
     user: samonthesun
     date: 12/11/2020
 
+
+reviews-right:
   - title: Best Authenticator
     message: The sole reason I downloaded this compared to others was for the widgets. Authenticators are a perfect way to use widgets. I just double tap my phone screen, swipe to my widgets page, and there’s my code. Please invest more time into this feature! It’s what sets you apart from the rest and it’s the reason I subscribed! The only downside is that the icons are a little pixelated, and there’s no option for importing your own. Other than that great job!
     user: TheSnakinKraken
     date: 01/30/2021
 
-reviews-right:
-  - title: Awesome App!
-    message: So happy there's finally an autenticator app that syncs and you don't lose your info when you upgrade your phone! There were some initial bugs that I noted when I first downloaded, but the developer fixed them with the next update!
-    user: Andy4390
-    date: 01/15/2021
+  - title: Amazing
+    message: I really enjoy this app, the best one in my opinion.
+    user: rayyaanIphone
+    date: 11/24/2020
+
+  - title: Absolutely Perfect
+    message: This is easily the best the app-based authentecator app out there (yes, including those from Google and Microsoft). It works just as you'd expect on every Apple device. It even has this cool feature where you can scan a QR code on screen on your Mac!
+    user: Sky Drew
+    date: 2021/03/16

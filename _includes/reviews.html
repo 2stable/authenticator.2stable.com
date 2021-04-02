@@ -1,21 +1,46 @@
-<div class="py-5 ">
-    <div class="row justify-content-center">
-        {% for review in site.data.reviews.reviews %}
-        <div class="col-md-5 p-3">
-          <div class="card border-0 p-4 h-100" style="background-color: #f8f8f8; border-radius: 0.5rem;">
-            <span class="pe-2 pb-3">
-                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
-                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
-                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
-                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
-                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
-            </span>
-            <span class="text-muted pb-3">{{ review.user}}, {{ review.date}}</span> 
-            <h5>{{ review.title }}</h5>
-            <p class="m-0">{{ review.message }}</p>
-            </a>
-          </div>
+<div class="pb-5">
+  <div class="text-center mx-auto pb-4">
+    <div class="h2">Users Voice</div>
+    <div class="d-flex justify-content-center text-center">
+      <div class="col-md-6 lead">
+        <p class="lead pb-3">Read what users think about Authenticator</p>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-4">
+        {% for review in site.data.reviews.reviews-left %}
+        <div class="card border-0 p-4 mb-3" style="background-color: #f8f8f8; border-radius: 0.5rem;">
+          <span class="pb-2">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+          </span>
+          <span class="text-muted pb-3" style="font-size: 0.875rem;">{{ review.user }} · {{ review.date }}</span> 
+          <h6>{{ review.title }}</h6>
+          <p class="m-0">{{ review.message }}</p>
+          </a>
         </div>
         {% endfor %}
-    </div>
+      </div>
+      <div class="col-md-8 col-lg-4">
+        {% for review in site.data.reviews.reviews-right %}
+        <div class="card border-0 p-4 mb-3" style="background-color: #f8f8f8; border-radius: 0.5rem;">
+          <span class="pb-2">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+              <img  alt="App Rating" width="24" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+          </span>
+          <span class="text-muted pb-3" style="font-size: 0.875rem;">{{ review.user }} · {{ review.date }}</span> 
+          <h6>{{ review.title }}</h6>
+          <p class="m-0">{{ review.message }}</p>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+  </div>
 </div>
