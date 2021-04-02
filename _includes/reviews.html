@@ -1,0 +1,21 @@
+<div class="py-5 ">
+    <div class="row justify-content-center">
+        {% for review in site.data.reviews.reviews %}
+        <div class="col-md-5 p-3">
+          <div class="card border-0 p-4 h-100" style="background-color: #f8f8f8; border-radius: 0.5rem;">
+            <span class="pe-2 pb-3">
+                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+                <img  alt="App Rating" width="30" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/2b50.svg">
+            </span>
+            <span class="text-muted pb-3">{{ review.user}}, {{ review.date}}</span> 
+            <h5>{{ review.title }}</h5>
+            <p class="m-0">{{ review.message }}</p>
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
