@@ -1,0 +1,16 @@
+<div class="text-center py-5">
+    <!-- <h2>Featured on</h2> -->
+    <div class="row">
+        {% for source in site.data.featuredon.sources %}
+        <div class="col pb-3">
+          <div class="card border-0 py-3 h-100">
+              <a href="{{ source.url }}" style="text-decoration: none" target="_blank">
+                <div class="card-body">
+                    <img width="200" src="{{ source.img }}" alt="s">
+                </div>
+             </a>
+          </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
