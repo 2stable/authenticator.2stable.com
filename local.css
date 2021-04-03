@@ -14,3 +14,65 @@
   border-radius: 0.5rem;
   transform: scale(1.01, 1.01);
 }
+
+.release-note:first-of-type .timeline-decorator::before {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1));
+}
+.release-note:last-of-type .timeline-decorator::before {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+}
+.timeline-decorator::before {
+  content: "";
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1));
+  width: 3px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc((65px / 2) + 16px);
+  z-index: -1;
+}
+
+.bg-purple {
+  background-color: #6f42c1 !important;
+}
+
+.version-badge {
+  width: 65px;
+  text-align: center;
+  font-size: 14px !important;
+  color: rgba(255,255,255,0.85);
+}
+
+.text-bold {
+  font-weight: 600 !important;
+}
+
+.f3-light {
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+.change-badge {
+  background-color: #0366d6;
+  display: inline;
+  flex: 0 0 65px;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-right: 8px;
+  padding: 2px 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.change-badge-fixed, .change-badge-improved {
+  background-color: #0366d6;
+}
+
+.change-badge-new, .change-badge-added {
+  background-color: #28a745;
+}
+
+.change-log {
+  margin-left: 74px;
+}

@@ -1,0 +1,48 @@
+notes:
+  - version: 3.4.0
+    date: Feb 23, 2021
+    changes:
+      - Added "2FA Guides" with instructions how to enabled 2FA for specific service.
+      - Added "Help" in settings.
+      - Improved QR code scanning, now will show an alert when QR code is invalid.
+      - Fixed "Favorites", after editing account, now will not go back into "Accounts".
+      - Fixed synchronization status.
+    badge-new: NEW
+    changes-new:
+    badge-added: ADDED
+    changes-added: 
+      - Added "2FA Guides" with instructions how to enabled 2FA for specific service.
+      - Added "Help" in settings.
+    badge-improved: IMPROVED
+    changes-improved: 
+      - Improved QR code scanning, now will show an alert when QR code is invalid.
+    badge-fixed: FIXED
+    changes-fixed: 
+      - Fixed "Favorites", after editing account, now will not go back into "Accounts".
+      - Fixed synchronization status.
+  - version: 3.3.0
+    date: Feb 18, 2021
+    changes:
+      - Added "Favorites", swipe on cell to add it to favorites.
+      - Improved auto icon select, changed from "startsWith" to "contains".
+  - version: 3.2.1
+    date: Feb 2, 2021
+    changes:
+      - Fixed a bug on the iPad related to sorting accounts.
+      - Fixed a bug on the iPad related to the "Tell a Friend" option.
+      - Improved sorting accounts, now is case insensitive.
+  - version: 3.2.0
+    date: Jan 29, 2021
+    changes:
+      - Added possibility to import accounts from share extension.
+      - Fixed a bug, sometimes Touch ID was requested twice.
+      - Fixed sorting, now should work faster.
+      - Improved Apple Watch synchronization.
+      - Improved QR scanning of some services that are not fully following standards.
+  - version: 3.0.2
+    date: Jan 14, 2021
+    changes:
+      - Fixed a bug that will require AppleID credentials on macOS.
+      - Fixed a bug that will trigger unlock instantly after lock.
+      - Fixed a bug that will prevent creating of a new Vault after force deleting data from iCloud.
+      - Improved support for common hotkeys on macOS.
