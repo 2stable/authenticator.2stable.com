@@ -1,5 +1,5 @@
 <div class="pb-4 py-md-5" id="features">
-  <div class="text-center mx-auto pb-4">
+  <div class="text-center mx-auto pb-5">
     {% for item in site.features-privacy %}
     <div class="h2">
       {{ item.title }}
@@ -14,6 +14,19 @@
     {% endfor %}
   </div>
   <div class="row justify-content-center">
+    <div class="col-md-10">
+      <ul class="row p-0 justify-content-center" style="list-style: none">
+        {% for item in site.features %}
+          <li class="col-md-6 col-lg-4 pb-5">
+            <img class="mb-2" src="{{ item.image }}" alt="feature image" width="40">
+            <p class="fw-bold">{{ item.title }}</p>  
+            <p class="pe-5">{{ item.details }}</p>
+          </li>
+        {% endfor %} 
+      </ul>
+    </div>
+  </div>
+  <!-- <div class="row justify-content-center">
     <div class="col-md-10">
       <ul class="row p-0" style="list-style: none">
         {% for item in site.features %}
@@ -40,5 +53,5 @@
         {% endfor %} 
       </ul>
     </div>
-  </div>
+  </div> -->
 </div>
