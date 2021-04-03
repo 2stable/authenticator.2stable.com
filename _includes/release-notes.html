@@ -2,14 +2,7 @@
     <div class="p-3 pt-5 mb-4 text-center">
         <h2 class="f1-light">Release Notes</h2>
     </div>
-    <div>
-        <!-- <section class="release-note position-relative container-new py-3 px-3 text-left">
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-                <span class="version-badge d-inline-block bg-purple p-1 rounded-1 me-2" style="color: rgba(255,255,255,0.85);">{{ release.version }}</span>
-                <h2 class="f3-light my-auto">{{ release.date }}</h2>
-            </header>
-        </section> -->
-        
+    <div>        
         {% for release in site.data.release-notes.notes %}
         <section class="release-note position-relative container-new py-6 px-3 text-left">
             <header class="timeline-decorator d-flex flex-items-center mb-3">
