@@ -68,9 +68,14 @@
   padding: 2px 5px;
   text-transform: uppercase;
   text-align: center;
+  color: rgba(255,255,255,0.85);
 }
 
-.change-badge-fixed, .change-badge-improved {
+.change-badge-improved {
+  background-color: #0366d6;
+}
+
+.change-badge-fixed {
   background-color: #0366d6;
 }
 
@@ -78,6 +83,11 @@
   background-color: #28a745;
 }
 
-.change-log {
-  margin-left: 74px;
+@media (min-width: 768px){
+  .change-log {
+    margin-left: 74px;
+  }
+}
+.change-description {
+  line-height: 1.25
 }
