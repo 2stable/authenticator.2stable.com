@@ -3,14 +3,15 @@
         <h2 class="f1-light">Release Notes</h2>
     </div>
     <div>
-        <section class="release-note position-relative container-new py-3 px-3 text-left">
+        <!-- <section class="release-note position-relative container-new py-3 px-3 text-left">
             <header class="timeline-decorator d-flex flex-items-center mb-3">
-                <!-- <span class="version-badge d-inline-block bg-purple p-1 rounded-1 me-2" style="color: rgba(255,255,255,0.85);">{{ release.version }}</span> -->
-                <!-- <h2 class="f3-light my-auto">{{ release.date }}</h2> -->
+                <span class="version-badge d-inline-block bg-purple p-1 rounded-1 me-2" style="color: rgba(255,255,255,0.85);">{{ release.version }}</span>
+                <h2 class="f3-light my-auto">{{ release.date }}</h2>
             </header>
-        </section>
+        </section> -->
+        
         {% for release in site.data.release-notes.notes %}
-        <section class="release-note position-relative container-new py-4 px-3 text-left">
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
             <header class="timeline-decorator d-flex flex-items-center mb-3">
                 <span class="version-badge d-inline-block bg-purple p-1 rounded-1 me-2 text-bold">{{ release.version }}</span>
                 <h2 class="f3-light my-auto">{{ release.date }}</h2>
