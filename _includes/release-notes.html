@@ -12,8 +12,7 @@
             </header>
             <ul class="list-style-none change-log-new p-0">
                 {% for change in release.changes %}
-                <li class="d-flex align-items-start mb-2">
-                    <!-- <div class="change-badge change-badge-added">{{ release.badges[0] }}</div> -->
+                <li class="d-flex align-items-start mb-1">
                     <div class="change-description">- {{ change }}</div>
                 </li>
                 {% endfor %}
