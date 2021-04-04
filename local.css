@@ -36,6 +36,10 @@
   background-color: #6f42c1 !important;
 }
 
+.bg-next {
+  background-color: #28a745 !important;
+}
+
 .py-6 {
   padding-top: 40px !important;
   padding-bottom: 40px !important;
@@ -88,6 +92,11 @@
     margin-left: 74px;
   }
 }
+
+.change-log-new {
+  margin-left: 74px;
+}
+
 .change-description {
   line-height: 1.25
 }

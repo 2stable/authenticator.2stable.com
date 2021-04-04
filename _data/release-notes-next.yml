@@ -1,0 +1,12 @@
+notes:
+  - version: NEXT
+    date: Coming soon
+    badges:
+      - NEW
+    changes:
+      - U2F support
+      - Browser Extension
+      - Custom Keyboard
+      - Unlock with Apple Watch
+      - Localization
+      - and more to be decided
