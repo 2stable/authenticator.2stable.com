@@ -1,17 +1,17 @@
 ---
-layout: clean
-title: "2FA Guides"
+layout: 2fa-guides
+title: 2FA Guides
 description: The Step by Step Guides on how to enable Two-Factor Authentication (2FA) on websites that support that option, including Google, Facebook, Dropbox, and many others.
 permalink: /2fa-guides/
 --- 
 <div class="container text-center">
     <div class="row justify-content-center">
       <div class="col-lg-9 m-3 py-3 py-md-5">
-        <h1 id="content">Protect Your Online Accounts with Two Factor Authentication (2FA)</h1>
-        <p class="lead">Learn about two-factor authentication (2FA), an extra layer of security that includes SMS, email, phone calls, hardware, and software.</p>
+        <h1 id="content">2FA Guides</h1>
+        <p class="lead">Protect your online accounts with Two Factor Authentication (2FA)</p>
       </div>
     </div>
-  <div class="row justify-content-center">
+  <!-- <div class="row justify-content-center">
     <div class="col-md-6 pt-3 pb-3 mb-4 bg-body rounded shadow-sm">
       <img src="https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f5c3.svg" class="align-self-center" width="45px" alt="folder">
       <div class="card-body">
@@ -27,26 +27,25 @@ permalink: /2fa-guides/
         <p class="card-text">If any sites prompt you to use Google Authenticator for two-factor authentication, note you can always substitute it with the Authenticator app. Although they work in similar ways, Authenticator is more feature-rich and allows for multi-device syncing, iCloud-backups, and have easier account recovery in case you lose your device or just want to switch to a new one.</p>
       </div>
     </div>
+  </div> -->
+</div>
+
+<div class="container py-5">
+  <div class="row">
+      {% for post in site.guides %}
+      <div class="col-md-4 col-lg-3 p-3">
+        <div class="card border h-100">
+          <div class="bg-light text-center d-flex" style="height: 120px;">
+            <img class="d-block m-auto p-2" src="{{ post.image }}" style="width: 50%" alt="{{ post.permalink }}">
+          </div>
+          <div class="card-body">
+            <h6 class="card-title m-0">{{ post.title }}</h6>
+            <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
+            <a href="{{ post.url }}" class="btn btn-sm btn-outline-primary">Read guide</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
   </div>
 </div>
 
-<div class="container">
-    {% for post in site.guides %}
-    <div class="py-2 py-md-4">
-    <a href="{{ post.url }}" style="text-decoration: none !important">
-        <div class="row ">
-            <div class="col-md-5">
-                <img class="rounded" src="{{ post.image }}" width="100%" height="auto" alt="...">
-            </div>
-            <div class="col-md-7">
-                <div class="card-body">
-                    <h4 class="card-title">{{ post.title }}</h4>
-                    <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
-                    <span class="card-text text-dark">{{ post.excerpt }}</span>
-                </div>
-            </div>
-        </div>
-    </a>
-    </div>
-    {% endfor %}
-  </div>
