@@ -1,14 +1,11 @@
 <div class="pb-4 py-md-5" id="features">
   <div class="text-center mx-auto pb-5">
     {% for item in site.features-privacy %}
-    <div class="h2">
-      {{ item.title }}
-    </div>
+    <!-- <div class="h2">{{ item.title }}</div> -->
+    <h2>{{ item.title }}<a class="anchorjs-link" aria-label="Anchor" data-anchorjs-icon="#" href="#features" style="padding-left: 0.375em;"></a></h2>
     <div class="d-flex justify-content-center text-center">
       <div class="col-md-5 d-flex lead">
-        <p>
-          {{ item.details }}
-        </p>
+        <p>{{ item.details }}</p>
       </div>
     </div>
     {% endfor %}
@@ -26,32 +23,4 @@
       </ul>
     </div>
   </div>
-  <!-- <div class="row justify-content-center">
-    <div class="col-md-10">
-      <ul class="row p-0" style="list-style: none">
-        {% for item in site.features %}
-          <li class="col-md-4">
-            <div class="px-2 py-4 py-md-5">
-              <div class="d-flex flex-row">
-                <div class="py-3">
-                  <span class="pe-3"><img src="{{ item.image }}" alt="feature image" width="40">
-                  </span>
-                </div>
-                <div class="d-flex align-content-center flex-wrap">
-                  <strong>
-                    {{ item.title }}
-                  </strong>
-                </div>
-              </div>
-              <div>
-                <p>
-                  {{ item.details }}
-                </p>
-              </div>
-            </div>
-          </li>
-        {% endfor %} 
-      </ul>
-    </div>
-  </div> -->
 </div>

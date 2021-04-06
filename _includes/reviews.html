@@ -1,10 +1,10 @@
-<div class="pb-5" id="reviews">
-  <div class="text-center mx-auto pb-4">
-    <div class="h2">Users Voice</div>
+<div class="pb-5 col-md-8 mx-auto" id="reviews">
+  <div class="p-3 pt-5 mb-3 text-center">
+    <h2 id="reviews">Users Voice<a class="anchorjs-link" aria-label="Anchor" data-anchorjs-icon="#" href="#reviews" style="padding-left: 0.375em;"></a></h2>
     <p class="lead pb-3">Read what users think about Authenticator</p>
   </div>
   <div class="row justify-content-center">
-      <div class="col-md-8 col-lg-4">
+      <div class="col-lg-6">
         {% for review in site.data.reviews.reviews-left %}
         <div class="card border-0 p-4 mb-3" style="background-color: #f8f8f8; border-radius: 0.5rem;">
           <span class="pb-2">
@@ -20,7 +20,7 @@
         </div>
         {% endfor %}
       </div>
-      <div class="col-md-8 col-lg-4">
+      <div class="col-lg-6">
         {% for review in site.data.reviews.reviews-right %}
         <div class="card border-0 p-4 mb-3" style="background-color: #f8f8f8; border-radius: 0.5rem;">
           <span class="pb-2">

@@ -99,3 +99,23 @@
 .change-description {
   line-height: 1.25
 }
+
+.anchorjs-link {
+  opacity: 0.5;
+  text-decoration: none;
+  /* -webkit-font-smoothing: antialiased; */
+}
+
+.anchorjs-link {
+  font-weight: 400;
+  color: rgba(13,110,253,0.01);
+  transition: color 0.15s ease-in-out;
+}
+
+[data-anchorjs-icon]::after {
+  content: attr(data-anchorjs-icon);
+}
+
+/* *, ::after, ::before {
+  box-sizing: border-box;
+} */
