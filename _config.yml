@@ -28,31 +28,6 @@ appstore:
     alt: macOS Apple App Badge
     url: https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=2stable.com.mac&mt=8#?platform=mac
 
-features: 
-  - title: No Account Required
-    details: Easy to set up. You have to remember just one password.
-    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/2728.svg
-
-  - title: Biometric Authentication
-    details: Unlock Authenticator without typing your passphrase using Touch or Face ID.
-    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f440.svg
-
-  - title: Sync & Backup
-    details: All data is automatically backed up and synced across all devices via iCloud.
-    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f9f2.svg
-
-  - title: Secure & Private
-    details: All data is encrypted even if is stored in iCloud, so you never have to worry about nasty hackers.
-    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f510.svg
-
-  - title: User Friendly
-    details: Native experience on all Apple devices. Data Sync, Gestures, Widgets, Dark Mode and more!
-    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f98b.svg
-
-  - title: Friendly Support
-    details: Got a question? <a href="mailto:support@2stable.com">Get in touch</a> with us at any time. We're a friendly team of four :)
-    image: https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f432.svg
-
 testflight-banner: 
   - title: Help us make Authenticator app even better
     details: If you want to try out the new features before it becomes available to everyone, you can join to beta test the Authenticator app right now.
