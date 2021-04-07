@@ -111,6 +111,7 @@
   background-color: #28a745;
 }
 
+
 @media (min-width: 768px){
   .change-log {
     margin-left: 74px;
@@ -153,6 +154,21 @@
   content: attr(data-anchorjs-icon);
 }
 
-/* *, ::after, ::before {
-  box-sizing: border-box;
-} */
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-link > .bi {
+  margin-top: .125rem;
+  margin-left: .125rem;
+  transition: transform .25s ease-in-out;
+  fill: currentColor;
+}
+.icon-link:hover > .bi {
+  transform: translate(.25rem);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}

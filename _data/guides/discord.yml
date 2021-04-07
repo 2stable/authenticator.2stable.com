@@ -42,10 +42,14 @@ steps:
     footer:
         details:
           - You’re all set! You’ve enabled Two-Factor Authentication (2FA) for your Discord account. To learn more, visit the Discord support page. Stay safe!
-        button:
+        more:
           - Learn more
+        url:
+          - https://support.discord.com/hc/en-us/articles/219576828
         action:
           - Was this article helpful?
-          - Yes
-          - No
+        buttons:
+         - "Yes"
+         - "No"
+
 

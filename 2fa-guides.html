@@ -9,8 +9,13 @@ permalink: /2fa-guides/
       <div class="col-lg-9 m-3 py-3 py-md-5">
         <h1 id="content">2FA Guides</h1>
         <p class="lead">Protect your online accounts with Two Factor Authentication (2FA)</p>
+        <div class="bg-light">
+          <p class="px-2 px-md-5 pt-md-5 pt-4 m-md-0">The best way to manage all your 2FA accounts is to use the Authenticator app. If any sites prompt you to use Google Authenticator for two-factor authentication, note you can always substitute it with the Authenticator app. Although they work in similar ways, Authenticator is more feature-rich and allows for multi-device syncing, iCloud-backups, and have easier account recovery in case you lose your device or just want to switch to a new one.</p>
+          <a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=2stable.com.iPhone&mt=8#?platform=iphone" target="_blank"><img src="https://one-badge.com/b/apple/appstore.svg" alt="apple badge download" height="48" class="mb-4 my-md-5"></a>
+        </div>
       </div>
     </div>
+
   <!-- <div class="row justify-content-center">
     <div class="col-md-6 pt-3 pb-3 mb-4 bg-body rounded shadow-sm">
       <img src="https://dvzvtsvyecfyp.cloudfront.net/static/img/twemoji/1f5c3.svg" class="align-self-center" width="45px" alt="folder">
@@ -30,13 +35,13 @@ permalink: /2fa-guides/
   </div> -->
 </div>
 
-<div class="container py-5">
+<div class="container pb-5">
   <div class="row">
       {% for guide in site.guides %}
       <div class="col-lg-3 col-md-4 p-3">
         <div class="card border h-100">
           <div class="bg-light text-center d-flex" style="height: 120px;">
-            <img class="d-block m-auto p-2" src="{{ guide.image }}" style="width: 50%" alt="{{ guide.permalink }}">
+            <img class="d-block m-auto p-2" src="{{ guide.image }}" style="width: 50%" alt="{{ guide.title }}">
           </div>
           <div class="card-body">
             <h6 class="card-title m-0">{{ guide.title }}</h6>{{ guide.categories }}
