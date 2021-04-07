@@ -11,7 +11,7 @@ image: https://www.vectorlogo.zone/logos/discordapp/discordapp-official.svg
 <div>
     <div>    
         {% for step in site.data.guides.discord.steps %}
-        <section class="release-note position-relative py-6 px-3 text-left">
+        <section class="guide-release-note position-relative py-6 px-3 text-left">
             <header class="guide-timeline-decorator d-flex align-items-center mb-3">
                 <span class="guide-badge d-inline-block bg-primary p-1 rounded-circle me-2 text-bold">{{ step.index }}</span>
                 <h2 class="f3-light my-auto ps-md-4 ps-2">{{ step.name }}</h2>
