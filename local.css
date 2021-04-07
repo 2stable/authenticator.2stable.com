@@ -44,7 +44,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: calc((30px / 2) + 16px);
+  left: calc((12px / 2) + 16px);
   z-index: -1;
 }
 
@@ -69,11 +69,11 @@
 }
 
 .guide-badge {
-  width: 32.5px;
-  height: 32.5px;
+  width: 32px;
+  height: 32px;
   text-align: center;
-  font-size: 14px !important;
-  color: rgba(255,255,255,0.85);
+  font-size: 16px !important;
+  color: rgba(255,255,255,0.9);
 }
 
 .text-bold {
@@ -81,8 +81,8 @@
 }
 
 .f3-light {
-  font-size: 20px !important;
-  font-weight: 400 !important;
+  font-size: 22px !important;
+  font-weight: 500 !important;
 }
 
 .change-badge {
@@ -117,8 +117,16 @@
   }
 }
 
-.guides {
-  margin-left: 74px;
+@media (min-width: 768px){
+  .guides {
+    margin-left: 74px;
+  }
+}
+
+@media (min-width: 768px){
+  .guide-title {
+    margin-left: 42px;
+  }
 }
 
 .change-log-new {

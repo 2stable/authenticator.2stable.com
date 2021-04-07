@@ -6,22 +6,22 @@ steps:
 
   - name: Next Page
     index: 2
-    details: On the next page click on the button that reads “<strong>Enable Two-Factor Auth</strong>”. It will prompt you to confirm your Discord password.
+    details: On the next page click on the button that reads <strong>Enable Two-Factor Auth</strong>. It will prompt you to confirm your Discord password.
     img: /assets/guides/discord/discord_2.png
 
   - name: QR Code
     index: 3
-    details: A pop-up window will appear for you to scan the QR Code with your Authentication app. Keep this window open as you reach for your phone. Note that anywhere (not just Discord) that prompts Google Authenticator also supports Authentication.
+    details: A pop-up window will appear for you to scan the QR Code with your Authenticator App. Keep this window open as you reach for your phone. Note that anywhere (not just Discord) that prompts Google Authenticator also supports Authenticator.
     img: /assets/guides/discord/discord_3.png
 
   - name: Capture QR Code
     index: 4
-    details: Take out your mobile device and open the Authentication App. At the bottom of the screen, tap the plus sign to scan a new account and hold your device up to the computer screen
+    details: Take out your mobile device and open the Authenticator App. At the bottom of the screen, tap the plus sign to scan a new account and hold your device up to the computer screen
     img: /assets/guides/discord/discord_4.png
 
   - name: Save account
     index: 5
-    details: After successfully scanning the QR Code, the Authentication App will automatically choose the Discord logo and autofill account name and secret key. Confirm it’s correct by clicking “Save”.
+    details: After successfully scanning the QR Code, the Authenticator App will automatically choose the Discord logo and autofill account name and secret key. Confirm it’s correct by clicking <strong>Save</strong>.
     img: /assets/guides/discord/discord_5.png
 
   - name: Two-Factor Authentication Code
@@ -31,10 +31,21 @@ steps:
 
   - name: Complete Enablement
     index: 7
-    details: Returning to the Discord website, enter the numerical token in the appropriate field. When done click “Activate.”
+    details: Returning to the Discord website, enter the numerical token in the appropriate field. When done click <strong>Activate</strong>.
     img: /assets/guides/discord/discord_7.png
 
   - name: Download back-up codes
     index: 8
     details: You will now be shown your Discord back-up codes. These codes are one-time use each. If you run out of these codes, you can click the Generate Codes button again to re-roll a new set, but doing so will render the previous list obsolete, so be 100% sure to keep the latest set somewhere safe.
     img: /assets/guides/discord/discord_8.png
+# footer 
+    footer:
+        details:
+          - You’re all set! You’ve enabled Two-Factor Authentication (2FA) for your Discord account. To learn more, visit the Discord support page. Stay safe!
+        button:
+          - Learn more
+        action:
+          - Was this article helpful?
+          - Yes
+          - No
+

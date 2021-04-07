@@ -30,8 +30,8 @@
     <main id="content" class="container px-3">
         <div class="row justify-content-center px-md-5 pb-4">
             <div class="col col-md-8">
-              <div class="bg-ligt text-center d-flex" style="height: 320px;">
-                <img class="d-block m-auto p-2" src="{{ page.image }}" style="width: 50%" alt="{{ page.permalink }}">
+              <div class="text-center d-flex" style="height: 320px;">
+                <img class="d-block m-auto" src="{{ page.image }}" style="width: 75%" alt="{{ page.permalink }}">
               </div>
                 <h1>{{ page.title | default: site.title }}</h1>
                 <p class="text-muted">{{ page.date | date_to_string }} - by <a href="https://twitter.com/{{ page.twitter }}" style="text-decoration: none !important" target="_blank">{{ page.author }}</a></p>
@@ -39,7 +39,7 @@
             </div> 
         </div>
         <div class="row justify-content-center px-md-5">
-            <div class="col col-md-8 p">
+            <div class="col col-md-8 p-0">
                 {{ content }}          
             </div>
         </div>
