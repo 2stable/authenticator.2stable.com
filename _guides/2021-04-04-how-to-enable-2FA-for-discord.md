@@ -26,13 +26,13 @@ image: /assets/guides/discord/discord.svg
     <div class="text-center">
         <div class="col-lg-8 lead pt-md-4 mx-auto"><p class="px-2">{{ step.footer.details }}</p></div>
         <div class="pb-5">
-            <a class="icon-link" href="{{ step.footer.url }}" style="text-decoration: none;">{{ step.footer.more }}
+            <a class="icon-link" href="{{ step.footer.url }}" style="text-decoration: none;" target="_blank">{{ step.footer.more }}
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
             </a>
         </div>
         <p>{{ step.footer.action }}</p>
-        <div class="btn btn-primary px-4 me-2">{{ step.footer.buttons[0] }}</div>
-        <div class="btn btn-outline-primary px-4">{{ step.footer.buttons[1] }}</div>
+        <div class="btn btn-outline-primary px-4 me-2">{{ step.footer.buttons[0] }}</div>
+        <div class="btn btn-outline-secondary px-4">{{ step.footer.buttons[1] }}</div>
     </div>
     {% endif %}
     {% endfor %}
