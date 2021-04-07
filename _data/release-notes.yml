@@ -1,4 +1,25 @@
 notes:
+  - version: 3.6.0
+    date: Next update
+    badges:
+      - NEW
+    changes:
+        new:
+        - Custom Keyboard
+  - version: 3.5.0
+    date: Apr 7, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+        added:
+          - <strong>Recently Deleted</strong> in settings, now all deleted accounts will be stored in <strong>Recently Deleted</strong> for additional 30 days.
+          - A possibility to change the password with biometry (if enabled).
+          - More answers to the <strong>Help</strong> section.
+        fixed:
+          - Fixed a bug related to <strong>Auto-Lock</strong> that could prevent disable <strong>Auto-Lock</strong> if biometry was enabled.
+        improved:
   - version: 3.4.0
     date: Feb 23, 2021
     badges:

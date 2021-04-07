@@ -5,9 +5,9 @@
     </div>
     <div> 
         {% for release in site.data.release-notes-next.notes %}
-        <section class="release-note position-relative py-6 px-3 text-left">
+        <section class="release-note position-relative py-6 text-left">
             <header class="timeline-decorator d-flex align-items-center mb-3">
-                <span class="version-badge d-inline-block bg-next p-1 rounded-1 me-2 text-bold">{{ release.version }}</span>
+                <span class="version-badge d-inline-block bg-warning text-dark p-1 rounded-1 me-2 text-bold">{{ release.version }}</span>
                 <h2 class="f3-light my-auto">{{ release.date }}</h2>
             </header>
             <ul class="list-style-none change-log-new p-0">
@@ -20,12 +20,26 @@
         </section>
         {% endfor %}     
         {% for release in site.data.release-notes.notes %}
-        <section class="release-note position-relative py-6 px-3 text-left">
+        <section class="release-note position-relative py-6 text-left">
+            {% if release.badges[0] == "NEW" %}
+            <header class="timeline-decorator d-flex align-items-center mb-3">
+                <span class="version-badge d-inline-block bg-primary p-1 rounded-1 me-2 text-bold">{{ release.version }}</span>
+                <h2 class="f3-light my-auto">{{ release.date }}</h2>
+            </header>
+            {% endif %}
+            {% if release.badges[0] == "ADDED" %}
             <header class="timeline-decorator d-flex align-items-center mb-3">
                 <span class="version-badge d-inline-block bg-purple p-1 rounded-1 me-2 text-bold">{{ release.version }}</span>
                 <h2 class="f3-light my-auto">{{ release.date }}</h2>
             </header>
+            {% endif %}
             <ul class="list-style-none change-log p-0">
+                {% for change in release.changes.new %}
+                <li class="d-flex align-items-start mb-2">
+                    <div class="change-badge change-badge-new">{{ release.badges[0] }}</div>
+                    <div class="change-description">{{ change }}</div>
+                </li>
+                {% endfor %}
                 {% for change in release.changes.added %}
                 <li class="d-flex align-items-start mb-2">
                     <div class="change-badge change-badge-added">{{ release.badges[0] }}</div>
