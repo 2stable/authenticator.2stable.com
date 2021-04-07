@@ -31,6 +31,23 @@
   z-index: -1;
 }
 
+.guide-release-note:first-of-type .guide-timeline-decorator::before {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1) 50px);
+}
+.guide-release-note:last-of-type .guide-timeline-decorator::before {
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+}
+.guide-timeline-decorator::before {
+  content: "";
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1));
+  width: 3px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc((30px / 2) + 16px);
+  z-index: -1;
+}
+
 .bg-purple {
   background-color: #6f42c1 !important;
 }
@@ -46,6 +63,14 @@
 
 .version-badge {
   width: 65px;
+  text-align: center;
+  font-size: 14px !important;
+  color: rgba(255,255,255,0.85);
+}
+
+.guide-badge {
+  width: 32.5px;
+  height: 32.5px;
   text-align: center;
   font-size: 14px !important;
   color: rgba(255,255,255,0.85);
@@ -90,6 +115,10 @@
   .change-log {
     margin-left: 74px;
   }
+}
+
+.guides {
+  margin-left: 74px;
 }
 
 .change-log-new {

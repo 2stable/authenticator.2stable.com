@@ -1,10 +1,11 @@
 ---
 layout: post-2fa-guides
 title: How to enable 2FA for Discord
+# description: Secure and fast Two-Factor Authentication manager for iPhone, iPad, iPod, Apple Watch and macOS.
 author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-discord/
-image: https://www.vectorlogo.zone/logos/discordapp/discordapp-official.svg
+image: /assets/guides/discord/discord.svg/
 # categories: ssasa
 ---
 
