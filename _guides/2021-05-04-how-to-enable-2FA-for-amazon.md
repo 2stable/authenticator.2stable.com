@@ -1,10 +1,11 @@
 ---
 layout: post-2fa-guides
-title: How to enable 2FA for Instagram
+title: How to enable 2FA for Amazon
 author: Aries Ikel
 twitter: i40504
-permalink: /2fa-guides/how-to-enable-2FA-for-instagram/
-image: https://www.vectorlogo.zone/logos/instagram/instagram-ar21.svg
+permalink: /2fa-guides/how-to-enable-2FA-for-amazon/
+image: https://www.vectorlogo.zone/logos/amazon/amazon-ar21.svg
+# published: false
 ---
 
 2Stable is a starting company of 4 members, located in Andorra, a small team with big ambitions and energy to provide solutions to day-to-day problems.

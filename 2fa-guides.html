@@ -32,20 +32,19 @@ permalink: /2fa-guides/
 
 <div class="container py-5">
   <div class="row">
-      {% for post in site.guides %}
-      <div class="col-md-4 col-lg-3 p-3">
+      {% for guide in site.guides %}
+      <div class="col-lg-3 col-md-4 p-3">
         <div class="card border h-100">
           <div class="bg-light text-center d-flex" style="height: 120px;">
-            <img class="d-block m-auto p-2" src="{{ post.image }}" style="width: 50%" alt="{{ post.permalink }}">
+            <img class="d-block m-auto p-2" src="{{ guide.image }}" style="width: 50%" alt="{{ guide.permalink }}">
           </div>
           <div class="card-body">
-            <h6 class="card-title m-0">{{ post.title }}</h6>
-            <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
-            <a href="{{ post.url }}" class="btn btn-sm btn-outline-primary">Read guide</a>
+            <h6 class="card-title m-0">{{ guide.title }}</h6>{{ guide.categories }}
+            <p class="card-text"><small class="text-muted">{{ guide.date | date_to_string }}</small></p>
+            <a href="{{ guide.url }}" class="btn btn-sm btn-outline-primary">Read guide</a>
           </div>
         </div>
       </div>
       {% endfor %}
   </div>
 </div>
-
