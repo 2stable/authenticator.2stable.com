@@ -149,14 +149,14 @@
 }
 
 .anchorjs-link {
-  opacity: 0.5;
+  opacity: 0.8;
   text-decoration: none;
   /* -webkit-font-smoothing: antialiased; */
 }
 
 .anchorjs-link {
   font-weight: 400;
-  color: rgba(13,110,253,0.01);
+  color: rgba(13,110,253,0.2);
   transition: color 0.15s ease-in-out;
 }
 
