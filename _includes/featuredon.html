@@ -1,15 +1,13 @@
-<div class="text-center py-5" id="featured">
+<div class="text-center pb-4 pt-md-4" id="featured">
     <!-- <h2>Featured on</h2> -->
-    <div class="row">
+    <div class="d-flex justify-content-center flex-wrap py-4">
         {% for source in site.data.featuredon.sources %}
-        <div class="col py-md-2">
-          <div class="card border-0 py-3 h-100">
-              <a href="{{ source.url }}" style="text-decoration: none" target="_blank" class="hover">
+        <div class="card border-0 pb-2 px- mx-auto w-auto h-100">
+            <a href="{{ source.url }}" style="text-decoration: none" target="_blank" class="hover">
                 <div class="card-body">
-                    <img width="160" src="{{ source.img }}" alt="{{ source.name }}">
+                    <img class="f-width" src="{{ source.img }}" alt="{{ source.name }}">
                 </div>
-             </a>
-          </div>
+            </a>
         </div>
         {% endfor %}
     </div>

@@ -130,6 +130,16 @@
   }
 }
 
+@media (min-width: 768px){
+  .f-width {
+    width: 160px !important;
+  }
+}
+
+.f-width {
+  width: 120px;
+}
+
 .change-log-new {
   margin-left: 74px;
 }

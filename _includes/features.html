@@ -1,16 +1,16 @@
-<div class="pb-4 py-md-5" id="features">
+<div class="pt-md-5" id="features">
   <div class="text-center mx-auto pb-5">
     {% for item in site.features-privacy %}
     <!-- <div class="h2">{{ item.title }}</div> -->
     <h2>{{ item.title }}<a class="anchorjs-link" aria-label="Anchor" data-anchorjs-icon="#" href="#features" style="padding-left: 0.375em;"></a></h2>
     <div class="d-flex justify-content-center text-center">
-      <div class="col-md-5 d-flex lead">
+      <div class="col-md-8 d-flex lead">
         <p>{{ item.details }}</p>
       </div>
     </div>
     {% endfor %}
   </div>
-  <div class="row justify-content-center pt-md-5">
+  <div class="row justify-content-center">
     <div class="col-md-10">
       <ul class="row p-0 justify-content-center" style="list-style: none">
         {% for feature in site.data.features.features %}
