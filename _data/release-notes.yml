@@ -1,11 +1,22 @@
 notes:
-  - version: 3.6.0
-    date: Next update
+  - version: TBD
+    date: Coming soon
     badges:
-      - NEW
+      - TBD
     changes:
-        new:
-        - Custom Keyboard
+          tbd:
+            - U2F support
+            - Browser Extension
+            - Unlock with Apple Watch
+            - Localization
+            - and more to be decided
+  # - version: 3.6.0
+  #   date: Next update
+  #   badges:
+  #     - NEW
+  #   changes:
+  #         new:
+  #           - Custom Keyboard
   - version: 3.5.0
     date: Apr 7, 2021
     badges:
