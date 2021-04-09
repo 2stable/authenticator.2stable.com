@@ -26,8 +26,7 @@ notes:
     changes:
         added:
         fixed:
-          - A bug related to <strong>Biometry</strong> sometimes there was a possibility to change the password with Face / Touch ID when <strong>Auto-Lock</strong> was disabled.
-          - A bug related to <strong>Help</strong>, the guide images are now adjusted for iPad.      
+          - A bug related to <strong>Biometry</strong> sometimes there was a possibility to change the password with Face / Touch ID when <strong>Auto-Lock</strong> was disabled.   
         improved:
   - version: 3.5.0
     date: Apr 7, 2021
