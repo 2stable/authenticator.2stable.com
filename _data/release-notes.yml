@@ -17,6 +17,18 @@ notes:
   #   changes:
   #         new:
   #           - Custom Keyboard
+  - version: 3.5.1
+    date: Apr 9, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+        added:
+        fixed:
+          - A bug related to <strong>Biometry</strong> sometimes there was a possibility to change the password with Face / Touch ID when <strong>Auto-Lock</strong> was disabled.
+          - A bug related to <strong>Help</strong>, the guide images are now adjusted for iPad.      
+        improved:
   - version: 3.5.0
     date: Apr 7, 2021
     badges:
@@ -29,7 +41,7 @@ notes:
           - A possibility to change the password with biometry (if enabled).
           - More answers to the <strong>Help</strong> section.
         fixed:
-          - Fixed a bug related to <strong>Auto-Lock</strong> that could prevent disable <strong>Auto-Lock</strong> if biometry was enabled.
+          - A bug related to <strong>Auto-Lock</strong> that could prevent disable <strong>Auto-Lock</strong> if biometry was enabled.
         improved:
   - version: 3.4.0
     date: Feb 23, 2021
