@@ -47,3 +47,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-minifier
+  - jekyll-feed
