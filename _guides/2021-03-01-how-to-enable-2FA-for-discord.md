@@ -6,7 +6,6 @@ author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-discord/
 image: /assets/guides/discord/discord.svg
-# categories: ssasa
 ---
 <div class="py-5">    
     {% for step in site.data.guides.discord.steps %}

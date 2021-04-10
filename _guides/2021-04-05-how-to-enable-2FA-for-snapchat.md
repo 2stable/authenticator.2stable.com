@@ -6,4 +6,6 @@ author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-snapchat/
 image: /assets/guides/snapchat/snapchat.svg
+# published: false
+state: soon
 ---

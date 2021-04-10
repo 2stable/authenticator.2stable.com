@@ -7,4 +7,5 @@ twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-amazon/
 image: /assets/guides/amazon/amazon.svg
 # published: false
+state: soon
 ---

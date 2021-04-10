@@ -6,4 +6,6 @@ author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-bittrex/
 image: /assets/guides/bittrex/bittrex.svg
+# published: false
+state: soon
 ---

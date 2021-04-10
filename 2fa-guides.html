@@ -27,7 +27,11 @@ permalink: /2fa-guides/
           <div class="card-body">
             <h6 class="card-title m-0">{{ guide.title }}</h6>
             <p class="card-text"><small class="text-muted">{{ guide.date | date_to_string }}</small></p>
+            {% if guide.state == "soon" %}
+            <p class="btn btn-sm btn-outline-secondary m-0">Soon</p>
+            {% else %}
             <a href="{{ guide.url }}" class="btn btn-sm btn-outline-primary">Read guide</a>
+            {% endif %}
           </div>
         </div>
       </div>

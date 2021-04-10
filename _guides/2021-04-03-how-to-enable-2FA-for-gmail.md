@@ -6,4 +6,6 @@ author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-gmail/
 image: /assets/guides/gmail/gmail.svg
+# published: false
+state: soon
 ---

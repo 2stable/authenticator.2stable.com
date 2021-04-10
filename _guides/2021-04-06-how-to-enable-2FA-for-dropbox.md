@@ -6,4 +6,6 @@ author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-dropbox/
 image: /assets/guides/dropbox/dropbox.svg
+# published: false
+state: soon
 ---
