@@ -7,7 +7,7 @@ twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-discord/
 image: /assets/guides/discord/discord.svg
 ---
-<div class="py-5">    
+<div class="pb-5 py-md-5">    
     {% for step in site.data.guides.discord.steps %}
     <section class="guide-release-note position-relative py-6 px-2 text-left">
         <header class="guide-timeline-decorator d-flex align-items-center mb-1">

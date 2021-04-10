@@ -30,7 +30,7 @@
             <!-- <div class="bg rounded my-3 mt-md-4 mb-md-5" style="width: 800px; height: 380px; background-image: url('{{ page.image }}')"></div> -->
             <div class="col-lg-8">
                 <div class="py-md-5 py-3">
-                  <img class="w-100 rounded" src="{{ page.image }}" alt="">
+                  <img class="w-100 rounded" src="{{ page.image }}" alt="{{ page.permalink }}">
                 </div>
                 <h1>{{ page.title | default: site.title }}</h1>
                 <p class="text-muted">{{ page.date | date_to_string }} - by <a href="https://twitter.com/{{ page.twitter }}" style="text-decoration: none !important" target="_blank">{{ page.author }}</a></p>
