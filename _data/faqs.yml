@@ -1,0 +1,25 @@
+questions:
+  - title: What is Authenticator?
+    id: questionOne
+    target: collapsOne
+    details: Authenticator is an iOS application used for two-factor authentication to provide an additional level of security for your online sites. When you log in to your online account and enter your username and password, you will be prompted for the security code from the authenticator app on your device.
+
+  - title: What are the advantages of our Authenticator app?
+    id: questionTwo
+    target: collapsTwo
+    details: The key advantage is the approach. With security and privacy in mind, we designed this app to be convenient for everyone. No account required. All data are encrypted by default even if stored in iCloud. Synchronization and Backup. User-friendly and native experience all Apple devices.
+
+  - title: How to enable Two-Factor Authentication on websites?
+    id: questionThree
+    target: collapsThree
+    details: The majority of sites (Gmail, Office 365, Dropbox, Facebook, etc.) support two-factor authentication (2fa) and usually provide a step by step guide in how to enable that security option. Alternatively, you can visit our 2FA Guides page. 
+
+  - title: I forgot my password, how do I reset it?
+    id: questionFour
+    target: collapsFour
+    details: For security reasons, we do not know your password or store any records of it, and therefore, cannot reset or recover it for you. We encourage you to reinstall the app and firmly remember your password.
+
+  - title:  How to set up Authenticator on Apple Watch?
+    id: questionFive
+    target: collapsFive
+    details: "Before you can start using Authenticator on your Apple Watch, you’ll need to get Authenticator on your iPhone. Then follow these steps: <br><br>1. Open Authenticator on your phone <br>2. Tap Settings <br>3. Enable Apple Watch <br>4. Add at least 1 account"
