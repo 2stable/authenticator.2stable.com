@@ -1,8 +1,8 @@
 questions:
-  - title: What is Authenticator?
+  - title: What is Authenticator app?
     id: questionOne
     target: collapsOne
-    details: Authenticator is an iOS application used for two-factor authentication to provide an additional level of security for your online sites. When you log in to your online account and enter your username and password, you will be prompted for the security code from the authenticator app on your device.
+    details: Authenticator is an app that generates secure two-factor authentication (2FA) codes for your accounts. When you set up your account with two-factor authentication (2FA), you will receive a secret key to enter into the Authenticator, usually, the key is in a QR code form. This establishes a secure connection between Authenticator and your account. Once this secure connection is established, the Authenticator will generate a 6-8 digit code that is required to access your account. Even, if someone knows your password they still need the 2FA code to access your account.
 
   - title: What are the advantages of our Authenticator app?
     id: questionTwo
@@ -17,7 +17,7 @@ questions:
   - title: I forgot my password, how do I reset it?
     id: questionFour
     target: collapsFour
-    details: For security reasons, we do not know your password or store any records of it, and therefore, cannot reset or recover it for you. We encourage you to reinstall the app and firmly remember your password.
+    details: "If you want to continue using Authenticator, you will need to wipe all the data and start from zero. To reset Authenticator and erase all the data you need to follow the next steps: <br><br>1. Introduce the wrong password 3 times in a row. <br>2. In the top right corner press on "Forgot" <br>3. Erase all the data <br><br> Once you will confirm that you want to erase all your data the app will relaunch and you would be able to set up the authenticator again. <br>NOTE: If you will erase all your data, there will be no way to recover your accounts."
 
   - title:  How to set up Authenticator on Apple Watch?
     id: questionFive
