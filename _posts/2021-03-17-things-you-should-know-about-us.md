@@ -3,7 +3,7 @@ layout: post
 author: Kevin Archer
 twitter: IM_Kevin_Archer
 permalink: /things-you-should-know-about-us/
-image: /assets/blog/001.png
+image: /assets/blog/001.jpg
 # published: false
 ---
 
