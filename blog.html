@@ -1,5 +1,5 @@
 ---
-layout: clean
+layout: blog
 title: Blog
 description: News and announcements for all things, including new releases.
 permalink: /blog/
@@ -15,22 +15,22 @@ permalink: /blog/
 </div>
 
 <div class="container">
-    {% for post in site.posts %}
-    <div class="py-2 py-md-4">
-    <a href="{{ post.url }}" style="text-decoration: none !important">
-        <div class="row ">
-            <div class="col-md-5">
-                <img class="rounded" src="{{ post.image }}" width="100%" height="auto" alt="...">
-            </div>
-            <div class="col-md-7">
-                <div class="card-body">
-                    <h4 class="card-title">{{ post.title }}</h4>
-                    <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
-                    <span class="card-text text-dark">{{ post.excerpt }}</span>
+    <!-- {% for post in site.posts %} -->
+    <div class="py-2 pb-5">
+        <a href="{{ post.url }}" style="text-decoration: none !important">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <img class="rounded" src="{{ post.image }}" width="100%" height="auto" alt="...">
+                </div>
+                <div class="col-lg-4">
+                    <div class="card-body">
+                        <h4 class="card-title">{{ post.title }}</h4>
+                        <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
+                        <span class="card-text text-dark">{{ post.excerpt }}</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </a>
+        </a>
     </div>
-    {% endfor %}
+    <!-- {% endfor %} -->
   </div>
