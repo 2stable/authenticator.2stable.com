@@ -11,7 +11,6 @@
       </script>
     {% endif %}
     <meta charset="UTF-8">
-
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -30,7 +29,7 @@
         <div class="row justify-content-center px-md-5 pb-4">
             <div class="col col-lg-8">
               <div class="p-5 m-md-5">
-                <img class="w-100 rounded" src="{{ page.image }}" alt="{{ page.permalink }}">
+                <img class="w-100 rounded" src="{{ page.my-image }}" alt="{{ page.permalink }}">
               </div>
               <h1>{{ page.title | default: site.title }}</h1>
               <p class="text-muted">{{ page.date | date_to_string }} - by <a href="https://twitter.com/{{ page.twitter }}" style="text-decoration: none !important" target="_blank">{{ page.author }}</a></p>
