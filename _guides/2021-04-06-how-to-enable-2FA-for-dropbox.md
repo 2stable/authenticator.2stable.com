@@ -5,7 +5,7 @@ description: A Step-by-Step how to setup two-factor authentication option for Dr
 author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-dropbox/
-image: /assets/guides/dropbox/dropbox.svg
+my-image: /assets/guides/dropbox/dropbox.svg
 # published: false
 state: soon
 ---

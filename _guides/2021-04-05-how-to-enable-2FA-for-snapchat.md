@@ -5,7 +5,7 @@ description: A Step-by-Step how to setup two-factor authentication option for Sn
 author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/how-to-enable-2FA-for-snapchat/
-image: /assets/guides/snapchat/snapchat.svg
+my-image: /assets/guides/snapchat/snapchat.svg
 # published: false
 state: soon
 ---
