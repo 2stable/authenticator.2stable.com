@@ -20,7 +20,7 @@ All your data is encrypted (end-to-end encryption) and decrypted locally on your
 
 <br>
 
-#### Secure Encrypted Backup
+#### Secure encrypted backup
 You can set Authenticator by 2Stable to automatically ask you the password or your Face / Touch ID every time you open the app.
 
 <br>
