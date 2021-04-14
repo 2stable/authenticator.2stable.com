@@ -55,4 +55,4 @@ We hope that you or your team will use Authenticator by 2Stable forever, but we 
 
 <br>
 
-##### We know there are several Authenticator apps to choose from. They all have different names but promise to do the same thing: securely store, manage and generate 2FA codes for your online accounts. You can choose the Authenticator app that best suits your needs, but doesn't forget to choose one.
+We know there are several Authenticator apps to choose from. They all have different names but promise to do the same thing: securely store, manage and generate 2FA codes for your online accounts. You can choose the Authenticator app that best suits your needs, but doesn't forget to choose one.
