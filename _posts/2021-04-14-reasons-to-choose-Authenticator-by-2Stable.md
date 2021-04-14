@@ -23,12 +23,12 @@ All your data is encrypted (end-to-end encryption) and decrypted locally on your
 <br>
 
 #### Secure encrypted backup
-You can set Authenticator by 2Stable to automatically ask you the password or your Face / Touch ID every time you open the app.
+You can always backup your data and restore it in case you lose your device or switch to a new one. All your backed-up data is saved on your iCloud account in encrypted form. Nobody should ever pass through such a negative experience as losing access to their accounts.
 
 <br>
 
 #### Auto-lock
-You can always backup your data and restore it in case you lose your device or switch to a new one. All your backed-up data is saved on your iCloud account in encrypted form. Nobody should ever pass through such a negative experience as losing access to their accounts.
+You can set Authenticator by 2Stable to automatically ask you the password or your Face / Touch ID every time you open the app.
 
 <br>
 
