@@ -8,12 +8,12 @@
           {% for app in site.appstore %}
           <li class="pb-3">
             <a href="{{ app.url }}" target="_blank">
-              <img src="{{ app.src }}" alt="{{ app.alt }}" height="54">
+              <img src="{{ app.src }}" alt="{{ app.alt }}" height="48">
             </a>
           </li>
           {% endfor %}
           </ul>
-          <span class="text-muted" id="version"></span>
+          <span class="text-muted" id="version">loading</span>
           <div class="pt-4">
             <div class="d-flex justify-content-start">
               <span class="pe-2 pb-3">
