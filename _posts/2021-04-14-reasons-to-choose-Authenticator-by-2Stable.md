@@ -13,7 +13,7 @@ Passwords can be forgotten or compromised and multi-factor authentication (MFA) 
 <br>
 
 #### No account required
-To start using Authenticator by 2Stable you don't need to set up an account or a phone number, all the data is saved on your iCloud account in encrypted form. To access your data you just need to remember your iCloud account.
+To start using Authenticator by 2Stable you don't need to set up an account or a phone number, all the data is saved on your iCloud account in encrypted form. To access your data you just need to remember your password that you choose to encrypt your data and your iCloud account.
 
 <br>
 
