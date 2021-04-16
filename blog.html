@@ -19,13 +19,13 @@ permalink: /blog/
         <a href="{{ post.url }}" style="text-decoration: none !important">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
-                    <img class="rounded" src="{{ post.image }}" width="100%" height="auto" alt="...">
+                    <img class="rounded w-100" src="{{ post.image }}" alt="{{ post.permalink }}">
                 </div>
                 <div class="col-lg-4">
                     <div class="card-body">
                         <h4 class="card-title">{{ post.title }}</h4>
                         <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
-                        <span class="card-text text-dark">{{ post.excerpt }}</span>
+                        <div class="text-dark">{{ post.excerpt }}</div>
                     </div>
                 </div>
             </div>
