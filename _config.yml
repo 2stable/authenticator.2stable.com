@@ -20,7 +20,7 @@ bootstrap-icons: '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boot
 microanalytics: '<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>'
 local-css: '<link rel="stylesheet" href="/local.css">'
 
-# patch  for privacy and terms
+# patch for privacy and terms
 APP_NAME: Authenticator
 
 collections:
