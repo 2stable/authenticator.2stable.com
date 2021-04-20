@@ -35,7 +35,6 @@
               </div>
               <h1>{{ page.title | default: site.title }}</h1>
               <p class="text-muted">{{ page.date | date_to_string }} - by <a href="https://twitter.com/{{ page.twitter }}" style="text-decoration: none !important" target="_blank">{{ page.author }}</a></p>
-              <!-- <a href="https://twitter.com/intent/tweet?text={{ page.title }}&amp;url=https://authenticator.2stable.com{{ page.permalink }}&amp;hashtags=security,2fa&amp;via={{ page.twitter }}&amp;related=@authwidget"><span class="badge bg-primary">Tweet</span></a> -->
               <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="{{ page.twitter }}" data-hashtags="{{ page.tags }}" data-related="AuthWidget" data-show-count="true">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
