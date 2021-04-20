@@ -6,7 +6,6 @@ permalink: /things-you-should-know-about-us/
 image: /assets/blog/001.jpg
 # published: false
 ---
-
 2Stable is a starting company of 4 members, located in Andorra, a small team with big ambitions and energy to provide solutions to day-to-day problems. 
 
 We have more than 10 years of experience in developing & creating tech products. Our slogan is very simple: *Create easy, gorgeous, and secure or don't create anything*.
