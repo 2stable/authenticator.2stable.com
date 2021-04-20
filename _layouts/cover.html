@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" class="h-100">
   <head>
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -33,10 +33,18 @@
     <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
     <link rel="stylesheet" href="/local.css">
   </head>
-  <body>
-    {%- include nav.html -%}
-    {{ content }}
-    {%- include footer.html -%}
+  <body class="d-flex h-100 text-center">
+    <div class="d-flex w-100 h-100 mx-auto flex-column">
+        <div class="mb-auto">
+            {%- include nav.html -%}
+        </div>
+        <div class="px-2">
+            {{ content }}
+        </div>
+        <div class="mt-auto">
+            {%- include footer.html -%}
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
