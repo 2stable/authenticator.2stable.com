@@ -19,10 +19,10 @@ image: /assets/guides/2fa-2stable.jpg
 </div>
 <div class="container pb-5">
   <div class="row">
-      {% for guide in site.guides %}
+      {% for guide in site.guides reversed %}
       <div class="col-lg-3 col-md-4 p-3">
-        <div class="card border h-100">
-          <div class="bg-light text-center d-flex" style="height: 120px;">
+        <div class="card h-100">
+          <div class="bg-light text-center d-flex rounded-top" style="height: 120px;">
             <img class="d-block m-auto p-2" src="{{ guide.my-image }}" style="width: 50%" alt="{{ guide.title }}">
           </div>
           <div class="card-body">
