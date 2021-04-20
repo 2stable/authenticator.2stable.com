@@ -2,12 +2,13 @@
 layout: post-2fa-guides
 title: How to enable 2FA for Discord
 description: A Step-by-Step how to setup two-factor authentication option for Discord
-author: Aries Ikel
-twitter: i40504
-twitter-2stable: authwidget
 permalink: /2fa-guides/how-to-enable-2FA-for-discord/
 my-image: /assets/guides/discord/discord.svg
 image: /assets/guides/discord/2fa-discord.jpg
+tags: "2fa, security, TwoFactorAuthentication"
+author: Aries Ikel
+twitter: i40504
+twitter-2stable: AuthWidget
 ---
 <div class="pb-5 py-md-5">    
     {% for step in site.data.guides.discord.steps %}
