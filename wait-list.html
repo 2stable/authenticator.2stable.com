@@ -14,10 +14,16 @@ image: /assets/img/icon-1025.png
         <p class="lead">{{ page.description }}</p>
     </div>
     <div class="">
-        <form class="col-9 col-md-6 col-lg-6 mx-auto pt-md-5 pt-3">
+        <form 
+            class="col-9 col-md-6 col-lg-6 mx-auto pt-md-5 pt-3"
+            name="android-wait-list"
+            accept-charset="utf-8"
+            action="https://formspree.io/f/mgervlyo"
+            method="POST"
+        >
             <div class="mb-md-5 mb-4">
                 <label for="androidInputEmail1" class="form-label">Email:</label>
-                <input width="100" type="email" class="form-control" id="androidInputEmail1" aria-describedby="emailAndroid">
+                <input width="100" type="email" class="form-control" name="email" id="androidInputEmail1" aria-describedby="emailAndroid" required>
                 <div id="emailAndroid" class="form-text">Your Privacy is Our Policy</div>
             </div>
             <button type="submit" class="btn btn-primary px-4">Submit</button>
