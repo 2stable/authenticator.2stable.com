@@ -19,7 +19,7 @@ questions:
     target: collapsFour
     details: "We don’t have access to the user's data or passwords and unfortunately, we can’t recover any account or reset the password you choose to encrypt your data (this is part of our security model).<br><br>If you want to continue using Authenticator, you will need to wipe all the data and start from zero. To reset Authenticator and erase all the data you need to follow the next steps: <br><br>1. Introduce the wrong password 3 times in a row. <br>2. In the top right corner press on <strong>Forgot</strong>. <br>3. Erase all the data. <br><br> Once you will confirm that you want to erase all your data the app will relaunch and you would be able to set up the authenticator again. <br><br><code>NOTE:</code> If you will erase all your data, there will be no way to recover your accounts."
 
-  - title:  How to set up Authenticator on Apple Watch?
+  - title: How to set up Authenticator on Apple Watch?
     id: questionFive
     target: collapsFive
     details: "Before you can start using Authenticator on your Apple Watch, you’ll need to get Authenticator on your iPhone. Then follow these steps: <br><br>1. Open Authenticator on your phone. <br>2. Tap Settings. <br>3. Enable Apple Watch. <br>4. Add at least 1 account."
