@@ -33,12 +33,12 @@ You can set Authenticator by 2Stable to automatically ask you the password or yo
 <br>
 
 #### Multi-device usage
-You can use Authenticator by 2Stable on all devices from the Apple ecosystem including the Apple watch, as a part of the security we try to maximize the user experience by ensuring a native look on all devices.
+You can use Authenticator by 2Stable on all devices from the Apple ecosystem including the Apple watch, apart from the security, we try to maximize the user experience by ensuring a native look on all devices.
 
 <br>
 
 #### Backup codes
-You can easily & securely store your backup code for your online account in Authenticator by 2Stable, in case something prevents you from accessing the 2FA code you can always use the backup code.
+You can easily & securely store your backup code for your online account in Authenticator by 2Stable, in case something prevents you from accessing the 2FA code, you can always use the backup code stored in Authenticator.
 
 <br>
 
