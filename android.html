@@ -2,7 +2,7 @@
 layout: 2fa-guides
 title: Authenticator for Android
 description: Sign up to be notified when it's available
-permalink: /wait-list/
+permalink: /android/
 image: /assets/img/icon-1025.png
 --- 
 <div class="container pb-md-5 pb-4 col-lg-6">
@@ -13,20 +13,19 @@ image: /assets/img/icon-1025.png
         <h2>{{ page.title }}</h2>
         <p class="lead">{{ page.description }}</p>
     </div>
-    <div class="">
+    <div>
         <form 
-            class="col-9 col-md-6 col-lg-6 mx-auto pt-md-5 pt-3"
+            class="mx-auto pt-md-5 pt-3 form-me"
             name="android-wait-list"
             accept-charset="utf-8"
             action="https://formspree.io/f/mgervlyo"
-            method="POST"
-        >
-            <div class="mb-md-5 mb-4">
-                <label for="androidInputEmail1" class="form-label">Email:</label>
-                <input width="100" type="email" class="form-control" name="email" id="androidInputEmail1" aria-describedby="emailAndroid" required>
+            method="POST">
+            <div class="form-floating mb-4">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+                <label for="floatingInput">Email address</label>
                 <div id="emailAndroid" class="form-text">Your Privacy is Our Policy</div>
             </div>
-            <button type="submit" class="btn btn-primary px-4">Submit</button>
+            <button type="submit" class="btn btn-lg btn-primary px-4">Submit</button>
         </form>
     </div>
 </div>
