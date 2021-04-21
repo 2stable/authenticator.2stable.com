@@ -8,34 +8,31 @@
       </div>
       <div class="col-md-2 col-sm-4 ms-auto col pb-1 mb-4">
         <div class="widget widget-light">
-          <h5 class="widget-title">Company</h5>
+          <h5 class="widget-title">{{ site.footer-c-name }}</h5>
           <ul>
-            <li><a class="widget-link" href="/about/">About</a></li>
-            <li><a class="widget-link" href="/press/">Press</a></li>
-            <li><a class="widget-link" href="{{ site.support_mail }}">Email us</a></li>
+            {% for item in site.footer-c %}
+            <li><a class="widget-link" href="{{ item.href }}">{{ item.name }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
       <div class="col-lg-2 col-md-3 col-sm-4 col pb-1 mb-4">
         <div class="widget widget-light">
-          <h5 class="widget-title">Resources</h5>
+            <h5 class="widget-title">{{ site.footer-r-name }}</h5>
           <ul>
-            <li><a class="widget-link" href="https://authenticator.2stable.com/#faqs">Support</a></li>
-            <li><a class="widget-link" href="/blog/">Blog</a></li>
-            <li><a class="widget-link" href="/2fa-guides/">2FA Guides</a></li>
-            <li><a class="widget-link" href="https://authenticator.2stable.com/#changelog">Changelog</a></li>
+            {% for item in site.footer-r %}
+            <li><a class="widget-link" href="{{ item.href }}">{{ item.name }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
       <div class="col-lg-2 col-md-3 col-sm-4 col mb-4">
         <div class="widget widget-light">
-          <h5 class="widget-title">Downloads</h5>
+          <h5 class="widget-title">{{ site.footer-d-name }}</h5>
           <ul>
-            <li><a class="widget-link" href="https://apps.apple.com/app/apple-store/id1538761576#?platform=mac">macOS</a></li>
-            <li><a class="widget-link" href="https://apps.apple.com/app/apple-store/id1538761576#?platform=iphone">iOS</a></li>
-            <li><a class="widget-link" href="https://apps.apple.com/app/apple-store/id1538761576#?platform=ipad">iPadOS</a></li>
-            <li><a class="widget-link" href="https://apps.apple.com/app/apple-store/id1538761576#?platform=appleWatch">watchOS</a></li>
-            <li><a class="widget-link" href="/android/">Android</a></li>
+            {% for item in site.footer-d %}
+            <li><a class="widget-link" href="{{ item.href }}">{{ item.name }}</a></li>
+            {% endfor %}
           </ul>
         </div>
       </div>
@@ -50,7 +47,7 @@
       </div>
       <div class="col-md-6 order-md-1 mb-3">
         <p class="mb-1"><span class="text-light opacity-50 me-1">© All rights reserved.</span><a class="nav-link-style nav-link-light" href="https://2stable.com" target="_blank" rel="noopener">2Stable</a></p>
-        <p><span class="opacity-50">Avenida el Través, 31, AD400 La Massana, Andorra</span><img class="mx-1" src="/assets/img/AD - Andorra.svg" width="20" alt="Flag of Andorra"></p>
+        <!-- <p><span class="opacity-50">Avenida el Través, 31, AD400 La Massana, Andorra</span><img class="mx-1" src="/assets/img/AD - Andorra.svg" width="20" alt="Flag of Andorra"></p> -->
       </div>
     </div>
   </div>

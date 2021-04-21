@@ -15,8 +15,8 @@
       <ul class="row p-0 justify-content-center" style="list-style: none">
         {% for feature in site.data.features.features %}
           <li class="col-md-6 col-lg-4 pb-5">
-            <img class="mb-2" src="{{ feature.image }}" alt="{{ feature.title }}" width="40">
-            <p class="fw-bold">{{ feature.title }}</p>  
+            <img class="mb-3" src="{{ feature.image }}" alt="{{ feature.title }}" width="40">
+            <p class="fw-bold mb-1">{{ feature.title }}</p>  
             <p class="pe-5">{{ feature.details }}</p>
           </li>
         {% endfor %} 

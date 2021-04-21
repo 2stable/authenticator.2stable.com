@@ -21,6 +21,39 @@ bootstrap-icons: '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boot
 microanalytics: '<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>'
 local-css: '<link rel="stylesheet" href="/local.css">'
 
+footer-c-name: Company
+footer-c:
+  - name: About
+    href: /about/
+  - name: Press
+    href: /press/
+  - name: Email us
+    href: mailto:support@2stable.com
+
+footer-r-name: Resources
+footer-r:
+  - name: Support
+    href: https://authenticator.2stable.com/#faqs
+  - name: Blog
+    href: /blog/
+  - name: 2FA Guides
+    href: /2fa-guides/
+  - name: Changelog
+    href: https://authenticator.2stable.com/#changelog
+
+footer-d-name: Downloads
+footer-d:
+  - name: macOS
+    href: https://apps.apple.com/app/apple-store/id1538761576#?platform=mac
+  - name: iOS
+    href: https://apps.apple.com/app/apple-store/id1538761576#?platform=iphone
+  - name: iPadOS
+    href: https://apps.apple.com/app/apple-store/id1538761576#?platform=ipad
+  - name: watchOS
+    href: https://apps.apple.com/app/apple-store/id1538761576#?platform=appleWatch
+  - name: Android
+    href: /android/
+
 # patch for privacy and terms
 APP_NAME: Authenticator
 
