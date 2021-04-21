@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}" class="h-100">
   <head>
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
@@ -24,10 +24,12 @@
     <!-- microanalytics  -->
     {{ site.microanalytics }}
   </head>
-  <body>
-    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
-    {%- include nav.html -%}
-    <main id="content" class="container">
+  <body class="d-flex h-100">
+    <div class="d-flex w-100 h-100 mx-auto flex-column">
+      <div class="mb-auto">
+        {%- include nav.html -%}
+    </div>
+    <div id="content" class="container">
         <div class="row justify-content-center px-md-5 pb-4">
             <div class="col col-lg-8">
               <div class="p-5 m-md-5">
@@ -35,7 +37,9 @@
               </div>
               <h1>{{ page.title | default: site.title }}</h1>
               <p class="text-muted">{{ page.date | date_to_string }} - by <a href="https://twitter.com/{{ page.twitter }}" style="text-decoration: none !important" target="_blank">{{ page.author }}</a></p>
-              <!-- <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="{{ page.twitter }}" data-hashtags="{{ page.tags }}" data-related="AuthWidget" data-show-count="true"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+              <div style="height: 30px;">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="{{ page.twitter }}" data-hashtags="{{ page.tags }}" data-related="AuthWidget" data-show-count="true"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
             </div>
         </div>
         <div class="row justify-content-center px-md-5">
@@ -43,8 +47,11 @@
                 {{ content }}          
             </div>
         </div>
-    </main>
-    {%- include footer.html -%}
+      </div>
+      <div class="mt-auto">
+        {%- include footer.html -%}
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- JavaScript Bundle with Popper -->
