@@ -6,12 +6,17 @@
     background-size: cover;
   }
 
-.hover:hover {
-  /* box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important; */
-  /* box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important; */
-  box-shadow: 0 .25rem 0.5rem rgba(0,0,0,.075)!important;
+.hover {
   border-radius: 0.5rem;
-  /* transform: scale(1.01, 1.01); */
+  transition: width .25s, box-shadow .25s;
+  transition: transform 0.25s ease;
+  /* transition: color 0.25s ease-in-out,background-color 0.25s ease-in-out,box-shadow 0.25s ease-in-out,border-color 0.25s ease-in-out; */
+}
+
+.hover:hover {
+  box-shadow: 0 0.2rem 0.75rem rgba(0,0,0,.1);
+  border-radius: 0.5rem;
+  transform: scale(1.01, 1.01);
 }
 
 .release-note:first-of-type .timeline-decorator::before {
@@ -232,7 +237,7 @@ ul {
   padding: 0.25rem 0;
   transition: color 0.25s ease-in-out;
   color: rgba(255,255,255,0.7);
-  /* font-weight: 500; */
+  /* font-weight: 300; */
   text-decoration: none;
 }
 
@@ -246,4 +251,8 @@ ul {
 
 .btn-social:hover {
   color: rgba(255,255,255);
+}
+
+.btn {
+  transition: color 0.25s ease-in-out,background-color 0.25s ease-in-out;
 }
