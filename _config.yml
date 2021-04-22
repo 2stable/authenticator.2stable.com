@@ -24,8 +24,8 @@ local-css: '<link rel="stylesheet" href="/local.css">'
 footer-c-name: Company
 footer-c:
   - name: About
-    href: /about/
-  - name: Press
+    href: https://2stable.com
+  - name: Press Kit
     href: /press/
   - name: Email us
     href: mailto:support@2stable.com
