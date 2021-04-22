@@ -9,7 +9,7 @@ tags: "2fa, security, TwoFactorAuthentication"
 author: Aries Ikel
 twitter: i40504
 twitter-2stable: AuthWidget
-published: false
+published: true
 ---
 <div class="pb-5 py-md-5">    
     {% for step in site.data.guides.facebook.steps %}

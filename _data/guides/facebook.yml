@@ -2,59 +2,64 @@ steps:
   - name: Locate 2FA Setting
     index: 1
     details: Log in to your Facebook account and go to <strong>Settings & privacy</strong>.
-    img: /assets/guides/facebook/facebook_1.png
+    img: /assets/guides/facebook/facebook_1.webp
 
   - name: Next Page
     index: 2
     details: Choose <strong>Settings</strong> tab.
-    img: /assets/guides/facebook/facebook_2.png
+    img: /assets/guides/facebook/facebook_2.webp
 
   - name: Next
     index: 3
-    details: Choose <strong>Security and login</strong> tab.
-    img: /assets/guides/facebook/facebook_3.png
+    details: Choose <strong>Security and login</strong> tab, scroll down to <strong>Use two-factor authentication</strong> and click <strong>Edit</strong>.
+    img: /assets/guides/facebook/facebook_3.webp
 
   - name: Enable 2FA
-    index: 3
-    details: Turn on 2FA
-    img: /assets/guides/facebook/facebook_3.png
+    index: 4
+    details: Click on the button that reads <strong>Use Authenticator App</strong>. It will prompt you to confirm your Facebook password.
+    img: /assets/guides/facebook/facebook_4.webp
+
+  - name: QR Code
+    index: 5
+    details: A pop-up window will appear for you to scan the QR Code with Authenticator App. Keep this window open as you reach for your phone. Note that anywhere (not just Facebook) that prompts Google Authenticator also supports Authenticator App.
+    img: /assets/guides/facebook/facebook_5.webp
 
   - name: Capture QR Code
-    index: 4
-    details: Take out your mobile device and open the Authenticator App. At the bottom of the screen, tap the plus sign to scan a new account and hold your device up to the computer screen
-    img: /assets/guides/facebook/facebook_4.png
+    index: 6
+    details: Take out your mobile device and open the Authenticator App. At the bottom of the screen, tap the <strong>plus</strong> sign to scan a new account and hold your device up to the computer screen.
+    img: /assets/guides/facebook/facebook_6.webp
 
   - name: Save account
-    index: 5
-    details: After successfully scanning the QR Code, the Authenticator App will automatically choose the facebook logo and autofill account name and secret key. Confirm it’s correct by clicking <strong>Save</strong>.
-    img: /assets/guides/facebook/facebook_5.png
+    index: 7
+    details: After successfully scanning the QR Code, the Authenticator App will automatically choose the Facebook logo and autofill account name and secret key. Confirm it’s correct by clicking <strong>Save</strong>.
+    img: /assets/guides/facebook/facebook_7.webp
 
   - name: Two-Factor Authentication Code
-    index: 6
-    details: Record the numerical token provided for facebook. Note that this code refreshes every 30 seconds.
-    img: /assets/guides/facebook/facebook_6.png
+    index: 8
+    details: Record the numerical token provided for Facebook. Note that this code refreshes every 30 seconds.
+    img: /assets/guides/facebook/facebook_8.webp
 
   - name: Complete Enablement
-    index: 7
-    details: Returning to the facebook website, enter the numerical token in the appropriate field. When done click <strong>Activate</strong>.
-    img: /assets/guides/facebook/facebook_7.png
+    index: 9
+    details: Returning to the Facebook website, enter the numerical token in the appropriate field. When done click <strong>Continue</strong>.
+    img: /assets/guides/facebook/facebook_9.webp
 
-  - name: Download back-up codes
-    index: 8
-    details: You will now be shown your facebook back-up codes. These codes are one-time use each. If you run out of these codes, you can click the Generate Codes button again to re-roll a new set, but doing so will render the previous list obsolete, so be 100% sure to keep the latest set somewhere safe.
-    img: /assets/guides/facebook/facebook_8.png
+  - name: Recovery codes
+    index: 10
+    details: You will now be shown your Facebook back-up codes. These codes are one-time use each. If you run out of these codes, you can click the <strong>Set Up</strong> button again to re-roll a new set, but doing so will render the previous list obsolete, so be 100% sure to keep the latest set somewhere safe.
+    img: /assets/guides/facebook/facebook_10.webp
 # footer 
     footer:
         details:
-          - You’re all set! You’ve enabled Two-Factor Authentication (2FA) for your facebook account. To learn more, visit the facebook support page. Stay safe!
+          - You’re all set! You’ve enabled Two-Factor Authentication (2FA) for your Facebook account. To learn more, visit the Facebook support page. Stay safe!
         more:
           - Learn more
         url:
-          - https://support.facebook.com/hc/en-us/articles/219576828
+          - https://www.facebook.com/help/148233965247823
         action:
           - Was this article helpful?
         buttons:
-         - "Yes"
-         - "No"
+         - " 👍 Yes "
+         - " No "
 
 
