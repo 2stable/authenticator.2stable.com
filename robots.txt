@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://authenticator.2stable.com/sitemap.xml
+Sitemap: https://authenticator.example.com/sitemap.xml
