@@ -4,7 +4,7 @@ title: How to enable 2FA for Facebook
 description: A Step-by-Step guide how to setup two-factor authentication for Facebook
 permalink: /2fa-guides/facebook/
 my-image: /assets/guides/facebook/facebook.svg
-image: /assets/guides/facebook/2fa-facebook.jpg
+image: /assets/guides/facebook/2fa-facebook.jpeg
 tags: "2fa, security, TwoFactorAuthentication"
 author: Aries Ikel
 twitter: i40504
