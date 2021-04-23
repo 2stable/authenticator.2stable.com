@@ -1,8 +1,8 @@
 ---
 layout: post-2fa-guides
 title: How to enable 2FA for Facebook
-description: A Step-by-Step how to setup two-factor authentication option for Facebook
-permalink: /2fa-guides/how-to-enable-2FA-for-facebook/
+description: A Step-by-Step guide how to setup two-factor authentication for Facebook
+permalink: /2fa-guides/facebook/
 my-image: /assets/guides/facebook/facebook.svg
 image: /assets/guides/facebook/2fa-facebook.jpg
 tags: "2fa, security, TwoFactorAuthentication"

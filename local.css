@@ -256,3 +256,12 @@ ul {
 .btn {
   transition: color 0.25s ease-in-out,background-color 0.25s ease-in-out;
 }
+
+.callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #5bc0de;;
+  border-left-width: .25rem;
+  border-radius: .25rem;
+}

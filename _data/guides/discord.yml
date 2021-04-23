@@ -49,7 +49,7 @@ steps:
         action:
           - Was this article helpful?
         buttons:
-         - "Yes"
-         - "No"
+         - " 👍 Yes "
+         - " No "
 
 

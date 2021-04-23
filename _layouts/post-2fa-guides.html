@@ -28,17 +28,23 @@
     <div class="d-flex w-100 h-100 mx-auto flex-column">
       <div class="mb-auto">
         {%- include nav.html -%}
-    </div>
-    <div id="content" class="container">
-        <div class="row justify-content-center px-md-5 pb-4">
+      </div>
+      <div id="content" class="container">
+        <div class="row justify-content-center px-md-5 px-2">
             <div class="col col-lg-8">
-              <div class="p-5 m-md-5">
-                <img class="w-100 rounded" src="{{ page.my-image }}" alt="{{ page.permalink }}">
+              <div class="pe-4 ps-4 pb-4 pt-3 pt-md-0 m-md-5 text-center">
+                <img class="w-75 rounded" src="{{ page.my-image }}" alt="{{ page.permalink }}">
               </div>
               <h1>{{ page.title | default: site.title }}</h1>
               <p class="text-muted">{{ page.date | date_to_string }} - by <a href="https://twitter.com/{{ page.twitter }}" style="text-decoration: none !important" target="_blank">{{ page.author }}</a></p>
               <div style="height: 30px;">
                 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="{{ page.twitter }}" data-hashtags="{{ page.tags }}" data-related="AuthWidget" data-show-count="true"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </div>
+              <div class="callout">
+                <strong>Important:</strong> If any sites prompt you to use Google Authenticator for two-factor authentication, note you can always substitute it with the <a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct={{ page.permalink }}&mt=8">Authenticator by 2Stable</a>. Although they work in similar ways, Authenticator by 2Stable is more feature-rich and allows for multi-device syncing, iCloud-backups, and have easier account recovery in case you lose your device or just want to switch to a new one.
+              </div>
+              <div class="text-center">
+                <a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct={{ page.permalink }}&mt=8" target="_blank"><img src="https://one-badge.com/b/apple/appstore.svg" alt="apple badge download" height="42" class="hover"></a>
               </div>
             </div>
         </div>
