@@ -23,7 +23,7 @@ bootstrap-js-2: '<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3
 analytics: 
   - name: microanalytics
     issuer: '<script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>'
-    include: 0
+    include: 1
   - name: splitbee
     issuer: '<script async src="https://cdn.splitbee.io/sb.js"></script>'
     include: 1
