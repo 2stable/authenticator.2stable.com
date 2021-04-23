@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}" class="h-100">
   <head>
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
+    {% for item in site.analytics %}
+      {% if item.include > 0 %}
+        <!-- {{ item.name }} -->
+        {{ item.issuer }}
+      {% endif %}
+    {% endfor %}
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="{{ site.google_verification }}" />
-{% seo %}
+    {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -21,8 +18,6 @@
     {{ site.bootstrap-icons }}
     <!-- local CSS -->
     {{ site.local-css }}
-    <!-- microanalytics  -->
-    {{ site.microanalytics }}
   </head>
   <body class="d-flex h-100">
     <div class="d-flex w-100 h-100 mx-auto flex-column">
