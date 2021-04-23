@@ -63,7 +63,7 @@ compare:
         - minus
       google: 
         - plus
-  - name: Widget
+  - name: Widgets
     included:
       2stable:
         - plus
