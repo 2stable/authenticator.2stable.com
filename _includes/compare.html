@@ -19,17 +19,17 @@
                 <th scope="row" class="text-start">{{ include.name }}</th>
                 {% if include.included.2stable[0] == "plus" %}
                     <td><i class="text-success h3 bi bi-check"></i></td>
-                {% elsif include.included.2stable %}
+                {% else include.included.2stable %}
                     <td></td>
                 {% endif %}
                 {% if include.included.microsoft[0] == "plus" %}
                     <td><i class="text-success h3 bi bi-check"></i></td>
-                {% elsif include.included.microsoft %}
+                {% else include.included.microsoft %}
                     <td></td>
                 {% endif %}
                 {% if include.included.google[0] == "plus" %}
                     <td><i class="text-success h3 bi bi-check"></i></td>
-                {% elsif include.included.google %}
+                {% else include.included.google %}
                     <td></td>
                 {% endif %}
             </tr>
