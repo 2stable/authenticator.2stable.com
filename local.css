@@ -265,3 +265,9 @@ ul {
   border-left-width: .25rem;
   border-radius: .25rem;
 }
+
+.icon-demo {
+  background-color: #fdfdfd;
+  background-image: radial-gradient(circle, #ddd 1px, rgba(0,0,0,0) 1px);
+  background-size: 1rem 1rem;
+}
