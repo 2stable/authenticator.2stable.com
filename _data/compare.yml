@@ -1,0 +1,49 @@
+compare:
+  - name: Use iCloud Keychain
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - minus
+  - name: macOS app
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - minus
+  - name: Permissions
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - plus
+  - name: Sharing
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - minus
+  - name: Unlimited members
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - plus
+      google: 
+        - plus
+  - name: Extra security
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - plus
+      google: 
+        - minus
