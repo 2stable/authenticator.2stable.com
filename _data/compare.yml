@@ -1,45 +1,5 @@
 compare:
-  - name: Use iCloud Keychain
-    included:
-      2stable:
-        - plus
-      microsoft:
-        - minus
-      google: 
-        - minus
-  - name: macOS app
-    included:
-      2stable:
-        - plus
-      microsoft:
-        - minus
-      google: 
-        - minus
-  - name: Permissions
-    included:
-      2stable:
-        - plus
-      microsoft:
-        - minus
-      google: 
-        - plus
-  - name: Sharing
-    included:
-      2stable:
-        - plus
-      microsoft:
-        - minus
-      google: 
-        - minus
-  - name: Unlimited members
-    included:
-      2stable:
-        - plus
-      microsoft:
-        - plus
-      google: 
-        - plus
-  - name: Extra security
+  - name: Backup
     included:
       2stable:
         - plus
@@ -47,3 +7,83 @@ compare:
         - plus
       google: 
         - minus
+  - name: Synchronization
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - plus
+      google: 
+        - minus
+  - name: Mac support
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - minus
+  - name: Apple Watch
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - plus
+      google: 
+        - minus
+  - name: iPad support
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - plus
+      google: 
+        - plus
+  - name: iPhone support
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - plus
+      google: 
+        - plus
+  - name: Android support
+    included:
+      2stable:
+        - minus
+      microsoft:
+        - plus
+      google: 
+        - plus
+  - name: No account required
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - plus
+  - name: Widget
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - minus
+  - name: Import by URL
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - minus
+  - name: Import from Google Authenticator
+    included:
+      2stable:
+        - plus
+      microsoft:
+        - minus
+      google: 
+        - plus

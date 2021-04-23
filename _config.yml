@@ -39,14 +39,14 @@ footer-c:
 
 footer-r-name: Resources
 footer-r:
-  - name: Support
-    href: https://authenticator.2stable.com/#faqs
+  - name: FAQ's
+    href: /faqs/
   - name: Blog
     href: /blog/
   - name: 2FA Guides
     href: /2fa-guides/
   - name: Changelog
-    href: https://authenticator.2stable.com/#changelog
+    href: /changelog/
 
 footer-d-name: Downloads
 footer-d:
