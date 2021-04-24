@@ -8,9 +8,12 @@
 
 .hover {
   border-radius: 0.5rem;
-  transition: width .25s, box-shadow .25s;
-  transition: transform 0.25s ease;
-  /* transition: color 0.25s ease-in-out,background-color 0.25s ease-in-out,box-shadow 0.25s ease-in-out,border-color 0.25s ease-in-out; */
+  box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,.05);
+  transition: 
+    background-color 0.25s ease-in-out,
+    box-shadow 0.25s ease-in-out,
+    border-color 0.25s ease-in-out, 
+    transform 0.25s ease-in-out;
 }
 
 .hover:hover {
@@ -136,7 +139,7 @@
 
 @media (min-width: 768px){
   .f-width {
-    width: 160px !important;
+    width: 180px !important;
   }
 }
 
@@ -147,7 +150,7 @@
 }
 
 .f-width {
-  width: 120px;
+  width: 160px;
 }
 
 .change-log-new {

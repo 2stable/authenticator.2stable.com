@@ -18,3 +18,7 @@ sources:
   - name: Fernando Silva
     url: https://www.youtube.com/watch?v=deKLLqv5Qvw
     img: /assets/featuredon/fernandosilva.svg
+
+  - name: iSenaCode
+    url: https://isenacode.com/authenticator-app-seguridad-doble-factor
+    img: /assets/featuredon/isenacode.svg
