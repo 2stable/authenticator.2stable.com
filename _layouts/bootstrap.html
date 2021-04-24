@@ -80,6 +80,7 @@
       {{ content }}
       {%- include reviews.html -%}
       {%- include compare.html -%}
+      <div class="py-1 px-2" onclick="topFunction()" id="myBtn" title="Go to top"><i class="h2 bi bi-arrow-up-short"></i></div>
     </div>
     {%- include footer.html -%}
     {%- include lookup.html -%}
@@ -88,5 +89,6 @@
     <!-- JavaScript Bundle with Popper -->
     {{ site.bootstrap-js-1 }}
     {{ site.bootstrap-js-2 }}
+    {{ site.backtotop-js }}
   </body>
 </html>
