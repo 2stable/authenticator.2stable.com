@@ -189,7 +189,7 @@
 }
 
 .bi {
-  vertical-align: -.125em;
+  /* vertical-align: -.125em; */
   fill: currentColor;
 }
 

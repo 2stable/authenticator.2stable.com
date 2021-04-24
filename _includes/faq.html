@@ -1,9 +1,9 @@
-<div class="col-md-8 col-lg-6 mx-auto pb-5" id="faqs">
+<div class="col-md-8 col-lg-6 mx-auto pb-md-5" id="faqs">
     <div class="p-3 pt-5 text-center">
-        <h2>FAQ's<a class="anchorjs-link" aria-label="Anchor" data-anchorjs-icon="#" href="#faqs" style="padding-left: 0.375em;"></a></h2>
+        <h2>FAQ's</h2>
         <p class="lead pb-3">Here's a list of some of our most common questions</p>
     </div>
-    <div class="accordion" id="accordionExample">
+    <div class="accordion pb-md-5" id="accordionExample">
       {% for question in site.data.faqs.questions %}
         <div class="accordion-item">
           <h2 class="accordion-header" id="{{ question.id }}">
@@ -19,5 +19,12 @@
           </div>
         </div>
         {% endfor %}
+    </div>
+    <div class="p-3 pt-5 text-center ">
+      <h2>Ask us anything</h2>
+      <p class="lead pb-3">Not finding what you are looking for? Send us an email.</p>
+      <a href="{{ site.support_mail }}">
+        <div class="btn btn-outline-primary"><i class="bi bi-envelope pe-2"></i>Send us an email</div>
+      </a>
     </div>
 </div>
