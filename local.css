@@ -305,3 +305,7 @@ ul {
   color: rgba(255,255,255);
 }
 /* Scroll Back To Top Button */
+
+.rounded-img-compare {
+  border-radius: 0.6rem;
+}
