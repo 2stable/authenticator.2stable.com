@@ -4,7 +4,6 @@ author: Kevin Archer
 twitter: IM_Kevin_Archer
 permalink: /things-you-should-know-about-us/
 image: /assets/blog/001.jpg
-# published: false
 ---
 2Stable is a starting company of 4 members, located in Andorra, a small team with big ambitions and energy to provide solutions to day-to-day problems. 
 

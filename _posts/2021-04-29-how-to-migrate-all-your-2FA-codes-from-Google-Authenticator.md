@@ -3,7 +3,7 @@ layout: post
 author: Kevin Archer
 twitter: IM_Kevin_Archer
 permalink: /how-to-migrate-all-your-2FA-codes-from-Google-Authenticator/
-image: /assets/blog/003.jpg
+image: /assets/blog/003.webp
 # published: false
 ---
 Authenticator by 2Stable is a secure 2FA authentication app that generates, store and manage your two-factor authentication codes for most popular websites.

@@ -3,8 +3,7 @@ layout: post
 author: Kevin Archer
 twitter: IM_Kevin_Archer
 permalink: /reasons-to-choose-Authenticator-by-2Stable/
-image: /assets/blog/002.jpg
-# published: false
+image: /assets/blog/002.webp
 ---
 As our lives and day-to-day functions move increasingly online, keeping our personal information secure is more important than ever. 
 

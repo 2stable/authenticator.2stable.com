@@ -14,16 +14,16 @@ permalink: /blog/
 </div>
 <div class="container">
     {% for post in site.posts %}
-    <div class="py-2 pb-5">
+    <div class="pb-md-5 pb-3">
         <a href="{{ post.url }}" style="text-decoration: none !important">
             <div class="row justify-content-center">
-                <div class="col-lg-4">
+                <div class="col-lg-4 p-md-0">
                     <img class="rounded w-100" src="{{ post.image }}" alt="{{ post.permalink }}">
                 </div>
-                <div class="col-lg-4 text-start">
-                    <div class="card-body">
+                <div class="col-lg-4 pt-2 pt-md-0 px-3 text-start">
+                    <div class="card-body px-0 pt-2 pt-md-0 px-md-2">
                         <h4 class="card-title">{{ post.title }}</h4>
-                        <p class="card-text"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
+                        <p class="card-text mb-md-3 mb-2"><small class="text-muted">{{ post.date | date_to_string }}</small></p>
                         <div class="text-dark">{{ post.excerpt }}</div>
                     </div>
                 </div>
