@@ -2,7 +2,7 @@
 layout: post
 author: Kevin Archer
 twitter: IM_Kevin_Archer
-permalink: /how-to-migrate-all-your-2FA-codes-from-Google-Authenticator-to-Authenticator-by-2Stable-?/
+permalink: /how-to-migrate-all-your-2FA-codes-from-Google-Authenticator/
 image: /assets/blog/003.jpg
 # published: false
 ---
