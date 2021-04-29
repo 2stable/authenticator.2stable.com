@@ -34,5 +34,9 @@ Now you need to export the accounts from Google Authenticator by following these
 
 <br>
 
-You have two possibilities to scan the "Export QR Code" from Google, by pressing on "Scan QR Code" in Authenticator by 2Stable, if you have two or more devices or by taking a screenshot, if you have only one device. Make sure to save the screenshot into Files so you can use the option "Import from Files", this feature will import the accounts from the screenshot. Once you will scan or import the "Export QR Code" from Google all your accounts will automatically appear in Authenticator by 2Stable.
+You have two possibilities to scan the “Export QR Code” from Google, by pressing on “Scan QR Code” in Authenticator by 2Stable if you have two or more devices, or by taking a screenshot if you have only one device. Make sure to save the screenshot into Files so you can use the option “Import from Files”, this feature will import the accounts from the screenshot.
+
+<br> 
+
+Once you will scan or import the “Export QR Code” from Google all your accounts will automatically appear in Authenticator by 2Stable.
 
