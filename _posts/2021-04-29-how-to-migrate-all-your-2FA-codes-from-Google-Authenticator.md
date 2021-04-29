@@ -6,11 +6,11 @@ permalink: /how-to-migrate-all-your-2FA-codes-from-Google-Authenticator/
 image: /assets/blog/003.jpg
 # published: false
 ---
-Congratulations on joining the 2Stable community! Authenticator by 2Stable is a secure 2FA authentication app that generates, store and manage your two-factor authentication codes for most popular websites. 
+Authenticator by 2Stable is a secure 2FA authentication app that generates, store and manage your two-factor authentication codes for most popular websites. 
 
-You can synchronize your codes between all your devices and securely backup your accounts in case you lose access to your device or switch to a new one.
+You can synchronize your codes between all your devices and securely backup your accounts in case you lose access to your device or switch to a new one. No matter how many accounts you have stored in your Google Authenticator, you can seamlessly move them to Authenticator by 2Stable by following the steps below.
 
-No matter how many accounts you have stored in your Google Authenticator, you can seamlessly move them to Authenticator by 2Stable by following the steps below.
+<br>
 
 First of all, you need to download the Authenticator by 2Stable on your device, after "Set up" a password that will be used to encrypt all your data. Make sure you remember your password, if you'll forget your password you will lose access to your accounts and we won't be able to recover or restore your access. Once you have complete the "Set up" process just follow these steps on Authenticator by 2Stable:
 
