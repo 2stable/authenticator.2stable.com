@@ -12,9 +12,11 @@ You can synchronize your codes between all your devices and securely backup your
 
 <br>
 
-First of all, you need to download the Authenticator by 2Stable on your device, after "Set up" a password that will be used to encrypt all your data. Make sure you remember your password, if you'll forget your password you will lose access to your accounts and we won't be able to recover or restore your access. Once you have complete the "Set up" process just follow these steps on Authenticator by 2Stable:
+First of all, you need to download the Authenticator by 2Stable on your device, after "Set up" a password that will be used to encrypt all your data. Make sure you remember your password, if you'll forget your password you will lose access to your accounts and we won't be able to recover or restore your access.
 
-<br>
+<br> 
+
+Once you have complete the "Set up" process just follow these steps on Authenticator by 2Stable:
 
 1. Open Authenticator by 2Stable and press on "+".
 2. Select "Google".
