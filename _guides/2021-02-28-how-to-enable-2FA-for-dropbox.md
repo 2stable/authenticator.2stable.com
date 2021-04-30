@@ -5,7 +5,7 @@ description: A Step-by-Step guide how to setup two-factor authentication for Dro
 author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/dropbox/
-my-image: /assets/guides/dropbox/dropbox.svg
+my-image: /assets/img/guides/dropbox/dropbox.svg
 # published: false
 state: soon
 ---

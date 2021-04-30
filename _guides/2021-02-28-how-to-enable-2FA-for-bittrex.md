@@ -5,7 +5,7 @@ description: A Step-by-Step guide how to setup two-factor authentication for Bit
 author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/bittrex/
-my-image: /assets/guides/bittrex/bittrex.svg
+my-image: /assets/img/guides/bittrex/bittrex.svg
 # published: false
 state: soon
 ---

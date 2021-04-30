@@ -5,7 +5,7 @@ description: A Step-by-Step guide how to setup two-factor authentication for Sna
 author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/snapchat/
-my-image: /assets/guides/snapchat/snapchat.svg
+my-image: /assets/img/guides/snapchat/snapchat.svg
 # published: false
 state: soon
 ---

@@ -5,7 +5,7 @@ description: A Step-by-Step guide how to setup two-factor authentication for Ama
 author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/amazon/
-my-image: /assets/guides/amazon/amazon.svg
+my-image: /assets/img/guides/amazon/amazon.svg
 # published: false
 state: soon
 ---

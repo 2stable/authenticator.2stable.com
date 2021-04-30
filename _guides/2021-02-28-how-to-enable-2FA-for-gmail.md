@@ -5,7 +5,7 @@ description: A Step-by-Step guide how to setup two-factor authentication for Gma
 author: Aries Ikel
 twitter: i40504
 permalink: /2fa-guides/gmail/
-my-image: /assets/guides/gmail/gmail.svg
+my-image: /assets/img/guides/gmail/gmail.svg
 # published: false
 state: soon
 ---
