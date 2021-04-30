@@ -1,24 +1,24 @@
 features: 
   - title: No Account Required
     details: Easy to set up. You have to remember just one password.
-    image: /assets/reviews/no-account-required.svg
+    image: /assets/img/reviews/no-account-required.svg
 
   - title: Biometric Authentication
     details: Unlock Authenticator without typing your passphrase using Touch or Face ID.
-    image: /assets/reviews/biometric-authentication.svg
+    image: /assets/img/reviews/biometric-authentication.svg
 
   - title: Sync & Backup
     details: All data is automatically backed up and synced across all devices via iCloud.
-    image: /assets/reviews/sync-backup.svg
+    image: /assets/img/reviews/sync-backup.svg
 
   - title: Secure & Private
     details: All data is encrypted even if is stored in iCloud, so you never have to worry about nasty hackers.
-    image: /assets/reviews/secure-private.svg
+    image: /assets/img/reviews/secure-private.svg
 
   - title: User Friendly
     details: Native experience on all Apple devices. Data Sync, Gestures, Widgets, Dark Mode and more!
-    image: /assets/reviews/user-friendly.svg
+    image: /assets/img/reviews/user-friendly.svg
 
   - title: Friendly Support
     details: Got a question? <a href="mailto:support@2stable.com">Get in touch</a> with us at any time. We're a friendly team of four :)
-    image: /assets/reviews/friendly-support.svg
+    image: /assets/img/reviews/friendly-support.svg

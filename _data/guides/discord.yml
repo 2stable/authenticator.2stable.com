@@ -2,42 +2,42 @@ steps:
   - name: Locate 2FA Setting
     index: 1
     details: Log in to your Discord account, and click on the small <strong>gear</strong> icon near your username on the bottom left.
-    img: /assets/guides/discord/discord_1.png
+    img: /assets/img/guides/discord/discord_1.png
 
   - name: Next Page
     index: 2
     details: On the next page click on the button that reads <strong>Enable Two-Factor Auth</strong>. It will prompt you to confirm your Discord password.
-    img: /assets/guides/discord/discord_2.png
+    img: /assets/img/guides/discord/discord_2.png
 
   - name: QR Code
     index: 3
     details: A pop-up window will appear for you to scan the QR Code with your Authenticator App. Keep this window open as you reach for your phone. Note that anywhere (not just Discord) that prompts Google Authenticator also supports Authenticator.
-    img: /assets/guides/discord/discord_3.png
+    img: /assets/img/guides/discord/discord_3.png
 
   - name: Capture QR Code
     index: 4
     details: Take out your mobile device and open the Authenticator App. At the bottom of the screen, tap the plus sign to scan a new account and hold your device up to the computer screen
-    img: /assets/guides/discord/discord_4.png
+    img: /assets/img/guides/discord/discord_4.png
 
   - name: Save account
     index: 5
     details: After successfully scanning the QR Code, the Authenticator App will automatically choose the Discord logo and autofill account name and secret key. Confirm it’s correct by clicking <strong>Save</strong>.
-    img: /assets/guides/discord/discord_5.png
+    img: /assets/img/guides/discord/discord_5.png
 
   - name: Two-Factor Authentication Code
     index: 6
     details: Record the numerical token provided for Discord. Note that this code refreshes every 30 seconds.
-    img: /assets/guides/discord/discord_6.png
+    img: /assets/img/guides/discord/discord_6.png
 
   - name: Complete Enablement
     index: 7
     details: Returning to the Discord website, enter the numerical token in the appropriate field. When done click <strong>Activate</strong>.
-    img: /assets/guides/discord/discord_7.png
+    img: /assets/img/guides/discord/discord_7.png
 
   - name: Download back-up codes
     index: 8
     details: You will now be shown your Discord back-up codes. These codes are one-time use each. If you run out of these codes, you can click the Generate Codes button again to re-roll a new set, but doing so will render the previous list obsolete, so be 100% sure to keep the latest set somewhere safe.
-    img: /assets/guides/discord/discord_8.png
+    img: /assets/img/guides/discord/discord_8.png
 # footer 
     footer:
         details:

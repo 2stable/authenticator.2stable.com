@@ -1,24 +1,24 @@
 sources:
   - name: BetaList
     url: https://betalist.com/startups/authenticator
-    img: /assets/featuredon/betalist.svg
+    img: /assets/img/featuredon/betalist.svg
 
   - name: Hacker News
     url: https://news.ycombinator.com/item?id=26446679
-    img: /assets/featuredon/hackernews.svg
+    img: /assets/img/featuredon/hackernews.svg
 
   - name: AppleSfera
     url: https://www.applesfera.com/analisis/authenticator-2stable-mejores-apps-para-gestionar-nuestros-codigos-doble-factor-app-semana
-    img: /assets/featuredon/applesfera.svg
+    img: /assets/img/featuredon/applesfera.svg
 
   - name: Product Hunt
     url: https://www.producthunt.com/posts/authenticator-by-2stable
-    img: /assets/featuredon/producthunt.svg
+    img: /assets/img/featuredon/producthunt.svg
 
   - name: Fernando Silva
     url: https://www.youtube.com/watch?v=deKLLqv5Qvw
-    img: /assets/featuredon/fernandosilva.svg
+    img: /assets/img/featuredon/fernandosilva.svg
 
   - name: iSenaCode
     url: https://isenacode.com/authenticator-app-seguridad-doble-factor
-    img: /assets/featuredon/isenacode.svg
+    img: /assets/img/featuredon/isenacode.svg

@@ -3,8 +3,8 @@ layout: post-2fa-guides
 title: How to enable 2FA for Instagram
 description: A Step-by-Step guide how to setup two-factor authentication for Instagram
 permalink: /2fa-guides/instagram/
-my-image: /assets/guides/instagram/instagram.svg
-image: /assets/guides/instagram/2fa-instagram.jpeg
+my-image: /assets/img/guides/instagram/instagram.svg
+image: /assets/img/guides/instagram/2fa-instagram.jpeg
 tags: "2fa, security, TwoFactorAuthentication"
 author: Aries Ikel
 twitter: i40504

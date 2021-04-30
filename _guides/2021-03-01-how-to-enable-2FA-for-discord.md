@@ -3,8 +3,8 @@ layout: post-2fa-guides
 title: How to enable 2FA for Discord
 description: A Step-by-Step guide how to setup two-factor authentication for Discord
 permalink: /2fa-guides/discord/
-my-image: /assets/guides/discord/discord.svg
-image: /assets/guides/discord/2fa-discord.jpeg
+my-image: /assets/img/guides/discord/discord.svg
+image: /assets/img/guides/discord/2fa-discord.jpeg
 tags: "2fa, security, TwoFactorAuthentication"
 author: Aries Ikel
 twitter: i40504
@@ -33,8 +33,8 @@ published: true
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>
             </a>
         </div>
+        <p>{{ step.footer.action }}</p>
         <div id="helpful">
-            <p>{{ step.footer.action }}</p>
             <div class="btn btn-outline-primary px-4 me-2" onclick="thankYou()">{{ step.footer.buttons[0] }}</div>
             <div class="btn btn-outline-secondary px-4" onclick="needImprove()">{{ step.footer.buttons[1] }}</div>
         </div>
