@@ -275,7 +275,7 @@ ul {
   background-size: 1rem 1rem;
 }
 
-/* Scroll Back To Top Button */
+/* start: Scroll Back To Top Button */
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -304,8 +304,26 @@ ul {
   background-color: rgba(0,0,0,0.5); /* Add a dark-grey background on hover */
   color: rgba(255,255,255);
 }
-/* Scroll Back To Top Button */
+/* end: Scroll Back To Top Button */
 
 .rounded-img-compare {
   border-radius: 0.6rem;
+}
+
+.nav-hover {
+  /* color: rgb(8, 110, 253) !important; */
+  border-radius: 0.3rem;
+  transition: 
+    background-color 0.25s ease-in-out,
+    box-shadow 0.25s ease-in-out,
+    border-color 0.25s ease-in-out, 
+    transform 0.25s ease-in-out,
+    color 0.25s ease-in-out
+}
+
+.nav-hover:hover {
+  border-radius: 0.3rem;
+  background-color: rgb(13, 110, 253, 0.05);
+  /* background-color: rgb(0, 0, 0, 0.05); */
+  color: rgb(8, 110, 253) !important;
 }
