@@ -34,8 +34,10 @@ published: true
             </a>
         </div>
         <p>{{ step.footer.action }}</p>
-        <div class="btn btn-outline-primary px-4 me-2">{{ step.footer.buttons[0] }}</div>
-        <div class="btn btn-outline-secondary px-4">{{ step.footer.buttons[1] }}</div>
+        <div id="helpful">
+            <div class="btn btn-outline-primary px-4 me-2" onclick="thankYou()">{{ step.footer.buttons[0] }}</div>
+            <div class="btn btn-outline-secondary px-4" onclick="needImprove()">{{ step.footer.buttons[1] }}</div>
+        </div>
     </div>
     {% endif %}
     {% endfor %}
