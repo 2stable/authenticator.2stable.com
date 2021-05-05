@@ -28,6 +28,7 @@
             {{ content }}
         </div>
         <div class="mt-auto">
+            {%- include backtotop.html -%}
             {%- include footer.html -%}
         </div>
     </div>
@@ -36,5 +37,6 @@
     <!-- JavaScript Bundle with Popper -->
     {{ site.bootstrap-js-1 }}
     {{ site.bootstrap-js-2 }}
+    {{ site.backtotop-js }}
   </body>
 </html>

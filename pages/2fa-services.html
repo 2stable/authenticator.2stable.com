@@ -11,13 +11,13 @@ permalink: /2fa-services/
             <p class="lead pb-3">{{ page.description }}</p>
         </div>
         <div class="table-responsive">
-            <table class="table text-center">
+            <table id="2fa-services" class="table text-center">
             <thead>
                 <tr>
-                    <th></th>
-                    <th><p class="m-0 pt-1">DOC</p></th>
-                    <th><p class="m-0 pt-1">U2F</p></th>
-                    <th><p class="m-0 pt-1">TOTP</p></th>
+                    <th style="width: 58%;"></th>
+                    <th style="width: 14%;"><p class="m-0 pt-1">DOC</p></th>
+                    <th style="width: 14%;"><p class="m-0 pt-1">U2F</p></th>
+                    <th style="width: 14%;"><p class="m-0 pt-1">TOTP</p></th>
                 </tr>
             </thead>
             <tbody>
@@ -31,7 +31,7 @@ permalink: /2fa-services/
                     </th>
                     <td class="align-items-center">
                         {% if service.doc %}
-                        <a href="{{ service.doc }}" target="_blank">read</a>
+                        <a class="icon-link" href="{{ service.doc }}" target="_blank">Read<i class="bi bi-chevron-right"></i></a>
                         {% endif %}
                     </td>
                     <td>
