@@ -1,9 +1,9 @@
 ---
-layout: cover
+layout: cover-topstick
 title: 2FA Services
 description: A list a services that support TOTP and/or U2F
 permalink: /2fa-services/
---- 
+---
 <div class="container">
     <div class="col-lg-8 mx-auto py-md-5">
         <div class="p-3 pt-5 text-center">
@@ -11,13 +11,16 @@ permalink: /2fa-services/
             <p class="lead pb-3">{{ page.description }}</p>
         </div>
         <div class="table-responsive">
-            <table id="2fa-services" class="table text-center">
+            <form class="m-1" id="search-container">
+                <!-- <input class="form-control mb-0" id="myInput" type="search" onkeyup="myFunction()" placeholder="Start typing to filter..." autocomplete="off"> -->
+            </form>
+            <table id="myTable" class="table text-center">
             <thead>
                 <tr>
-                    <th></th>
-                    <th><p class="m-0 pt-1">DOC</p></th>
-                    <th><p class="m-0 pt-1">U2F</p></th>
-                    <th><p class="m-0 pt-1">TOTP</p></th>
+                    <th style="width: 58%;"></th>
+                    <th style="width: 14%;"><p class="m-0 pt-1">DOC</p></th>
+                    <th style="width: 14%;"><p class="m-0 pt-1">U2F</p></th>
+                    <th style="width: 14%;"><p class="m-0 pt-1">TOTP</p></th>
                 </tr>
             </thead>
             <tbody>
@@ -25,7 +28,7 @@ permalink: /2fa-services/
                 <tr class="align-middle">  
                     <th class="text-start py-3">
                         <a href="{{ service.url }}" class="d-flex align-items-center text-dark" target="_blank">
-                            <img class="rounded me-2" src="/assets/img/2fa-services/Icons/{{ service.host }}.png" width="32" alt="GitHub logo">
+                            <img class="rounded me-2" src="/assets/img/2fa-services/Icons/{{ service.host }}.png" width="32" alt="{{ service.name }} logo">
                             <span class="fw-normal">{{ service.name }}</span>
                         </a>
                     </th>
@@ -47,7 +50,26 @@ permalink: /2fa-services/
                 </tr>
                 {% endfor %}
             </tbody>
-            </table>
-        </div>
+        </table>        
     </div>
 </div>
+<script>
+    function myFunction() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+</script>
