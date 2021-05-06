@@ -16,7 +16,7 @@ function filterXXX() {
             isEmpty = false;
         } else {
             row.style.display = "none";
-            document.getElementById("noResults").innerHTML = 'No results for: ' + input;
+            document.getElementById("noResults").innerHTML = 'Results for: ' + input;
         }
     }
 }
