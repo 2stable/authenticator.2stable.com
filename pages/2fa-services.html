@@ -12,9 +12,9 @@ permalink: /2fa-services/
         </div>
         <div class="table-responsive">
             <form class="m-1" id="search-container">
-                <!-- <input class="form-control mb-0" id="myInput" type="search" onkeyup="myFunction()" placeholder="Start typing to filter..." autocomplete="off"> -->
+                <input class="form-control mb-0" id="myInput" type="search" oninput="filterXXX()" placeholder="Start typing to filter..." autocomplete="off">
             </form>
-            <table id="myTable" class="table text-center">
+            <table class="table text-center">
             <thead>
                 <tr>
                     <th style="width: 58%;"></th>
@@ -23,9 +23,9 @@ permalink: /2fa-services/
                     <th style="width: 14%;"><p class="m-0 pt-1">TOTP</p></th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="myTable">
                 {% for service in site.data.domains %}
-                <tr class="align-middle">  
+                <tr class="align-middle">
                     <th class="text-start py-3">
                         <a href="{{ service.url }}" class="d-flex align-items-center text-dark" target="_blank">
                             <img class="rounded me-2" src="/assets/img/2fa-services/Icons/{{ service.host }}.png" width="32" alt="{{ service.name }} logo">
@@ -53,23 +53,4 @@ permalink: /2fa-services/
         </table>        
     </div>
 </div>
-<script>
-    function myFunction() {
-      var input, filter, table, tr, td, i, txtValue;
-      input = document.getElementById("myInput");
-      filter = input.value.toUpperCase();
-      table = document.getElementById("myTable");
-      tr = table.getElementsByTagName("tr");
-      for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[0];
-        if (td) {
-          txtValue = td.textContent || td.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
-          } else {
-            tr[i].style.display = "none";
-          }
-        }       
-      }
-    }
-</script>
+<script src="/assets/js/tablefilter.js"></script>
