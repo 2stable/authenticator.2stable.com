@@ -18,6 +18,7 @@ function filterXXX() {
             row.style.display = "none";
         }
     }
-
-    console.log("************ EMPTY ", isEmpty);
+    if (isEmpty ) {
+        document.getElementById("noResults").innerHTML = 'No results for: ' + input;
+    }
 }

@@ -1,3 +1,0 @@
----
----
-[{% for service in site.data.domains %}{"name":"{{ service.name | escape }}","host":"{{ service.host | escape }}","url":"{{ service.url | escape }}","doc":"{{ service.doc | escape }}","hasU2f":"{{ service.hasU2f | escape }}"}{% unless forloop.last %},{% endunless %}{% endfor %}]
