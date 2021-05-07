@@ -5,7 +5,7 @@ theme: jekyll-theme-cayman
 
 ios_app_id: 1538761576
 app_rating: "4,5"
-app_rating_count: 239+
+app_rating_count: 246+
 
 privacy_url: /privacy-policy/
 terms_of_service_url: /terms-of-service/
@@ -40,14 +40,16 @@ footer-c:
 
 footer-r-name: Resources
 footer-r:
-  - name: FAQ's
-    href: /faqs/
+  - name: F.A.Q.
+    href: /faq/
   - name: Blog
     href: /blog/
   - name: 2FA Guides
     href: /2fa-guides/
   - name: Changelog
     href: /changelog/
+  - name: Services
+    href: /services/
 
 footer-d-name: Downloads
 footer-d:
