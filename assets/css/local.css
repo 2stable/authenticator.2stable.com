@@ -339,3 +339,8 @@ ul {
   /* background-color: rgb(0, 0, 0, 0.05); */
   color: rgb(8, 110, 253) !important;
 }
+
+.users-reviews {
+  background-color: #f8f8f8; 
+  border-radius: 0.5rem;
+}

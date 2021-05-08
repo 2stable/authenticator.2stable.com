@@ -2,7 +2,7 @@
   <div class="text-center mx-auto pb-5">
     {% for item in site.features-privacy %}
     <!-- <div class="h2">{{ item.title }}</div> -->
-    <h2>{{ item.title }}<a class="anchorjs-link" aria-label="Anchor" data-anchorjs-icon="#" href="#features" style="padding-left: 0.375em;"></a></h2>
+    <h2>{{ item.title }}<a class="anchorjs-link ps-2" aria-label="Anchor" data-anchorjs-icon="#" href="#features"></a></h2>
     <div class="d-flex justify-content-center text-center">
       <div class="col-md-8 d-flex lead">
         <p>{{ item.details }}</p>
@@ -12,7 +12,7 @@
   </div>
   <div class="row justify-content-center">
     <div class="col-md-10">
-      <ul class="row p-0 justify-content-center" style="list-style: none">
+      <ul class="row p-0 justify-content-center">
         {% for feature in site.data.features.features %}
           <li class="col-md-6 col-lg-4 pb-5">
             <img class="mb-3" src="{{ feature.image }}" alt="{{ feature.title }}" width="40">

@@ -80,16 +80,6 @@ appstore:
     alt: macOS Apple App Badge
     url: https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=2stable.com.mac&mt=8#?platform=mac
 
-testflight-banner: 
-  - title: Help us make Authenticator app even better
-    details: If you want to try out the new features before it becomes available to everyone, you can join to beta test the Authenticator app right now.
-    url: https://testflight.apple.com/join/a20tIGsB
-
-features-banner: 
-  - title: Protect your accounts with an extra layer of security
-    details: Authenticator is a simple, <a href="https://en.wikipedia.org/wiki/Two-factor_authentication" target="_blank">two-factor authentication</a> app. It helps keep your online accounts secure by generating unique one-time passwords.
-    url: https://testflight.apple.com/join/a20tIGsB 
-
 features-privacy: 
   - title: 2Stable Protects Your Privacy 
     details: We put our users' security and privacy first, we don't have access to the accounts you store or the password you choose to encrypt your data.
