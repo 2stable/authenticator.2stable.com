@@ -26,15 +26,15 @@ Make sure you remember your password, if you'll forget your password you will lo
 
 Once you have complete the **Set up** process just follow these steps on Authenticator by 2Stable:
 
-1. Open Authenticator by 2Stable and press on <img width="20" src="/assets/img/addItem.webp">
-2. Select <img width="24" src="/assets/img/google.webp"> from **Other Options**
+1. Open Authenticator by 2Stable and press on <img width="20" src="/assets/img/addItem.webp" alt="add Item">
+2. Select <img width="24" src="/assets/img/google.webp" alt="Google Authenticator"> from **Other Options**
 
 <br>
 
 Now you need to export the accounts from Google Authenticator by following these steps:
 
 1. Open Google Authenticator
-2. Tap the overflow button <img width="20" src="/assets/img/3dots.webp"> at the top right of the app
+2. Tap the overflow button <img width="20" src="/assets/img/3dots.webp" alt="other Options"> at the top right of the app
 3. Find **Export accounts**
 4. Select the accounts you want to export
 
