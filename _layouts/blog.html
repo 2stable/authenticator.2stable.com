@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    {% for item in site.analytics %}
-      {% if item.include > 0 %}
-        <!-- {{ item.name }} -->
-        {{ item.issuer }}
-      {% endif %}
-    {% endfor %}
+  <head>{% for item in site.analytics %}{% if item.include > 0 %}<!-- {{ item.name }} -->{{ item.issuer }}{% endif %}{% endfor %}
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="{{ site.google_verification }}" />
     {% seo %}
