@@ -14,7 +14,7 @@ function filterXXX() {
             row.style.display = "";
         } else {
             row.style.display = "none";
-            results.innerHTML = "Results for: " + input;
+            results.innerHTML = "Results for: " + input + row;
         }
     }
 }
