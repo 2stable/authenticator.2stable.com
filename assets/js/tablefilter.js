@@ -2,6 +2,7 @@ function filterXXX() {
     var table = document.getElementById("myTable");
     var input = document.getElementById("myInput").value;
     var rows = table.getElementsByTagName("tr");
+    var noResults = document.getElementById("displayme");
 
     for (let index = 0; index < rows.length; index++) {
         const row = rows[index];
@@ -13,7 +14,7 @@ function filterXXX() {
             row.style.display = "";
         } else {
             row.style.display = "none";
+            noResults.innerHTML = "Results for: " + input;
         }
-        //test
     }
 }
