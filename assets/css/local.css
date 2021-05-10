@@ -344,3 +344,9 @@ ul {
   background-color: #f8f8f8; 
   border-radius: 0.5rem;
 }
+
+#table-scroll {
+  height: 640px;
+  overflow-y: auto;  
+  margin-top: 20px;
+}

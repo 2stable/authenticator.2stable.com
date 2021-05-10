@@ -4,9 +4,10 @@ title: 2FA Services
 description: A list of services that support TOTP and/or U2F
 permalink: /services/
 ---
+
 <div class="container">
-    <div class="col-lg-8 mx-auto py-md-5">
-        <div class="p-3 pt-md-5 text-center">
+    <div class="col-lg-8 mx-auto">
+        <div class="pt-md-3 text-center">
             <h1 class="display-4 py-2">{{ page.title }}</h2>
             <p class="lead pb-3">{{ page.description }}</p>
         </div>
@@ -14,44 +15,45 @@ permalink: /services/
             <form class="m-1" id="search-container">
                 <input class="form-control mb-0" id="myInput" type="search" oninput="filterXXX()" placeholder="Start typing to filter..." autocomplete="off">
             </form>
-            <table class="table text-center">
-            <thead>
-                <tr>
-                    <th style="width: 58%;"></th>
-                    <th style="width: 14%;"><p class="m-0 pt-1">DOC</p></th>
-                    <th style="width: 14%;"><p class="m-0 pt-1">U2F</p></th>
-                    <th style="width: 14%;"><p class="m-0 pt-1">TOTP</p></th>
-                </tr>
-            </thead>
-            <tbody id="myTable">
-                {% for service in site.data.domains %}
-                <tr class="align-middle">
-                    <th class="text-start py-3">
-                        <a href="{{ service.url }}" class="d-flex align-items-center text-dark" target="_blank">
-                            <img class="rounded me-2" src="/assets/img/2fa-services/Icons/{{ service.host }}.png" width="32" alt="{{ service.name }} logo">
-                            <span class="fw-normal">{{ service.name }}</span>
-                        </a>
-                    </th>
-                    <td class="align-items-center">
-                        {% if service.doc %}
-                        <a href="{{ service.doc }}" target="_blank">Read</a>
-                        {% endif %}
-                    </td>
-                    <td>
-                        {% if service.hasU2f %}
-                        <i class="text-success h3 bi bi-check"></i>
-                        {% endif %}
-                    </td>
-                    <td>
-                        {% if service.hasTotp %}
-                        <i class="text-success h3 bi bi-check"></i>
-                        {% endif %}
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-            </table> 
-            <div id="noResults"></div>
+            <div id="table-scroll">
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <th style="width: 58%;"></th>
+                            <th style="width: 14%;"><p class="m-0 pt-1">DOC</p></th>
+                            <th style="width: 14%;"><p class="m-0 pt-1">U2F</p></th>
+                            <th style="width: 14%;"><p class="m-0 pt-1">TOTP</p></th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable">
+                        {% for service in site.data.domains %}
+                        <tr class="align-middle">
+                            <th class="text-start py-3">
+                                <a href="{{ service.url }}" class="d-flex align-items-center text-dark" target="_blank">
+                                    <img class="rounded me-2" src="/assets/img/2fa-services/Icons/{{ service.host }}.png" width="32" alt="{{ service.name }} logo">
+                                    <span class="fw-normal">{{ service.name }}</span>
+                                </a>
+                            </th>
+                            <td class="align-items-center">
+                                {% if service.doc %}
+                                <a href="{{ service.doc }}" target="_blank">Read</a>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if service.hasU2f %}
+                                <i class="text-success h3 bi bi-check"></i>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if service.hasTotp %}
+                                <i class="text-success h3 bi bi-check"></i>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
         </div>       
     </div>
 </div>
