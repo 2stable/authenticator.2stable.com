@@ -1,5 +1,5 @@
 sources:
-  - name: BetaList
+  - name: Beta List
     url: https://betalist.com/startups/authenticator
     img: /assets/img/featuredon/betalist.svg
 
@@ -7,7 +7,7 @@ sources:
     url: https://news.ycombinator.com/item?id=26446679
     img: /assets/img/featuredon/hackernews.svg
 
-  - name: AppleSfera
+  - name: Apple Sfera
     url: https://www.applesfera.com/analisis/authenticator-2stable-mejores-apps-para-gestionar-nuestros-codigos-doble-factor-app-semana
     img: /assets/img/featuredon/applesfera.svg
 
@@ -19,6 +19,10 @@ sources:
     url: https://www.youtube.com/watch?v=deKLLqv5Qvw
     img: /assets/img/featuredon/fernandosilva.svg
 
-  - name: iSenaCode
+  - name: iSena Code
     url: https://isenacode.com/authenticator-app-seguridad-doble-factor
     img: /assets/img/featuredon/isenacode.svg
+
+  - name: 9to5Mac
+    url: https://9to5mac.com/2021/05/11/2fa-authenticator-app-2stable-iphone-mac-apple-watch-ipad/
+    img: /assets/img/featuredon/9to5mac.svg
