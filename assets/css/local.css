@@ -346,7 +346,7 @@ ul {
 }
 
 #table-scroll {
-  height: 640px;
+  height: 420px;
   overflow-y: auto;  
   margin-top: 20px;
 }
