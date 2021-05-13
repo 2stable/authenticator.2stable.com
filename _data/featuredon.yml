@@ -26,3 +26,11 @@ sources:
   - name: 9to5Mac
     url: https://9to5mac.com/2021/05/11/2fa-authenticator-app-2stable-iphone-mac-apple-watch-ipad/
     img: /assets/img/featuredon/9to5mac.svg
+
+  - name: MacMagazine
+    url: https://macmagazine.com.br/post/2021/05/11/app-authenticator-torna-verificacao-de-dois-fatores-mais-segura/
+    img: /assets/img/featuredon/macmagazine.svg
+
+  - name: appgefahren
+    url: https://www.appgefahren.de/authenticator-praktische-zwei-faktor-authentifizierungs-app-fuer-apple-geraete-300651.html
+    img: /assets/img/featuredon/appgefahren.svg
