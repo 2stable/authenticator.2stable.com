@@ -10,13 +10,32 @@ notes:
             - Unlock with Apple Watch
             - Localization
             - and more to be decided
-  # - version: 3.6.0
-  #   date: Next update
-  #   badges:
-  #     - NEW
-  #   changes:
-  #         new:
-  #           - Custom Keyboard
+  - version: 3.6.1
+    date: May 22, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+          added:
+          fixed:
+            - A text bug related to <strong>Choose Password</strong>.
+          improved:
+  - version: 3.6.0
+    date: May 16, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+          added:
+            - A possibility to choose which accounts would be shown in Authenticator Widget.
+            - An extra warning before deleting an account.
+          fixed:
+            - A bug related to <strong>Rate Us</strong>, sometimes the alert could appear multiple times.
+          improved:
+            - <strong>Mark as Favorite</strong> moved from <strong>Swipe to left</strong> to <strong>Swipe to right</strong>.
+            - <strong>Icons Collection</strong>. Thanks to all users for suggestions.
   - version: 3.5.1
     date: Apr 9, 2021
     badges:
