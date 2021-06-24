@@ -6,6 +6,7 @@ author: Kevin Archer
 twitter: IM_Kevin_Archer
 permalink: /2fa-guides/snapchat/
 my-image: /assets/img/guides/snapchat/snapchat.svg
+image: /assets/img/guides/snapchat/2fa-snapchat.jpeg
 published: true
 ---
 <div class="pb-5 py-md-5"> 
