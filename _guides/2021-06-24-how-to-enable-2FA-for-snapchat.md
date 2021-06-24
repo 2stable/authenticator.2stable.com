@@ -1,18 +1,15 @@
 ---
 layout: post-2fa-guides
-title: How to enable 2FA for Instagram
-description: A Step-by-Step guide how to setup two-factor authentication for Instagram
-permalink: /2fa-guides/instagram/
-my-image: /assets/img/guides/instagram/instagram.svg
-image: /assets/img/guides/instagram/2fa-instagram.jpeg
-tags: "2fa, security, TwoFactorAuthentication"
-author: Aries Ikel
-twitter: i40504
-twitter-2stable: AuthWidget
+title: How to enable 2FA for Snapchat
+description: A Step-by-Step guide how to setup two-factor authentication for Snapchat
+author: Kevin Archer
+twitter: IM_Kevin_Archer
+permalink: /2fa-guides/snapchat/
+my-image: /assets/img/guides/snapchat/snapchat.svg
 published: true
 ---
 <div class="pb-5 py-md-5"> 
-    {% for step in site.data.guides.instagram.steps %}
+    {% for step in site.data.guides.snapchat.steps %}
     <section class="guide-release-note position-relative py-6 px-2 text-left">
         <header class="guide-timeline-decorator d-flex align-items-center mb-1">
             <span class="guide-badge d-inline-block bg-primary p-1 rounded-circle text-bold">{{ step.index }}</span>
@@ -20,8 +17,12 @@ published: true
         </header>
         <ul class="list-unstyled guides p-0">
             <li class="ps-5 px-md-0">
-                <p>{{ step.details }}</p> 
+                <p>{{ step.details }}</p>
+                {% if step.img == null %}
+                    <!-- No image -->
+                {% else %}
                 <img class="w-100 rounded-3" src="{{ step.img }}" alt="{{ step.name }}">
+                {% endif %}
             </li>
         </ul>
     </section>
@@ -40,7 +41,7 @@ published: true
         </div>
         <div class="px-md-5 px-2 pt-5">
             <div class="callout callout-warning text-start">
-                <strong>Note:</strong> If you haven't set up two-factor authentication or you don't have access to your Instagram account, please contact support directly.
+                <strong>Note:</strong> If you haven't set up two-factor authentication or you don't have access to your Snapchat account, please contact support directly.
             </div>
         </div>
     </div>

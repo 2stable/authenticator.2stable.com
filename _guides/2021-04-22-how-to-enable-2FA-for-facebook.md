@@ -38,6 +38,11 @@ published: true
             <div class="btn btn-outline-primary px-4 me-2" onclick="thankYou()">{{ step.footer.buttons[0] }}</div>
             <div class="btn btn-outline-secondary px-4" onclick="needImprove()">{{ step.footer.buttons[1] }}</div>
         </div>
+        <div class="px-md-5 px-2 pt-5">
+            <div class="callout callout-warning text-start">
+                <strong>Note:</strong> If you haven't set up two-factor authentication or you don't have access to your Facebook account, please contact support directly.
+            </div>
+        </div>
     </div>
     {% endif %}
     {% endfor %}
