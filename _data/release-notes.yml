@@ -10,6 +10,44 @@ notes:
             - Unlock with Apple Watch
             - Localization
             - and more to be decided
+  - version: 3.7.1
+    date: Jun 23, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+          added:
+          fixed:
+          improved:
+            - Improved icon selector, now it has an intuitive badge.
+  - version: 3.7.0
+    date: Jun 19, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+          added:
+            - <strong>Notifications</strong>, a place for promotions and recommendations.
+          fixed:
+          improved:
+            - Improved new password screen, now will show a message when confirmed password mismatch.
+  - version: 3.6.0
+    date: May 16, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+          added:
+            - A possibility to choose which accounts would be shown in Authenticator Widget.
+            - An extra warning before deleting an account.
+          fixed:
+            - A bug related to <strong>Rate Us</strong>, sometimes the alert could appear multiple times.
+          improved:
+            - <strong>Mark as Favorite</strong> moved from <strong>Swipe to left</strong> to <strong>Swipe to right</strong>.
+            - <strong>Icons Collection</strong>. Thanks to all users for suggestions.
   - version: 3.6.1
     date: May 22, 2021
     badges:
