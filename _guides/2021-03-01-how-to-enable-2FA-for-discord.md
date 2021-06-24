@@ -40,7 +40,7 @@ published: true
         </div>
         <div class="px-md-5 px-2 pt-5">
             <div class="callout callout-warning text-start">
-                <strong>Note:</strong> If you haven't set up two-factor authentication or you don't have access to your Discord account, please contact support directly.
+                <strong>Note:</strong> If you haven't set up two-factor authentication or you don't have access to your Discord account, please contact Discord support directly.
             </div>
         </div> 
     </div>
