@@ -11,7 +11,7 @@ steps:
 
   - name: Next Page
     index: 3
-    details: Move through the next screens by tapping<span>:</span><strong> Two-Factor Authentication</strong> --> <strong>CONTINUE</strong> --> <strong>Let's do it!</strong>.
+    details: Move through the next screens by tapping<span>:</span><strong> Two-Factor Authentication</strong> --> <strong>CONTINUE</strong> --> <strong>Let's do it!</strong>
     img: /assets/img/guides/snapchat/snapchat_2.webp
 
   - name: Select Authentication App
