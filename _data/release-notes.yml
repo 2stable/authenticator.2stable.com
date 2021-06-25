@@ -10,6 +10,19 @@ notes:
             - Unlock with Apple Watch
             - Localization
             - and more to be decided
+  - version: 3.8.0
+    date: Jun 25, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+          added:
+            - <strong>Mute Notifications</strong> option, in Authenticator settings.
+          fixed:
+            - A bug that could affect some users, who have created multiple vaults.
+          improved:
+            - <strong>Get started</strong>, now users without an iCloud account can use Authenticator.
   - version: 3.7.1
     date: Jun 23, 2021
     badges:
