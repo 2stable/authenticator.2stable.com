@@ -22,6 +22,18 @@ Accordingly, we encourage you to be aware when you leave the Service and to read
 
 <br>
 
+### Disclaimer of Warranties
+
+The service is provided 'as is'. Authenticator by 2Stable and its suppliers, licensors and affiliate companies hereby disclaim all warranties of any kind, express or implied, including, without limitation, the warranties of merchantability, fitness for a particular purpose and non-infringement. Neither Authenticator by 2Stable nor its suppliers and licensors, makes any warranty that the service will be error free or that access thereto will be continuous or uninterrupted. You understand that you download from, or otherwise obtain content or services through, the App Store at your own discretion and risk.
+
+<br>
+
+### Limitation of Liability
+
+In no event will Authenticator by 2Stable, or its suppliers or licensors, be liable with respect to any subject matter of this agreement under any contract, negligence, strict liability or other legal or equitable theory for: (i) any special, incidental or consequential damages; (ii) the cost of procurement or substitute products or services; (iii) for interruption of use or loss or corruption of data; or (iv) for any amounts that increase the fees paid by you to Authenticator by 2Stable under this agreement during the twelve (12) month period prior to the date the cause of the action accrues. Authenticator by 2Stable shall have no liability for any failure or delay due to matters beyond their reasonable control. The foregoing shall not apply to the extent prohibited by applicable law.
+
+<br>
+
 ### {{ site.APP_NAME }} Premium Subscription
 
 With an {{ site.APP_NAME }} Premium subscription, you have access to all features, {{ site.APP_NAME }} Premium subscription is billed annually at the rate corresponding to the selected plan. Payment will be charged to iTunes Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal. Subscriptions may be managed by the user and auto-renewal may be turned off by going to the user's Account Settings after purchase. To cancel your subscription, you can go to your device Settings> iTunes & App Store, tap your Apple ID, tap View Apple ID, tap Subscriptions, click on 'Cancel Subsciption' for the app. Any unused portion of a free trial period, if offered, will be forfeited when the user purchases a subscription to that publication, where applicable. All fees and charges are non-refundable. If you would like to cancel your subscription, switch to another premium service package, please contact us. You are responsible for the content you publish and distribute on {{ site.APP_NAME }}. You warrant that you own or have necessary licenses, rights, consents and permissions to publish the contents. You agree not to publish and create any premium listings for contents that violate our Terms of Service. {{ site.APP_NAME }} has the right to remove the listings without any prior notice and fees or charges will not be refunded. You understand that your subscription or access to contents of the Site will be suspended if you violate the Terms of Service. Suspended accounts will not be restored and fees or charges will not be refunded.
