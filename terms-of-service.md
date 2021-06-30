@@ -24,7 +24,7 @@ Accordingly, we encourage you to be aware when you leave the Service and to read
 
 ### Disclaimer of Warranties
 
-The service is provided 'as is'. Authenticator by 2Stable and its suppliers, licensors and affiliate companies hereby disclaim all warranties of any kind, express or implied, including, without limitation, the warranties of merchantability, fitness for a particular purpose and non-infringement. Neither 2Stable nor its suppliers and licensors, makes any warranty that the service will be error free or that access thereto will be continuous or uninterrupted. You understand that you download from, or otherwise obtain content or services through, the App Store at your own discretion and risk.
+The service is provided 'as is'. 2Stable and its suppliers, licensors and affiliate companies hereby disclaim all warranties of any kind, express or implied, including, without limitation, the warranties of merchantability, fitness for a particular purpose and non-infringement. Neither 2Stable nor its suppliers and licensors, makes any warranty that the service will be error free or that access thereto will be continuous or uninterrupted. You understand that you download from, or otherwise obtain content or services through, the App Store at your own discretion and risk.
 
 <br>
 
