@@ -1,7 +1,7 @@
 steps:
   - name: Download Authenticator by 2Stable
     index: 1
-    details: <div class="pt-3"><a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct={{ page.permalink }}&mt=8" target="_blank"><img class="hover" src="https://one-badge.com/b/apple/appstore.svg" alt="apple badge download" height="48"></a></div>
+    details: <div class="pt-3"><a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=/2fa-guides/snapchat/&mt=8" target="_blank"><img class="hover" src="https://one-badge.com/b/apple/appstore.svg" alt="apple badge download" height="48"></a></div>
     img: null
 
   - name: Locate 2FA Setting

@@ -20,8 +20,12 @@ published: true
         </header>
         <ul class="list-unstyled guides p-0">
             <li class="ps-5 px-md-0">
-                <p>{{ step.details }}</p> 
+                <p>{{ step.details }}</p>
+                {% if step.img == null %}
+                    <!-- No image -->
+                {% else %}
                 <img class="w-100 rounded-3" src="{{ step.img }}" alt="{{ step.name }}">
+                {% endif %}
             </li>
         </ul>
     </section>
