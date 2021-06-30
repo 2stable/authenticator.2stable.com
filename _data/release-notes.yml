@@ -1,6 +1,6 @@
 notes:
   - version: TBD
-    date: Coming soon
+    date: To Be Decided
     badges:
       - TBD
     changes:
@@ -9,7 +9,7 @@ notes:
             - Browser Extension
             - Unlock with Apple Watch
             - Localization
-            - and more to be decided
+            - and more
   - version: 3.8.0
     date: Jun 25, 2021
     badges:
