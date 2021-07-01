@@ -10,7 +10,7 @@ permalink: /2fa-guides/epic-games/
 my-image: /assets/img/guides/epic-games/epic-games.svg
 image: /assets/img/guides/epic-games/2fa-epic-games.jpeg
 twitter-service: "@EpicGames"
-published: false
+published: true
 ---
 <div class="pb-5 py-md-5"> 
     {% for step in site.data.guides.epic-games.steps %}
