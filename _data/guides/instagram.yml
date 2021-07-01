@@ -1,51 +1,41 @@
 steps:
   - name: Download Authenticator by 2Stable
-    index: 1
-    details: <div class="pt-3"><a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=/2fa-guides/instagram/&mt=8" target="_blank"><img class="hover" src="https://one-badge.com/b/apple/appstore.svg" alt="apple badge download" height="48"></a></div>
+    details: null
     img: null
 
   - name: Locate 2FA Setting
-    index: 2
     details: Open your Instagram app on your mobile device. Tap on your profile picture in the bottom right to go to your profile, then tap (3 bars icon) in the top right.
     img: /assets/img/guides/instagram/instagram_1.webp
 
   - name: Next Page
-    index: 3
     details: Look for the gear symbol and go in <strong>Settings</strong>
     img: /assets/img/guides/instagram/instagram_2.webp
 
   - name: Next Page
-    index: 4
     details: Move through the next screens by tapping <strong>Security</strong> > <strong>Two-factor authentication</strong> > <strong>Get Started</strong>.
     img: /assets/img/guides/instagram/instagram_3.webp
 
   - name: Enable 2FA
-    index: 5
     details: You’ll need to choose your security method. Select <strong>Authentication app</strong>.
     img: /assets/img/guides/instagram/instagram_4.webp
 
   - name: Setup 2FA
-    index: 6
     details: Your Instagram app will now ask to open authenticator app (in your case, Authenticator by 2Stable). Tap <strong>Open</strong> and go to the next step.
     img: /assets/img/guides/instagram/instagram_5.webp
 
   - name: Save account
-    index: 7
     details: Authenticator App will automatically choose the Instagram logo and autofill account name and secret key. Confirm it’s correct by clicking <strong>Save</strong>.
     img: /assets/img/guides/instagram/instagram_6.webp
 
   - name: Two-Factor Authentication Code
-    index: 8
     details: Record the numerical token provided for Instagram. Note that this code refreshes every 30 seconds.
     img: /assets/img/guides/instagram/instagram_7.webp
 
   - name: Complete Enablement
-    index: 9
     details: Returning to the Instagram app, enter the numerical token in the appropriate field. When done tap <strong>Next</strong>.
     img: /assets/img/guides/instagram/instagram_8.webp
 
   - name: Recovery codes
-    index: 10
     details: Your Instagram account is now protected. Press on <strong>Next</strong>, you are presented with access to your backup codes. Each code can only be used once. We suggest you to store them digitally in a safe place. Press <strong>Done</strong> and that's all.
     img: /assets/img/guides/instagram/instagram_9.webp
 # footer 

@@ -1,31 +1,25 @@
 steps:
   - name: Download Authenticator by 2Stable
-    index: 1
-    details: <div class="pt-3"><a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=/2fa-guides/snapchat/&mt=8" target="_blank"><img class="hover" src="https://one-badge.com/b/apple/appstore.svg" alt="apple badge download" height="48"></a></div>
+    details: null
     img: null
 
   - name: Locate 2FA Setting
-    index: 2
     details: Open your Snapchat app on your mobile device. Tap on your profile picture in the top left to go to your profile, then tap (gear symbol) in the top right corner.
     img: /assets/img/guides/snapchat/snapchat_1.webp
 
   - name: Next Page
-    index: 3
     details: Move through the next screens by tapping<span>:</span><strong> Two-Factor Authentication</strong> --> <strong>CONTINUE</strong> --> <strong>Let's do it!</strong>
     img: /assets/img/guides/snapchat/snapchat_2.webp
 
   - name: Select Authentication App
-    index: 4
     details: You’ll need to choose your security method. Select <strong>Authentication App</strong> as it's the most secure method.
     img: /assets/img/guides/snapchat/snapchat_3.webp
 
   - name: Choose Manually
-    index: 5
     details: To be sure that you will get 2FA codes for your Snapchat account with our app select <strong>Set up Manually</strong>.
     img: /assets/img/guides/snapchat/snapchat_4.webp
 
   - name: QR Code
-    index: 6
     details: A pop-up window will appear for you to scan the QR Code. Take a screenshot of the QR code screen and save it into <strong>Files</strong> on your device.
     img: /assets/img/guides/snapchat/snapchat_5.webp
 
@@ -35,17 +29,14 @@ steps:
     img: /assets/img/guides/snapchat/snapchat_6.webp
 
   - name: Save Account
-    index: 8
     details: After successfully importing the QR Code screenshot, the Authenticator App will automatically choose the Snapchat logo and autofill account name and secret key. Confirm it’s correct by clicking <strong>Save</strong>
     img: /assets/img/guides/snapchat/snapchat_7.webp
 
   - name: Complete Enablement
-    index: 9
     details: Returning to the Snapchat app, enter the numerical code from Authenticator in the appropriate field. When done click <strong>Continue</strong>.
     img: /assets/img/guides/snapchat/snapchat_8.webp
 
   - name: Save your Backup Code!
-    index: 10
     details: Your Snapchat account is now protected. You can copy the backup code into Authenticator or save it in the photo gallery, no matter where you gonna save it, the most important is to store the backup code in a safe place. Press <strong>Next</strong> and that's all.
     img: /assets/img/guides/snapchat/snapchat_9.webp
 # footer 

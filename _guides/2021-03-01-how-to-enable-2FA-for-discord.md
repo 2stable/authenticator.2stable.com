@@ -8,23 +8,35 @@ image: /assets/img/guides/discord/2fa-discord.jpeg
 tags: "2fa, security, TwoFactorAuthentication"
 author: Aries Ikel
 twitter: i40504
-twitter-2stable: AuthWidget
+twitter-2stable: "@AuthWidget"
+twitter-service: "@discord"
 published: true
 ---
 <div class="pb-5 py-md-5"> 
     {% for step in site.data.guides.discord.steps %}
     <section class="guide-release-note position-relative py-6 px-2 text-left">
         <header class="guide-timeline-decorator d-flex align-items-center mb-1">
-            <span class="guide-badge d-inline-block bg-primary p-1 rounded-circle text-bold">{{ step.index }}</span>
+            <span class="guide-badge d-inline-block bg-primary p-1 rounded-circle text-bold">{{ forloop.index }}</span>
             <h2 class="f3-light my-0 guide-title ps-3 px-md-0">{{ step.name }}</h2>
         </header>
         <ul class="list-unstyled guides p-0">
             <li class="ps-5 px-md-0">
-                <p>{{ step.details }}</p>
-                {% if step.img == null %}
-                    <!-- No image -->
+                {% if step.details != null %}
+                    <p>{{ step.details }}</p>
                 {% else %}
-                <img class="w-100 rounded-3" src="{{ step.img }}" alt="{{ step.name }}">
+                    <!-- No details -->  
+                {% endif %}
+                {% if forloop.index == 1 %}
+                    <div class="pt-3">
+                        <a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct={{ page.permalink }}&mt=8" target="_blank">
+                            <img class="hover" src="https://one-badge.com/b/apple/appstore.svg" alt="apple badge download" height="48">
+                        </a>
+                    </div>
+                {% endif %}
+                {% if step.img != null %}
+                    <img class="w-100 rounded-3" src="{{ step.img }}" alt="{{ step.name }}">
+                {% else %}
+                    <!-- No image -->
                 {% endif %}
             </li>
         </ul>

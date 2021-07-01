@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}" class="h-100">
-  <head>{% for item in site.analytics %}{% if item.include > 0 %}<!-- {{ item.name }} -->{{ item.issuer }}{% endif %}{% endfor %}
+  <head>
+    {% for item in site.analytics %}{% if item.include > 0 %}<!-- {{ item.name }} -->{{ item.issuer }}{% endif %}{% endfor %}
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="{{ site.google_verification }}" />
-{% seo %}
+    {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -28,7 +29,7 @@
               <h1>{{ page.title | default: site.title }}</h1>
               <p class="text-muted">{{ page.date | date_to_string }} - by <a href="https://twitter.com/{{ page.twitter }}" style="text-decoration: none !important" target="_blank">{{ page.author }}</a></p>
               <div style="height: 30px;">
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-via="{{ page.twitter }}" data-hashtags="{{ page.tags }}" data-related="AuthWidget" data-show-count="true"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" rel="me" data-via="{{ page.twitter }} {{ page.twitter-2stable }} {{ page.twitter-service }}" data-hashtags="{{ page.tags }}" data-related="AuthWidget" data-show-count="true"></a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
               </div>
               <div class="callout callout-info">
                 <strong>Important:</strong> If any sites prompt you to use Google Authenticator for two-factor authentication, note you can always substitute it with <a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct={{ page.permalink }}&mt=8">Authenticator by 2Stable</a>. Although they work in similar ways, Authenticator by 2Stable is more feature-rich and allows for multi-device syncing, iCloud-backups, and have easier account recovery in case you lose your device or just want to switch to a new one.

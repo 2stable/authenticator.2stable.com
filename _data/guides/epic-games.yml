@@ -1,51 +1,41 @@
 steps:
   - name: Download Authenticator by 2Stable
-    index: 1
-    details: <div class="pt-3"><a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&ct=/2fa-guides/epic-games/&mt=8" target="_blank"><img class="hover" src="https://one-badge.com/b/apple/appstore.svg" alt="apple badge download" height="48"></a></div>
+    details: null
     img: null
 
   - name: Locate 2FA Setting
-    index: 2
     details: Log in to your Epic Games account and go to <strong>ACCOUNT</strong>.
     img: /assets/img/guides/epic-games/epic-games_1.webp
 
   - name: Next Page
-    index: 3
     details: Choose <strong>PASSWORD & SECURITY</strong> tab.
     img: /assets/img/guides/epic-games/epic-games_2.webp
 
   - name: Activate Two-Factor Authentication 
-    index: 4
     details: Scroll down and enable <strong>THIRD-PARTY AUTHENTICATOR APP</strong>.
     img: /assets/img/guides/epic-games/epic-games_3.webp
 
   - name: QR Code
-    index: 5
     details: A pop-up window will appear for you to scan the QR Code with Authenticator App. Keep this window open as you reach for your phone. Note that anywhere (not just Epic Games) that prompts Google Authenticator also supports Authenticator App.
     img: /assets/img/guides/epic-games/epic-games_4.webp
 
   - name: Capture QR Code
-    index: 6
     details: Take out your mobile device and open the Authenticator App. At the bottom of the screen, tap the <strong>plus</strong> sign to scan a new account and hold your device up to the computer screen.
     img: /assets/img/guides/epic-games/epic-games_5.webp
 
   - name: Save account
-    index: 7
     details: After successfully scanning the QR Code, the Authenticator App will automatically choose the Epic Games logo and autofill account name and secret key. Confirm it’s correct by clicking Save.
     img: /assets/img/guides/epic-games/epic-games_6.webp
 
   - name: Save Account
-    index: 8
     details: After successfully importing the QR Code screenshot, the Authenticator App will automatically choose the epic-games logo and autofill account name and secret key. Confirm it’s correct by clicking <strong>Save</strong>
     img: /assets/img/guides/epic-games/epic-games_7.webp
 
   - name: Complete Enablement
-    index: 9
     details: Returning to the epic-games app, enter the numerical code from Authenticator in the appropriate field. When done click <strong>Continue</strong>.
     img: /assets/img/guides/epic-games/epic-games_8.webp
 
   - name: Save your Backup Code!
-    index: 10
     details: Your epic-games account is now protected. You can copy the backup code into Authenticator or save it in the photo gallery, no matter where you gonna save it, the most important is to store the backup code in a safe place. Press <strong>Next</strong> and that's all.
     img: /assets/img/guides/epic-games/epic-games_9.webp
 # footer 
