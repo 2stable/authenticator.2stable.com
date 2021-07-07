@@ -10,6 +10,31 @@ notes:
             - Unlock with Apple Watch
             - Localization
             - and more
+  - version: 3.8.2
+    date: Jun 25, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+          added:
+          fixed:
+            - Fixed a bug that could prevent the vault to load on some devices with outdated version of Authenticator.
+          improved:
+            - Improved macOS experience, now app can be resized horizontally.
+  - version: 3.8.1
+    date: Jun 25, 2021
+    badges:
+      - ADDED
+      - FIXED
+      - IMPROVED
+    changes:
+          added:
+          fixed:
+            - Fixed a bug related to the quality of the icons.
+            - Fixed a bug related to the synchronization switch, sometimes it was disabled.
+            - Fixed some small bugs under the hood in this version to make your Authenticator experience even smoother.
+          improved:
   - version: 3.8.0
     date: Jun 25, 2021
     badges:
