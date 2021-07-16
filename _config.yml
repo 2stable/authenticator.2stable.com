@@ -91,3 +91,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-minifier
   - jekyll-feed
+
+sass:
+style: compressed
