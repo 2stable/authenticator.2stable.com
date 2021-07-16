@@ -1,1 +1,1 @@
-# authenticator.2stable.com
+# https://authenticator.2stable.com

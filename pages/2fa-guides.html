@@ -24,22 +24,37 @@ image: /assets/guides/2fa-2stable.jpg
 <div class="container pb-5">
   <div class="row">
       {% for guide in site.guides reversed %}
+      {% if guide.state == "soon" %}
       <div class="col-lg-3 col-md-4 p-3">
-        <div class="card h-100">
-          <div class="bg-light text-center d-flex rounded-top" style="height: 120px;">
-            <img class="d-block m-auto p-1" src="{{ guide.my-image }}" style="width: 50%" alt="{{ guide.title }}">
+        <a role="button" class="text-dark">
+          <div class="card h-100">
+              <div class="bg-light text-center d-flex rounded-top" style="height: 120px;">
+                <img class="d-block m-auto p-1" src="{{ guide.my-image }}" style="width: 50%" alt="{{ guide.title }}">
+              </div>
+              <div class="card-body">
+                <h6 class="card-title m-0">{{ guide.title }}</h6>
+                <p class="card-text"><small class="text-muted">{{ guide.date | date_to_string }}</small></p>
+                <p class="btn btn-sm btn-outline-secondary m-0">Soon</p>
+              </div>
           </div>
-          <div class="card-body">
-            <h6 class="card-title m-0">{{ guide.title }}</h6>
-            <p class="card-text"><small class="text-muted">{{ guide.date | date_to_string }}</small></p>
-            {% if guide.state == "soon" %}
-            <p class="btn btn-sm btn-outline-secondary m-0">Soon</p>
-            {% else %}
-            <a href="{{ guide.url }}" class="btn btn-sm btn-outline-primary">Read guide</a>
-            {% endif %}
-          </div>
-        </div>
+        </a>
       </div>
+      {% else %}
+      <div class="col-lg-3 col-md-4 p-3">
+        <a href="{{ guide.url }}" class="text-dark">
+          <div class="card h-100">
+              <div class="bg-light text-center d-flex rounded-top" style="height: 120px;">
+                <img class="d-block m-auto p-1" src="{{ guide.my-image }}" style="width: 50%" alt="{{ guide.title }}">
+              </div>
+              <div class="card-body">
+                <h6 class="card-title m-0">{{ guide.title }}</h6>
+                <p class="card-text"><small class="text-muted">{{ guide.date | date_to_string }}</small></p>
+                <p class="btn btn-sm btn-outline-primary m-0">Read guide</p>
+              </div>
+          </div>
+        </a>
+      </div>
+      {% endif %}
       {% endfor %}
   </div>
 </div>
