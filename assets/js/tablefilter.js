@@ -4,8 +4,8 @@ function filterXXX() {
     var rows = table.getElementsByTagName("tr");
     var results = document.getElementById("displayResults");
 
-    for (let index = 0; index < rows.length; index++) {
-        const row = rows[index];
+    for (var index = 0; index < rows.length; index++) {
+        var row = rows[index];
 
         var header = row.getElementsByTagName("th")[0];
         var value = header.textContent || header.innerText;
