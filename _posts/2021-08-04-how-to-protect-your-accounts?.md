@@ -6,7 +6,7 @@ permalink: /how-to-protect-your-accounts/
 image: /assets/img/blog/004.webp
 
 ---
-If you want to access your Facebook, Instagram or Twitter account, but you get a message to introduce a code generated in your authenticator app, this means that your account have been hacked.
+If you want to access your Facebook, Instagram or Twitter account, but you get a message to introduce a code generated in your authenticator app, this means that your account has been hacked.
 
 Account hacking has become a growing problem, as more people work, socialize, and shop online. If you will ever face a situation like this immediately contact Facebook, Instagram or any other service support directly. So what you can do to protect your accounts from online hacking?
 
