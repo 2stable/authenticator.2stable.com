@@ -3,7 +3,8 @@
   <head>{% for item in site.analytics %}{% if item.include > 0 %}<!-- {{ item.name }} -->{{ item.issuer }}{% endif %}{% endfor %}
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="{{ site.google_verification }}" />
-{% seo %}
+    {% feed_meta %}
+    {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
