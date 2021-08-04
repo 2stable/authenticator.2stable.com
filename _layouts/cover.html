@@ -16,16 +16,9 @@
   </head>
   <body class="d-flex h-100">
     <div class="d-flex w-100 h-100 mx-auto flex-column">
-        <div class="mb-auto">
-            {%- include nav.html -%}
-        </div>
-        <div class="px-2">
-            {{ content }}
-        </div>
-        <div class="mt-auto">
-            {%- include backtotop.html -%}
-            {%- include footer.html -%}
-        </div>
+        <div class="mb-auto">{%- include nav.html -%}</div>
+        <div class="px-2">{{ content }}</div>
+        <div class="mt-auto">{%- include backtotop.html -%}{%- include footer.html -%}</div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

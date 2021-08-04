@@ -4,17 +4,11 @@
       <a class="navbar-brand me-md-auto my-0 mx-0 text-dark" href="/"><img src="/assets/img/icon-1025.png" width="40" class="d-inline-block align-top" alt="Authenticator app logo"></a>
     </div>
     <a class="navbar-brand me-md-auto my-0 mx-0 text-dark" href="/">{{ site.title }}</a>
-    <nav class="my-2 my-md-0 me-md-3">
-      {% if page.url == "/blog/" %}
-        <a class="p-2" href="/blog/">Blog</a>
-        {% else %}
-        <a class="p-2 nav-hover text-secondary" href="/blog/">Blog</a>
-      {% endif %}
-      {% if page.url == "/2fa-guides/" %}
-        <a class="p-2" href="/2fa-guides/">2FA Guides</a>
-        {% else %}
-        <a class="p-2 nav-hover text-secondary" href="/2fa-guides/">2FA Guides</a>
-      {% endif %}
+    <nav class="my-2 my-md-0 me-md-3">{% if page.url == "/blog/" %}
+        <a class="p-2" href="/blog/">Blog</a>{% else %}
+        <a class="p-2 nav-hover text-secondary" href="/blog/">Blog</a>{% endif %}{% if page.url == "/2fa-guides/" %}
+        <a class="p-2" href="/2fa-guides/">2FA Guides</a>{% else %}
+        <a class="p-2 nav-hover text-secondary" href="/2fa-guides/">2FA Guides</a>{% endif %}
     </nav>
     <!-- <a class="btn btn-outline-primary" href="#">Sign up</a> -->
   </header>

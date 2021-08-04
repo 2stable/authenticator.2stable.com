@@ -10,10 +10,9 @@ permalink: /blog/
           <h1 class="display-4">The Authenticator Blog</h1>
           <p class="lead">{{ page.description | default: site.description }}</p>
         </div>
-      </div>
+    </div>
 </div>
-<div class="container">
-    {% for post in site.posts %}
+<div class="container">{% for post in site.posts %}
     <div class="pb-md-5 pb-3">
         <a href="{{ post.url }}" style="text-decoration: none !important">
             <div class="row justify-content-center">
@@ -29,6 +28,5 @@ permalink: /blog/
                 </div>
             </div>
         </a>
-    </div>
-    {% endfor %}
+    </div>{% endfor %}
 </div>
