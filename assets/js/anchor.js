@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("__content__").getElementsByTagName("h4");for(let n of e){var t=document.createElement("a");t.className="anchorjs-link ps-2",t.ariaLabel="Anchor",t.setAttribute("data-anchorjs-icon","#"),t.href="#"+n.id,n.appendChild(t)}});
