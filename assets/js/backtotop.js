@@ -1,0 +1,1 @@
+function scrollFunction(){mybutton=document.getElementById("myBtn"),document.body.scrollTop>360||document.documentElement.scrollTop>360?mybutton.style.display="block":mybutton.style.display="none"}function topFunction(){document.body.scrollTop=0,document.documentElement.scrollTop=0}window.onscroll=function(){scrollFunction()};
