@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://authenticator.2stable.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://authenticator.2stable.com/" rel="alternate" type="text/html" /><updated>2025-05-29T12:26:46+02:00</updated><id>https://authenticator.2stable.com/feed.xml</id><title type="html">Authenticator App</title><subtitle>Secure Two-Factor Authentication App for iPhone, iPad, iPod, Apple Watch and Mac</subtitle><entry><title type="html">How to protect against phishing attacks</title><link href="https://authenticator.2stable.com/how-to-protect-against-phishing-attacks/" rel="alternate" type="text/html" title="How to protect against phishing attacks" /><published>2022-12-10T19:09:00+01:00</published><updated>2023-02-02T15:49:14+01:00</updated><id>https://authenticator.2stable.com/how-to-protect-against-phishing-attacks</id><content type="html" xml:base="https://authenticator.2stable.com/how-to-protect-against-phishing-attacks/"><![CDATA[<p>Nowadays, being hacked is one of the dangers that one can fall into while on the Internet. There are many ways someone can be a victim of hacking as it can come in many shapes and forms. However, there is one that stands out the most for users who are trying to protect their most valued accounts: <strong> Phishing </strong>
+<br /></p>
+
+<p>Phishing commonly tricks its victims into giving up their personal details or sensitive data using emails, telephone calls, or text messages resulting in identity theft or financial loss. In many cases, spoof emails are sent, pretending to come from large and recognized organizations or companies, as an excuse to gain private information putting the victim later on in difficult situations like ransomware or credit card fraud.</p>
+
+<p>Phishing has its origin during the mid-’90s carrying its first attacks on AOL Inc, or America Online, an American web portal, and online service provider, which affected a lot of people turning it into what is now a big headache for internet users. The word has been changed and turned to phishing in relation to the group of people, known as “phreaks”, who first planned these scams. As its name suggests it compares internet users to fish as potential victims ready to fall for any traps or baits in the form of emails containing malicious attached files or links to fake websites.</p>
+
+<p><img class="d-block img-fluid my-4 mx-auto rounded shadow" srcset="/assets/img/blog/008/hook-phishing-account@1x.webp, /assets/img/blog/008/hook-phishing-account@2x.webp 2x" src="/assets/img/blog/008/hook-phishing-account@1x.webp" alt="show hook stealing user data" />
+<br />
+Since its origins phishing has evolved and developed in so many ways to scam Internet users around the world. Before you can protect your accounts against phishing it is important to know how to identify phishing and its different kinds.</p>
+
+<p>Here we have listed some of them:</p>
+
+<ul>
+  <li><strong>Spear phishing</strong> This plot typically uses spoof emails from a reliable source to get the victim’s details. The more research has been done on a specific individual the more it increases the chances of that person falling into the trap.</li>
+  <li><strong>Whaling</strong> Similar to spear phishing, it targets a senior-level or important individual from a company to steal information and in most cases ask them to transfer large sums of money.</li>
+  <li><strong>Smishing</strong> Also known as SMS phishing. Instead of using email to get personal data, phishers attack their victims on their mobile phones by sending text messages.</li>
+  <li><strong>Vishing</strong> Sometimes referred to as Voice Phishing, attackers use phone calls to manipulate and convince their victim to give up private information.</li>
+</ul>
+
+<p><br /></p>
+
+<h4 id="real-case">Real Case</h4>
+<p>Let’s imagine how would phishing work in a real situation. Let’s say you have been recently hired to be a community manager as part of the Public Relations Department of Facebook. After a certain time, one day you wake up not knowing that hackers targeted Facebook and breached its security system. In the process, hackers manage to stole almost the totality of Facebook’s employee’s credentials related to their work account and personal account. Unfortunately for you, you are one of these people.</p>
+
+<p>In this case, hackers then now have the email address you use for your Instagram personal account. It is at this point that they decide to target you to get the missing information which is your Instagram account password. To do this, they send you an email posing as “Instagram” telling you that someone is trying to access your account without your permission, and must log in at once to change your personal details to prevent it.</p>
+
+<p>Randomly, you open your mail at 1.00 a.m. while watching Stranger Things season 4 finale. So, more focused on what’s happening to Eleven and her friends you don’t pay enough attention to the content of the email, and immediately click on the link provided to change your details. Not aware that this link takes you to a fake Instagram website, you are then asked to type in your credentials (email and password) for your Instagram account. With no hesitation at all, you follow the instructions, voluntarily giving away your credentials, or more specifically your password for hackers to gain access to your Instagram account.</p>
+
+<p>Obviously, it’s not easy for everyone to identify when an email is a scam or fake at first sight, or when a text message is a fraud. It makes it even more difficult if the person being attacked is caught off guard or under stress. But, what would have happened if you had put more attention to the email?</p>
+
+<p>Surely, you would’ve seen some subtle signs enough to tell if a source is reliable or not. These are some red flags to watch out for in case you think you are being targeted:</p>
+
+<ul>
+  <li><strong>Sense of urgency</strong> The first and probably the most effective way to trigger someone to share private information. The email you might have received has been written in such ways to awaken emotions in you like a sense of fear, curiosity, or urgency making you act fast without thinking to manipulate you to click a link or open suspicious content.</li>
+  <li><strong>Unusual request and timing</strong> If you get an email from Instagram customer support at 3 a.m. in the morning announcing you have won 5,000 $ worth of purchases and should log in to your account immediately to claim it is a big red flag!</li>
+  <li><strong>Message style</strong> Take a closer look and check for any obvious spelling and grammar errors. Mails sent from relevant organizations will always ensure any emails sent out are free from spelling and grammar mistakes.</li>
+  <li><strong>Hyperlinks / Attachments</strong> Phishing emails posing as Google or Twitch will commonly contain a malicious link or a suspicious attachment. Links will take the victim to a fake domain to get their credentials such as their mail address and password while attachments could infect computers with malware to steal their credentials.</li>
+</ul>
+
+<p>This last example about links and domains is the one you should be paying more attention to whenever you get this kind of suspicious email. If we take the same example I mentioned before the sender’s email address supposedly coming from Instagram won’t even match the one Instagram officially use to contact its users but instead will be something like: <span class="text-danger">instagramnoreply@cbcscouting.com<span></span></span></p>
+
+<p>More importantly, if you look closely at the masked link by hovering over it you will also notice that the domain is somehow strange. An example of it can be like the one you can see: <span class="text-danger">http://xyz.instgrm.com/support</span> (<strong>a</strong> is missing)</p>
+
+<p><br /></p>
+
+<h4 id="how-to-avoid-phishing">How to avoid Phishing?</h4>
+<p><img class="d-block img-fluid my-4 mx-auto rounded shadow" srcset="/assets/img/blog/008/how_to_avoid_phishing@1x.webp, /assets/img/blog/008/how_to_avoid_phishing@2x.webp 2x" src="/assets/img/blog/008/how_to_avoid_phishing@1x.webp" alt="show hook stealing user data" />
+<br />
+If a phishing attack is not prevented in time, victims can be affected heavily. As a result, in case a target is a single person this can lead to a financial loss like fraudulent charges, loss of important files or other documents in their device, fake social media posts, and ransomware. Similarly, if an organization or a business has been compromised some of its consequences may be the exposure of personal information about staff and customers, future damage to the employer’s reputation, a company’s value decrease, and ransomware.</p>
+
+<p>Avoiding these situations is important. At this point, many of you may be asking: but, how? To this, there is no easy answer, but surely you can take some precautions to avoid being scammed. You can start by using security technologies to fight fishing such as multi-factor authentication or two-factor authentication. 2FA will be an effective way in securing your device from phishing.</p>
+
+<p>As we mentioned in our previous <a href="https://authenticator.2stable.com/what-is-2-factor-authentication-and-how-does-it-work/">article</a>, Two-Factor Authentication (2FA) provides your accounts with an extra security layer. What does that mean you say? Mind that, 2FA is a security system that requires a second piece of evidence or token before granting access to your account. This second piece of evidence or token may ask you about “something you know”, “something you have”( a phone), or “something you are” (Face ID or Touch ID). If you have enabled the 2FA feature in your accounts like Twitch or Crypto.com before logging out, the next time you log in, these accounts will ask you to enter your email and password, and once done will ask you to enter the second piece of evidence. Under any possible phishing attack, phishers will have it difficult to gain access to your account for a simple reason. Even if they have your email and password, and try to log in, they will quickly be facing a big challenge which is entering your 2FA token. Since 2FA is something that is unique and only belongs to you, phishers will be pulling their hair out before there’s a chance they can possibly get it.</p>
+
+<p>Authenticator App is a great 2FA tool to secure your accounts. Not only it generates and keeps your codes, based on a Time-Based one Time password (TOTP), but also recently included another great feature. Authenticator possesses to its advantage the possibility of backing up, restoring, and synchronizing all your data with its “Sync &amp; Backup” option that will come in handy whenever you lose or switch to a new device. As for the new feature, Authenticator has added a <a href="https://authenticator.2stable.com/extensions/">Browser Extension</a> to minimize phishing attacks. The Browser’s auto-fill built alerts the user of suspicious domains when it’s completely different from the ones associated with your account.</p>
+
+<p>To give you a practical example, once Browser Extension has been enabled you will see the Authenticator App icon in the top left or right corner of your Menu bar. Upon entering your credentials in your accounts like Facebook or Instagram, these will then ask you to enter your codes, at this point you can prompt Authenticator App to auto-fill your codes by just clicking on it! Et voilà! You’re back in! Worst case scenario, if the website is designed by phishing attackers whenever trying to auto-fill your code it will warn you that the domain is not the same, and so not to be relied on.</p>
+
+<p><br /></p>
+
+<h4 id="final-thoughts">Final Thoughts</h4>
+<p>All in all, in situations in which you think your account is compromised, think before acting and avoid getting yourself in trouble. Remember that any renowned website will never ask easily for credentials or sensitive information online. Be sure to never let your guard down and always keep your accounts secured.</p>]]></content><author><name>Nikki Reiner</name></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[Nowadays, being hacked is one of the dangers that one can fall into while on the Internet. There are many ways someone can be a victim of hacking as it can come in many shapes and forms. However, there is one that stands out the most for users who are trying to protect their most valued accounts: Phishing]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://authenticator.2stable.com/assets/img/blog/008/008.webp" /><media:content medium="image" url="https://authenticator.2stable.com/assets/img/blog/008/008.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">What is 2 factor authentication and how does it work?</title><link href="https://authenticator.2stable.com/what-is-2-factor-authentication-and-how-does-it-work/" rel="alternate" type="text/html" title="What is 2 factor authentication and how does it work?" /><published>2022-11-04T17:45:00+01:00</published><updated>2022-12-10T20:04:41+01:00</updated><id>https://authenticator.2stable.com/what-is-2-factor-authentication-and-how-does-it-work</id><content type="html" xml:base="https://authenticator.2stable.com/what-is-2-factor-authentication-and-how-does-it-work/"><![CDATA[<p>Two-Factor Authentication (2FA) your secret weapon against hackers! In this article, we will show you how 2FA works, why it’s important, the different kinds of 2FA, and how to set them up on your various accounts. Let’s get started!</p>
+
+<p><br /></p>
+
+<h4 id="what-is-two-factor-authentication2fa">What is Two-Factor Authentication(2FA)?</h4>
+<p>Two-factor authentication is an authentication method that requires two pieces of evidence to be granted access to a certain account. 2FA, usually requires information like Password “something you know”, Hardware token or a smartphone “something you have”, and Face ID “something you are”</p>
+
+<p><br /></p>
+
+<h4 id="so-how-does-2fa-work-in-real-situations">So how does 2FA work in real situations?</h4>
+<p>Let’s say you want to login into your account without two-factor authentication. As a rule, all you need to do is to enter your username and password…and that’s it! Simple right? but it’s also simple for hackers to access your account. Now, let’s imagine you set up Two-Factor Authentication(2FA) for your account. The system or service will ask to enter your username and password followed by another extra factor giving it another layer of security for instance: a temporary number (something you know) or plugging in a security key (something you have). Once this has been confirmed, you will then be granted access to your account, as usual.</p>
+
+<p><br /></p>
+
+<h4 id="why-is-2fa-important">Why is 2FA important?</h4>
+<p>2FA offers an extra layer of security for your accounts. The main mission is to ensure exclusive entry - to make sure that the person trying to log in is yourself. Nowadays, users are even more getting targeted by online threats of all sorts including malware, cameras recording keystrokes, credential stuffing, SIM swaps, brute-force attacks, and large-scale data breaches on organizations. In a few words, a password isn’t enough anymore… and a second factor is a must-have!</p>
+
+<p><br /></p>
+
+<h4 id="what-happens-if-someone-gains-access-to-your-account">What happens if someone gains access to your account?</h4>
+<p>There’s no need to say that one of the worst scenarios is getting access to your primary email account, as this will allow the hacker to access and reset the password for all your other accounts/services. They might read and delete your emails; make online purchases in your name; steal your digital currency; blackmail or extort you; impersonate you; delete your files and backups; and, if you’re not able to regain access, lock you out of your important accounts forever. But all these undesirable situations could be easily avoided with Two-Factor Authentication(2FA).</p>
+
+<p><br /></p>
+
+<h4 id="what-are-the-different-forms-of-two-factor-authentication2fa">What are the different forms of Two-Factor Authentication(2FA)?</h4>
+<p>There are a handful of different kinds of 2FA that you should know about their advantages and their disadvantages. Here we will be mentioning the following: SMS Text, Authenticator App, and U2F security keys.</p>
+
+<p><br /></p>
+
+<h4 id="sms-text">SMS Text</h4>
+<p>After identifying your username and password, the server or system will ask you to provide a number through which a final code will be sent by SMS. Yet, beware as these codes expire within a short period of time. Even so, Phone Verification has its disadvantage: SIM SWAP! SIM Swap fraud basically transfers the details of your phone number to another device. It starts with the fraudster trying to gain all kinds of information about the victim which will be then used to contact the victim’s mobile phone provider and request to transfer the victim’s SIM to itself. Once this happens, the victim’s phone will lose connection to the network, and the fraudster will receive all the SMS and voice calls intended for the victim. This allows the fraudster to intercept any one-time passwords sent via text or phone calls and thus gives them access to two-factor authentication methods of accounts (be it their bank accounts, social media accounts, etc.)</p>
+
+<p><br /></p>
+
+<h4 id="authenticator-app">Authenticator App</h4>
+<p>Two-Factor Authentication using an Authenticator app works similarly to SMS authentication, after, identifying your username and password you will need to enter a unique code generated in Authenticator App. However, the main difference from SMS authentication, the codes are generated based on a Time-Based One-Time Password or (TOTP) on your device, and the codes are not delivered over the mobile network. In other words, hackers can’t intercept the codes as in SMS text. TOTP is usually a 6-code valid for 30 to 90 seconds that has been generated using the value of the (Shared Secret) and system time. Shared Secret is a unique secret key shared between the Authenticator App and the server. The secret key is generated only once, and then both the Authenticator App and the server keep it safely stored on their ends.</p>
+
+<p>Let’s simulate a real case, for example, I want to set up 2FA for my Facebook account. In this case, I will download Authenticator App by 2Stable, once downloaded, I will open it and will tap on “+”, next, I will log in to my Facebook account and set up the 2FA (Two-Factor Authentication). Once enabled, Facebook will generate a QR code with the unique secret key that I need to scan with Authenticator App by 2Stable. Immediately after, Authenticator will start generating codes - even offline - that will be used as the second factor. In other words, I will need to enter the code from Authenticator App by 2Stable every time I would like to log in to my Facebook account. You can find a <a href="https://authenticator.2stable.com/2fa-guides/facebook/">detailed guide</a> on how to set up 2FA (Two-Factor Authentication) for your Facebook account.</p>
+
+<p>Even if the two-factor authentication via Authenticator App is a good choice to secure your accounts it doesn’t mean you’re totally protected from attacks. Your accounts will still be vulnerable to phishing! 
+A phishing attack will trick someone into giving away their login credentials with a fake website that looks almost exactly like the login page to an original service. Usually, you will be sent an email to change your password due to suspicious activity on your account. A hacker will provide you with a link to a fake login page for your service, once you enter your login credentials on this phishing page, the hacker’s automated system will grab the login credentials you type in, including your username, password, and 2FA code. Hacker’s computer will then quickly log into your account on their behalf and will then change your password and 2FA codes, locking you out of your own account.</p>
+
+<p>If you want to find more information on how to enable the 2FA for your accounts you can check our <a href="https://authenticator.2stable.com/2fa-guides/">guidelines</a> for the most popular services: Facebook, Instagram, Snapchat and others.</p>
+
+<p><br /></p>
+
+<h4 id="u2f-security-keys">U2F Security Keys</h4>
+<p>Another example of Two-Factor Authentication (2FA) is U2F security keys. Universal Second Factor (U2F) security keys are small devices you can carry on your keychain and can be used as a second factor. They can only be validated by a single device (or whatever set of security keys you’ve pre-associated with your account). Using a 2F key is as easy as sticking to your device and touching a button.
+Whenever a service asks for your second factor, you plug your U2F gadget into your desktop device and tap on its little conductive metal button to prove you are there with the device. The device checks the website URL that you are on and does some cryptographic wizardry to generate a validation code that it then sends back to the website you are trying to log into.</p>
+
+<p>U2F gadget is a good choice and it’s very secure, still, as with all security methods it also has weak sides, in most cases, you can just lose your U2F device or someone can steal it from you. Never forget that it’s a physical device that you always need to take care of.</p>
+
+<p><br /></p>
+
+<h4 id="final-thoughts">Final Thoughts</h4>
+<p>All in all, there are several 2FA methods to choose from and you can decide the best option that better suits your needs. Whichever option you pick, most importantly, if you’re reading this you should have your Two-Factor Authenticator running!</p>]]></content><author><name>Nikki Reiner</name></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[Two-Factor Authentication (2FA) your secret weapon against hackers! In this article, we will show you how 2FA works, why it’s important, the different kinds of 2FA, and how to set them up on your various accounts. Let’s get started!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://authenticator.2stable.com/assets/img/blog/007/007.webp" /><media:content medium="image" url="https://authenticator.2stable.com/assets/img/blog/007/007.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Authenticator Widget, how to set up, and why you need it?</title><link href="https://authenticator.2stable.com/how-to-add-authenticator-widget-on-your-home-screen/" rel="alternate" type="text/html" title="Authenticator Widget, how to set up, and why you need it?" /><published>2022-04-06T00:00:00+02:00</published><updated>2022-11-03T18:39:35+01:00</updated><id>https://authenticator.2stable.com/how-to-add-authenticator-widget-on-your-home-screen</id><content type="html" xml:base="https://authenticator.2stable.com/how-to-add-authenticator-widget-on-your-home-screen/"><![CDATA[<p>We have developed Authenticator Widget to allow users to access their codes even faster from the device’s Home Screen.</p>
+
+<p>At the moment if you want to access one of your accounts stored in the Authenticator app you first need to unlock the Authenticator vault with biometry (Face ID / Touch ID) or by entering the password. However, when you create Authenticator Widget, you can access your codes directly from your Home Screen.</p>
+
+<p><br /></p>
+
+<h4 id="how-to-set-up-the-authenticator-widget">How to set up the Authenticator Widget?</h4>
+
+<p>To add Authenticator Widget for your 2FA accounts you need to follow the next steps:</p>
+
+<ol>
+  <li>Open <strong>Authenticator</strong> and add at least 1 account.</li>
+  <li>From the <strong>Home Screen</strong>, touch and hold an empty area until the apps jiggle.</li>
+  <li>Tap the add button <strong>+</strong> in the upper-left corner.</li>
+  <li>Scroll down to select Authenticator</li>
+  <li>Choose from two widget sizes and tap <strong>Add Widget</strong> <img class="d-block img-fluid my-4 mx-auto" srcset="/assets/img/blog/006/widget-iPhone-1.webp, /assets/img/blog/006/widget-iPhone-1@2x.webp 2x" src="/assets/img/blog/006/widget-iPhone-1.webp" alt="iPhone showing how to add Authenticator widget" /></li>
+  <li>Tap on the recently added Authenticator widget.</li>
+  <li>Choose the 2FA accounts that you want to be included in Authenticator Widget.</li>
+  <li>Finally, tap outside of the Authenticator Widget to exit.<img class="d-block img-fluid my-4 mx-auto" srcset="/assets/img/blog/006/widget-iPhone-2.webp, /assets/img/blog/006/widget-iPhone-2@2x.webp 2x" src="/assets/img/blog/006/widget-iPhone-2.webp" alt="iPhone displaying Authenticator widget" /></li>
+</ol>
+
+<p><br />
+That’s it, now you can access your codes even faster. Note that the accounts from Authenticator Widget will be stored in the keychain and will be accessible, without entering your password. Please keep in mind that the security of the keychain is managed by the system.</p>
+
+<p><br /></p>
+
+<h4 id="what-can-be-improved-in-authenticator-widget">What can be improved in Authenticator Widget?</h4>
+
+<p>We have received a lot of suggestions from our users to add a copy action without opening the app, in other words, now when you tap on any code from Authenticator Widget it copies the code and open the app at the same time. We know about this issue and we would like to improve our widget feature, however, we are limited by the iOS &amp; macOS systems. We hope that Apple would fix this issue with Widgets in the upcoming WWDC 2022, so we can finally take Authenticator Widget to a new level.</p>]]></content><author><name>Kevin Archer</name></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[We have developed Authenticator Widget to allow users to access their codes even faster from the device’s Home Screen.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://authenticator.2stable.com/assets/img/blog/006/006.webp" /><media:content medium="image" url="https://authenticator.2stable.com/assets/img/blog/006/006.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to use the Authenticator App by 2Stable on your Apple Watch?</title><link href="https://authenticator.2stable.com/how-to-use-the-authenticator-app-by-2Stable-on-your-apple-watch/" rel="alternate" type="text/html" title="How to use the Authenticator App by 2Stable on your Apple Watch?" /><published>2021-10-08T00:00:00+02:00</published><updated>2022-11-03T18:39:35+01:00</updated><id>https://authenticator.2stable.com/how-to-use-the-authenticator-app-by-2Stable-on-your-apple-watch</id><content type="html" xml:base="https://authenticator.2stable.com/how-to-use-the-authenticator-app-by-2Stable-on-your-apple-watch/"><![CDATA[<p>Authenticator app by 2Stable is an effective way to use two-factor authentication for all your accounts. The app is available for all devices from the Apple ecosystem including Apple Watch.</p>
+
+<p>You can access faster your codes directly from your wrist, or you can approve a notification to unlock Authenticator app by 2Stable on your Mac. Let’s cover the steps for using Authenticator app by 2Stable on your Apple Watch.</p>
+
+<p>To get Authenticator app by 2Stable on your watch, open App Store on your Watch. Search for <strong>Authenticator app</strong> and download it, if you don’t already have it. Downloading it through the Watch installs it on both your iPhone and your Apple Watch. If you already have Authenticator on your iPhone but not on your watch, go to the My Watch section in the Watch app and move to the section for Available Apps. Tap the Install button for Authenticator. The app then appears in the section for Installed On Apple Watch.</p>
+
+<p><br /></p>
+
+<h4 id="how-to-add-accounts-on-your-apple-watch">How to add accounts on your Apple Watch</h4>
+
+<p>Open Authenticator on your watch. The first time you launch the app you will see a list with instructions on how to get your accounts to appear on your Apple Watch, if after completing all the steps the accounts won’t appear, just press on the <strong>Refresh</strong> button, this will force synchronize your accounts from Authenticator on your iPhone with Apple Watch.</p>
+
+<p>To add at least 1 two-factor authentication account to show on your watch, move back to your iPhone and open Authenticator. Tap the + button and choose how you want to add your account, you can <strong>Scan QR Code</strong>, use <strong>Manually</strong> input, import your accounts from <strong>Google Authenticator</strong>, import 2FA account from password managers using URL, or by importing the QR code from a screenshot via <strong>Files</strong>.</p>
+
+<p>All the accounts that appear on Apple Watch are stored in the Apple Watch keychain, for this reason, you can decide which accounts you want to be included on your watch.</p>
+
+<ol>
+  <li>Go to Authenticator settings on your iPhone and find <strong>Apple Watch</strong></li>
+  <li>Next select the accounts that you want to appear on your watch.</li>
+</ol>
+
+<p>You can also decide if you want that the new accounts to be included automatically on your watch by enabling <strong>Automatically Include</strong> in the same section.</p>
+
+<p><br /></p>
+
+<h4 id="how-to-unlock-authenticator-with-apple-watch">How to unlock Authenticator with Apple Watch</h4>
+
+<p>Before you can use your Apple Watch to unlock Authenticator, you’ll need to set up <a href="https://support.apple.com/en-gb/HT206995">Auto Unlock on your Mac</a>. Then follow these steps:</p>
+
+<ol>
+  <li>Be sure to use the same iCloud account on your desktop with which you have paired your Apple Watch.</li>
+  <li>Open and unlock Authenticator on your desktop.</li>
+  <li>Go to Authenticator settings in the top left corner, next find and enable Unlock with Apple Watch.</li>
+</ol>
+
+<p>Now you can use your Apple Watch to unlock Authenticator.</p>
+
+<p>After you set up Authenticator to unlock using your Apple Watch, open the app. If Authenticator is locked, you’ll see a message that <strong>Authenticator is trying to unlock</strong>. To approve and unlock Authenticator, double-click the side button on your Apple Watch.</p>
+
+<p>We have added all these features to ensure the best user experience and to help you to access your codes faster in a secure way.</p>]]></content><author><name>Kevin Archer</name></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[Authenticator app by 2Stable is an effective way to use two-factor authentication for all your accounts. The app is available for all devices from the Apple ecosystem including Apple Watch.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://authenticator.2stable.com/assets/img/blog/005.webp" /><media:content medium="image" url="https://authenticator.2stable.com/assets/img/blog/005.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to protect your accounts?</title><link href="https://authenticator.2stable.com/how-to-protect-your-accounts/" rel="alternate" type="text/html" title="How to protect your accounts?" /><published>2021-08-04T00:00:00+02:00</published><updated>2023-02-02T15:49:14+01:00</updated><id>https://authenticator.2stable.com/how-to-protect-your-accounts</id><content type="html" xml:base="https://authenticator.2stable.com/how-to-protect-your-accounts/"><![CDATA[<p>If you want to access your Facebook, Instagram or Twitter account, but you get a message to introduce a code generated in your Authenticator App, this means that your account has been hacked.</p>
+
+<p>Account hacking has become a growing problem, as more people work, socialize, and shop online. If you will ever face a situation like this immediately contact Facebook, Instagram or any other service support directly. So what you can do to protect your accounts from online hacking?</p>
+
+<p><br /></p>
+
+<h4 id="1-use-two-factor-authentication-for-all-your-accounts"><strong>1. Use Two-Factor Authentication for all your accounts.</strong></h4>
+
+<p>Download and install <a class="icon-link" href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&amp;ct=2stable.com.iPhone&amp;mt=8">Authenticator App by 2Stable
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path></svg>
+  </a> after use the app with any site that supports this type of authentication (Facebook, Instagram, Twitter, Google..). To start using Authenticator App you need to enable two-factor authentication (2FA) for your accounts, when you set up your account with two-factor authentication (2FA), you will receive a secret key to enter into the Authenticator App, usually, the key is in a QR code form. This establishes a secure connection between the Authenticator App and your account. Once this secure connection is established, the Authenticator App will generate a 6-8 digit code that is required to access your account. You can check our <strong>2FA Guides</strong> and <strong>Help</strong> in the app settings for more information or check <a class="icon-link" href="https://authenticator.2stable.com/2fa-guides/">2FA Guides
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path></svg>
+  </a> on our website.</p>
+
+<p><br /></p>
+
+<h4 id="2-use-strong-unique-passwords-for-every-account"><strong>2. Use strong, unique passwords for every account.</strong></h4>
+
+<p>One of the easiest ways hackers steal information is by getting a batch of username and password combinations from one source and trying those same combinations elsewhere. For example, let’s say hackers got your username and password by hacking an email provider. They might try to log into banking sites or major online stores using the same username and password combination. The single best way to prevent one data breach from having a domino effect is to use a strong, unique password for every single online account you have. Creating a unique and strong password for every account is not a job for a human. Try to use a password manager.</p>
+
+<p><br /></p>
+
+<h4 id="3-avoid-phishing"><strong>3. Avoid Phishing.</strong></h4>
+<p>Phishing is by far the simplest way for hackers to get access to people’s Facebook accounts. Phishing is basically a type of scam where hackers create a Facebook login page that looks exactly like the original one. They send fake emails to Facebook users telling them to log in for specific reasons. The users then click the link in the email which takes them to the fake Facebook login page. Once they enter their credentials, all data including usernames and passwords are sent to the hacker’s email. People often fall for these scams because it’s difficult to tell whether a page is fake or not. You can check if your data has been leaked. The website Have I Been Pwned has a database of information that has been exposed. You can input your info like an email address or old passwords to see if that data has been leaked. More about Phishing you can find 
+<a class="icon-link" href="https://authenticator.2stable.com/how-to-protect-against-phishing-attacks">here
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path></svg>
+  </a></p>
+
+<p><br /></p>
+
+<h4 id="final-thoughts">Final Thoughts</h4>
+<p>Unfortunately, nothing can make you 100 percent safe online, so don’t get cocky. New security vulnerabilities are discovered all the time, and there’s not always anything you can do about them. You just have to stay vigilant and try to minimize your risk as much as possible.</p>]]></content><author><name>Kevin Archer</name></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[If you want to access your Facebook, Instagram or Twitter account, but you get a message to introduce a code generated in your Authenticator App, this means that your account has been hacked.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://authenticator.2stable.com/assets/img/blog/004.webp" /><media:content medium="image" url="https://authenticator.2stable.com/assets/img/blog/004.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to migrate all your 2FA codes from Google Authenticator</title><link href="https://authenticator.2stable.com/how-to-migrate-all-your-2FA-codes-from-Google-Authenticator/" rel="alternate" type="text/html" title="How to migrate all your 2FA codes from Google Authenticator" /><published>2021-04-29T14:46:00+02:00</published><updated>2023-05-06T14:41:13+02:00</updated><id>https://authenticator.2stable.com/how-to-migrate-all-your-2FA-codes-from-Google-Authenticator</id><content type="html" xml:base="https://authenticator.2stable.com/how-to-migrate-all-your-2FA-codes-from-Google-Authenticator/"><![CDATA[<p>Authenticator by 2Stable is a secure 2FA authentication app that generates, store and manage your two-factor authentication codes for most popular websites.</p>
+
+<p><br />
+You can synchronize your codes between all your devices and securely backup your accounts in case you lose access to your device or switch to a new one. No matter how many accounts you have stored in your Google Authenticator, you can seamlessly move them to Authenticator by 2Stable by following the steps below.</p>
+
+<p><br />
+First of all, you need to download the <a href="https://apps.apple.com/app/apple-store/id1538761576?pt=122171064&amp;ct=2stable.com.iPhone&amp;mt=8">Authenticator by 2Stable</a> on your device, after, <strong>Set up</strong> a password that will be used to encrypt all your data.</p>
+
+<p><br /></p>
+<div class="callout callout-warning text-start">
+Make sure you remember your password, if you'll forget your password you will lose access to your accounts and we won't be able to recover or restore your access.
+</div>
+
+<p><br />
+Once you have complete the <strong>Set up</strong> process just follow these steps on Authenticator by 2Stable:</p>
+
+<ol>
+  <li>Open Authenticator by 2Stable and press on <img width="20" src="/assets/img/addItem.webp" alt="add Item" /></li>
+  <li>Select <img width="24" src="/assets/img/google.webp" alt="Google Authenticator" /> from <strong>Other Options</strong></li>
+</ol>
+
+<div class="container py-md-3">
+<img class="d-block img-fluid mt-3 mx-auto" srcset="/assets/img/blog/003/Google-Authenticator-setup-authenticator.png, /assets/img/blog/003/Google-Authenticator-setup-authenticator@2x.png 2x" src="/assets/img/blog/003/Google-Authenticator-setup-authenticator.png" alt="Locate Google Authenticator" loading="lazy" />
+</div>
+
+<p><br />
+Now you need to export the accounts from Google Authenticator by following these steps:</p>
+
+<ol>
+  <li>Open Google Authenticator</li>
+  <li>Tap the overflow button <img width="20" src="/assets/img/3lines.webp" alt="other Options" /> at the upper-left corner</li>
+  <li>Find and tap on <strong>Transfer accounts</strong></li>
+  <li>Confirm the process by pressing on <strong>Continue</strong></li>
+  <li>Select the accounts you want to export, and tap on <strong>Export</strong>, botom-right corner</li>
+</ol>
+
+<div class="container py-md-3">
+<img class="d-block img-fluid mt-3 mx-auto" srcset="/assets/img/blog/003/Google-Authenticator-Export-1.png, /assets/img/blog/003/Google-Authenticator-Export-1@2x.png 2x" src="/assets/img/blog/003/Google-Authenticator-Export-1.png" alt="transfer Google Authenticator 2fa to new phone" loading="lazy" />
+</div>
+<div class="container py-md-3">
+<img class="d-block img-fluid mt-3 mx-auto" srcset="/assets/img/blog/003/Google-Authenticator-Export-2.png, /assets/img/blog/003/Google-Authenticator-Export-2@2x.png 2x" src="/assets/img/blog/003/Google-Authenticator-Export-2.png" alt="Locate Google Authenticator" loading="lazy" />
+</div>
+
+<p><br />
+You have two possibilities to scan the <strong>Export QR Code</strong> from Google, by pressing on <strong>Scan QR Code</strong> in Authenticator by 2Stable if you have two or more devices, or by taking a screenshot if you have only one device. Make sure to save the screenshot into Files so you can use the option <strong>Import from Files</strong>, this feature will import the accounts from the screenshot.</p>
+
+<div class="container py-md-3">
+<img class="d-block img-fluid mt-3 mx-auto" srcset="/assets/img/blog/003/Google-Authenticator-import-from-files.png, /assets/img/blog/003/Google-Authenticator-import-from-files@2x.png 2x" src="/assets/img/blog/003/Google-Authenticator-import-from-files.png" alt="Import Google Authenticator screenshot from Files " loading="lazy" />
+</div>
+<p><br /></p>
+
+<p><br />
+Once you will scan or import the <strong>Export QR Code</strong> from Google Authenticator all your accounts will automatically appear in Authenticator by 2Stable.</p>]]></content><author><name>Kevin Archer</name></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[Authenticator by 2Stable is a secure 2FA authentication app that generates, store and manage your two-factor authentication codes for most popular websites.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://authenticator.2stable.com/assets/img/blog/003/003.webp" /><media:content medium="image" url="https://authenticator.2stable.com/assets/img/blog/003/003.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Reasons to choose Authenticator by 2Stable</title><link href="https://authenticator.2stable.com/reasons-to-choose-Authenticator-by-2Stable/" rel="alternate" type="text/html" title="Reasons to choose Authenticator by 2Stable" /><published>2021-04-14T00:00:00+02:00</published><updated>2022-11-03T18:39:35+01:00</updated><id>https://authenticator.2stable.com/reasons-to-choose-Authenticator-by-2Stable</id><content type="html" xml:base="https://authenticator.2stable.com/reasons-to-choose-Authenticator-by-2Stable/"><![CDATA[<p>As our lives and day-to-day functions move increasingly online, keeping our personal information secure is more important than ever.</p>
+
+<p>Passwords can be forgotten or compromised and multi-factor authentication (MFA) or two-factor authentication 2FA helps to prevent private data from getting into the wrong hands. Authenticator app is a perfect solution to manage and generate secure 2FA codes for your online accounts, these are the main reasons why you should choose Authenticator by 2Stable.</p>
+
+<p><br /></p>
+
+<h4 id="no-account-required">No account required</h4>
+
+<p>To start using Authenticator by 2Stable you don’t need to set up an account or a phone number, all the data is saved on your iCloud account in encrypted form. To access your data you just need to remember your password that you choose to encrypt your data and your iCloud account.</p>
+
+<p><br /></p>
+
+<h4 id="encryption-you-can-rely-on">Encryption you can rely on</h4>
+
+<p>All your data is encrypted (end-to-end encryption) and decrypted locally on your device using the derivation from your password, it’s never pass throw 3d party server.</p>
+
+<p><br /></p>
+
+<h4 id="secure-encrypted-backup">Secure encrypted backup</h4>
+
+<p>You can always backup your data and restore it in case you lose your device or switch to a new one. All your backed-up data is saved on your iCloud account in encrypted form. Nobody should ever pass through such a negative experience as losing access to their accounts.</p>
+
+<p><br /></p>
+
+<h4 id="auto-lock">Auto-lock</h4>
+
+<p>You can set Authenticator by 2Stable to automatically ask you the password or your Face / Touch ID every time you open the app.</p>
+
+<p><br /></p>
+
+<h4 id="multi-device-usage">Multi-device usage</h4>
+
+<p>You can use Authenticator by 2Stable on all devices from the Apple ecosystem including the Apple watch, apart from the security, we try to maximize the user experience by ensuring a native look on all devices.</p>
+
+<p><br /></p>
+
+<h4 id="backup-codes">Backup codes</h4>
+
+<p>You can easily &amp; securely store your backup code for your online account in Authenticator by 2Stable, in case something prevents you from accessing the 2FA code, you can always use the backup code stored in Authenticator.</p>
+
+<p><br /></p>
+
+<h4 id="widgets">Widgets</h4>
+
+<p>A perfect balance between design and security allows you to access your 2FA codes from your main screen, you have the possibility to set up 1 or 3 account widgets, no matter what type you will choose, they all look gorgeous.</p>
+
+<p><br /></p>
+
+<h4 id="we-take-privacy-very-serious-on-2stable">We take privacy very serious on 2Stable</h4>
+
+<p>We put our users’ security and privacy first, we don’t have access to the accounts you store or the password you choose to encrypt your data. We do collect a small amount of information about you, the application starts/ends, device locale, device type, CPU architecture, and version of the operating system. but only to provide you with the best possible experience and solve any problems you might have. We’ll never, ever share your information with a third-party company.</p>
+
+<p><br /></p>
+
+<h4 id="your-data-is-always-yours">Your data is always yours</h4>
+
+<p>We hope that you or your team will use Authenticator by 2Stable forever, but we understand that everyone’s circumstances change. If you ever decide to leave, you can always access your account secret key to export it.</p>
+
+<p><br /></p>
+
+<p>We know there are several Authenticator apps to choose from. They all have different names but promise to do the same thing: securely store, manage and generate 2FA codes for your online accounts. You can choose the Authenticator app that best suits your needs, but doesn’t forget to choose one.</p>]]></content><author><name>Kevin Archer</name></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[As our lives and day-to-day functions move increasingly online, keeping our personal information secure is more important than ever.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://authenticator.2stable.com/assets/img/blog/002.webp" /><media:content medium="image" url="https://authenticator.2stable.com/assets/img/blog/002.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Things you should know about us</title><link href="https://authenticator.2stable.com/things-you-should-know-about-us/" rel="alternate" type="text/html" title="Things you should know about us" /><published>2021-03-17T00:00:00+01:00</published><updated>2022-11-03T18:39:35+01:00</updated><id>https://authenticator.2stable.com/things-you-should-know-about-us</id><content type="html" xml:base="https://authenticator.2stable.com/things-you-should-know-about-us/"><![CDATA[<p>2Stable is a starting company of 4 members, located in Andorra, a small team with big ambitions and energy to provide solutions to day-to-day problems.</p>
+
+<p>We have more than 10 years of experience in developing &amp; creating tech products. Our slogan is very simple: <em>Create easy, gorgeous, and secure or don’t create anything</em>.
+This is our philosophy and we try to transmit this idea with every line of code we write. We take very seriously every project with maximum dedication and attention to detail, we think this is what makes us different from the rest.</p>
+
+<p><br /></p>
+
+<h4 id="why-we-decided-to-create-an-authenticator-app"><strong>Why we decided to create an Authenticator app?</strong></h4>
+
+<p><strong>Authenticator</strong> is a combination of security, simplicity, and beautiful design, but most important its solves the two-factor authentication problem by saving and generating secure 2FA codes. We have developed Authenticator because there was a lack of an app that would securely store your 2FA accounts on your device with the possibility to backup your data in encrypted form without an account or SIM. We have gone even further, and all your data saved in Authenticator is encrypted with a key derivated (Argon2id) from your password, and even when you backup your data, it’s always in encrypted form. In a few words, your data saved in Authenticator never leave your device without being encrypted. Also, we have added the possibility to synchronize your accounts across all Apple devices, the changes you make on 1 device will automatically synchronize on all other devices including Apple Watch. At 2Stable we take user privacy very seriously and we don’t have access to the accounts you store or the password you choose to encrypt your data. This is part of our security model.</p>
+
+<p>At the moment, our authentication app can be used absolutely for free with some limitations, in the free version you can only add 2 accounts without synchronization &amp; backup features. If you want to remove the account limits and unlock the possibility to backup your data, you can purchase a yearly premium subscription for 9,99$/year. We recommend always to backup your data, this will allow you to recover your accounts in case you lose your device or switch to a new one. Also, if you use multi devices this will allow you to synchronize your accounts between all devices, and the changes you will make on 1 device will sync across all devices.</p>
+
+<p><br /></p>
+
+<h4 id="why-we-have-chosen-a-subscription-model-instead-of-a-one-time-payment"><strong>Why we have chosen a subscription model instead of a one-time payment?</strong></h4>
+
+<p>We decided to go with a freemium subscription because it motivates us to continually maintain and improve the project. For what are you paying for? You are paying to support a starting company of 4 members. You can be sure that Authenticator by 2Stable is focused on values, not on maximizing profit that’s why the annual fee doesn’t surpass a good cup of coffee. Charging a subscription is the only way we make money, and it helps us continue working and improving the project. We come to a conclusion based on our personal experience in mobile development, that the main problem of one-time payment products is that, early or late they are facing a lack of support and maintenance. This occurs in most cases because the developers lose the motivation to continue work on the project and just leave it there in App Store, and our intentions from the start were to revolutionize the two-factor authentication market.</p>
+
+<p><br /></p>
+
+<h4 id="what-are-our-future-plans"><strong>What are our future plans?</strong></h4>
+
+<p>We have a full To-Do list with a lot of improvement tasks and features we plan to implement. We will make our To-Do list public on our website as soon as we can, but the most major features we plan to add are:</p>
+
+<ol>
+  <li>U2F support</li>
+  <li>Safari Extension</li>
+  <li>Secure account share</li>
+  <li>Translation/Localizations in other languages</li>
+</ol>
+
+<p>If you have some suggestions you can always send us an email at <a href="mailto:support@2stable.com">support@2stable.com</a>, we take into consideration every mail we receive.</p>]]></content><author><name>Kevin Archer</name></author><category term="blog" /><category term="blog" /><summary type="html"><![CDATA[2Stable is a starting company of 4 members, located in Andorra, a small team with big ambitions and energy to provide solutions to day-to-day problems.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://authenticator.2stable.com/assets/img/blog/001.jpg" /><media:content medium="image" url="https://authenticator.2stable.com/assets/img/blog/001.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

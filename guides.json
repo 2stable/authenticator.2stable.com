@@ -1,0 +1,142 @@
+[
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/callofduty/",
+    "name": "Call of Duty",
+    "host": "callofduty.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/tiktok/",
+    "name": "TikTok",
+    "host": "tiktok.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/roblox/",
+    "name": "Roblox",
+    "host": "roblox.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/nvidia/",
+    "name": "Nvidia (GeForce NOW)",
+    "host": "nvidia.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/microsoft/",
+    "name": "Microsoft",
+    "host": "microsoft.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/tesla/",
+    "name": "Tesla",
+    "host": "tesla.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/protonmail/",
+    "name": "ProtonMail",
+    "host": "protonmail.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/notion/",
+    "name": "Notion",
+    "host": "notion.so"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/binance/",
+    "name": "Binance",
+    "host": "binance.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/robinhood/",
+    "name": "Robinhood",
+    "host": "robinhood.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/dropbox/",
+    "name": "Dropbox",
+    "host": "dropbox.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/playstation/",
+    "name": "PlayStation",
+    "host": "playstation.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/twitter/",
+    "name": "Twitter",
+    "host": "twitter.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/instagram/",
+    "name": "Instagram",
+    "host": "instagram.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/coinbase/",
+    "name": "Coinbase",
+    "host": "coinbase.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/crypto-com/",
+    "name": "Crypto.com",
+    "host": "crypto.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/facebook/",
+    "name": "Facebook",
+    "host": "facebook.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/snapchat/",
+    "name": "Snapchat",
+    "host": "snapchat.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/google/",
+    "name": "Google",
+    "host": "google.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/twitch/",
+    "name": "Twitch",
+    "host": "twitch.tv"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/epic-games/",
+    "name": "Epic Games",
+    "host": "epicgames.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/discord/",
+    "name": "Discord",
+    "host": "discord.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/bittrex/",
+    "name": "Bittrex",
+    "host": "bittrex.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/amazon/",
+    "name": "Amazon",
+    "host": "amazon.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/github/",
+    "name": "GitHub",
+    "host": "github.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/reddit/",
+    "name": "Reddit",
+    "host": "reddit.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/salesforce/",
+    "name": "Salesforce",
+    "host": "salesforce.com"
+  },
+  {
+    "doc": "https://authenticator.2stable.com/2fa-guides/uphold/",
+    "name": "Uphold",
+    "host": "uphold.com"
+  }
+]
